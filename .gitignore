@@ -1,0 +1,5 @@
+*.json.bak
+.env
+*secret*
+*token*
+!events.json

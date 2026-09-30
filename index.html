@@ -1,0 +1,691 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Japan Anime Event Guide</title>
+<meta name="description" content="Find anime pop-ups, exhibitions and collab cafes in Japan by series, area and travel dates. Station, dates and prices checked against official sources.">
+<link rel="canonical" href="https://japan-anime-events.pages.dev/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23150F2E'/%3E%3Ccircle cx='32' cy='32' r='17' fill='%23FF3D7F'/%3E%3Ccircle cx='32' cy='32' r='7' fill='%23FFD23F'/%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Japan Anime Event Guide">
+<meta property="og:title" content="Japan Anime Event Guide">
+<meta property="og:description" content="Find anime pop-ups, exhibitions and collab cafes in Japan by series, area and travel dates. Station, dates and prices checked against official sources.">
+<meta property="og:url" content="https://japan-anime-events.pages.dev/">
+<meta property="og:image" content="https://japan-anime-events.pages.dev/img/solo-1.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}[hidden]{display:none!important}</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Roboto+Condensed:ital,wght@0,700;0,800;1,800&family=Kosugi+Maru&display=swap" rel="stylesheet">
+<style>
+/* Layout: full-bleed bands, like an official anime portal — a sticky slim header, a full-width
+   key-visual slider, a pop search console that overlaps the slider, a full-width series band of
+   title logos, a full-width area band, then the event grid and a full-width video banner.
+   Text columns stay capped at 1200px inside each band. */
+:root{
+  --bg:#F5F3FB; --surface:#FFFFFF; --surface-2:#EEEAF7; --ink:#18122E; --ink-soft:#5D5775; --line:#DDD7EC;
+  --pink:#FF3D7F; --yellow:#FFD23F; --cyan:#22C3F0; --violet:#7B5CFF; --navy:#150F2E;
+  --accent:#E62E6E; --accent-ink:#FFFFFF; --focus:#2F6BFF;
+  --ok:#0F7A57; --ok-bg:#D9F5E8; --warn:#9A5200; --warn-bg:#FFE9C7; --soon:#3346B0; --soon-bg:#E0E5FF; --past:#6C6780; --past-bg:#ECEAF2;
+  --band-series:#FFF4D6; --band-area:#E8F7FF;
+  --f-display:'Roboto Condensed','Arial Narrow',sans-serif;
+  --f-round:'Kosugi Maru','Hiragino Maru Gothic ProN',sans-serif;
+  --f-body:'Noto Sans JP','Yu Gothic Medium','Hiragino Kaku Gothic ProN',Meiryo,sans-serif;
+  --shadow:0 1px 2px rgba(24,18,46,.06),0 10px 26px -12px rgba(24,18,46,.28);
+  --pop-shadow:0 6px 0 rgba(24,18,46,.9);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#100C1F; --surface:#1B162E; --surface-2:#252040; --ink:#F2EFFB; --ink-soft:#ADA7C6; --line:#352E55;
+  --accent:#FF5C93; --accent-ink:#1A0A12; --focus:#7FA2FF;
+  --ok:#5FD6A6; --ok-bg:#133A2C; --warn:#FFB65C; --warn-bg:#3D2A10; --soon:#9AA8FF; --soon-bg:#1F2550; --past:#9D98B3; --past-bg:#26223A;
+  --band-series:#221C12; --band-area:#0F2230;
+  --shadow:0 1px 2px rgba(0,0,0,.5),0 10px 26px -14px rgba(0,0,0,.8); --pop-shadow:0 6px 0 rgba(0,0,0,.7); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#100C1F; --surface:#1B162E; --surface-2:#252040; --ink:#F2EFFB; --ink-soft:#ADA7C6; --line:#352E55;
+  --accent:#FF5C93; --accent-ink:#1A0A12; --focus:#7FA2FF;
+  --ok:#5FD6A6; --ok-bg:#133A2C; --warn:#FFB65C; --warn-bg:#3D2A10; --soon:#9AA8FF; --soon-bg:#1F2550; --past:#9D98B3; --past-bg:#26223A;
+  --band-series:#221C12; --band-area:#0F2230;
+  --shadow:0 1px 2px rgba(0,0,0,.5),0 10px 26px -14px rgba(0,0,0,.8); --pop-shadow:0 6px 0 rgba(0,0,0,.7); color-scheme:dark}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-weight:500;font-size:15px;line-height:1.65;overflow-x:hidden}
+.wrap{max-width:1200px;margin:0 auto;padding-inline:16px}
+@media(min-width:700px){.wrap{padding-inline:28px}}
+h1,h2,h3{text-wrap:balance;margin:0}
+a{color:inherit}
+img{max-width:100%}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:6px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- header ---------- */
+.topbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:var(--navy);color:#fff;border-bottom:3px solid var(--pink)}
+.topbar .wrap{display:flex;align-items:center;gap:16px;min-height:58px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--f-display);font-style:italic;font-weight:800;font-size:1.12rem;line-height:1;letter-spacing:.01em;text-transform:uppercase}
+.logo .mark{width:34px;height:34px;border-radius:10px;background:conic-gradient(from 200deg,var(--pink),var(--yellow),var(--cyan),var(--violet),var(--pink));display:grid;place-items:center;flex:0 0 auto}
+.logo .mark span{width:14px;height:14px;background:var(--navy);border-radius:50%}
+.logo small{display:block;font-family:var(--f-body);font-style:normal;font-weight:700;font-size:.62rem;letter-spacing:.08em;color:var(--yellow);text-transform:none;margin-top:3px}
+.topnav{display:flex;gap:4px;margin-left:auto}
+.topnav a{text-decoration:none;display:flex;flex-direction:column;align-items:center;line-height:1.1;padding:6px 14px;border-radius:4px}
+.topnav a b{font-family:var(--f-display);font-weight:800;font-size:.95rem;letter-spacing:.03em}
+.topnav a span{font-size:.62rem;font-weight:700;color:var(--yellow)}
+.topnav a:hover{background:rgba(255,255,255,.12)}
+.topsns{display:flex;gap:6px}
+.topsns a{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.1)}
+.topsns a:hover{background:var(--pink)}
+.topsns svg{width:17px;height:17px}
+@media(max-width:820px){.topnav{display:none}.topsns{margin-left:auto}}
+
+/* ---------- hero slider (full width) ---------- */
+.hero{position:relative;background:var(--navy);color:#fff;overflow:hidden}
+.slides{position:relative;height:clamp(360px,46vw,600px)}
+.slide{position:absolute;inset:0;opacity:0;transition:opacity .7s ease;visibility:hidden}
+.slide.on{opacity:1;visibility:visible}
+.slide img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.slide.on img{animation:kenburns 9s ease-out both}
+@keyframes kenburns{from{transform:scale(1.06)}to{transform:scale(1)}}
+.slide::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(15,10,34,.88) 0%,rgba(15,10,34,.55) 38%,rgba(15,10,34,0) 70%),linear-gradient(0deg,rgba(15,10,34,.75) 0%,rgba(15,10,34,0) 40%)}
+.slide .cap{position:absolute;z-index:2;left:0;right:0;bottom:84px}
+.slide .cap .wrap{display:flex;flex-direction:column;align-items:flex-start;gap:10px}
+.cap .kick{display:flex;gap:8px;flex-wrap:wrap}
+.cap .tag{font-family:var(--f-display);font-weight:800;font-size:.8rem;letter-spacing:.06em;padding:3px 10px;border-radius:2px;background:#fff;color:#1A1530;text-transform:uppercase}
+.cap .pick{font-family:var(--f-display);font-style:italic;font-weight:800;font-size:.85rem;letter-spacing:.04em;padding:3px 12px;border-radius:2px;background:var(--pink);color:#fff}
+.cap h2{font-family:var(--f-body);font-weight:900;font-size:clamp(1.6rem,4.2vw,2.9rem);line-height:1.18;max-width:18ch;text-shadow:0 2px 20px rgba(0,0,0,.5)}
+
+.cap p{margin:0;font-family:var(--f-round);font-weight:400;font-size:clamp(.92rem,1.6vw,1.1rem);text-shadow:0 1px 10px rgba(0,0,0,.6)}
+.cap .go{margin-top:6px;font:inherit;font-weight:700;font-size:.95rem;border:0;cursor:pointer;background:var(--yellow);color:#18122E;padding:12px 28px 12px 22px;border-radius:2px;transition:background .15s;position:relative}
+.cap .go::after{content:"";display:inline-block;width:7px;height:7px;border-top:2px solid currentColor;border-right:2px solid currentColor;transform:rotate(45deg);margin-left:12px;vertical-align:middle}
+.cap .go:hover{background:#fff}
+
+.hero-ctrl{position:absolute;z-index:3;left:0;right:0;bottom:30px}
+.hero-ctrl .wrap{display:flex;align-items:center;gap:10px}
+.dots{display:flex;gap:8px}
+.dots button{width:30px;height:4px;border-radius:0;border:0;background:rgba(255,255,255,.35);cursor:pointer;padding:0}
+.dots button[aria-current="true"]{background:var(--yellow);width:48px}
+.arrow{width:38px;height:38px;border-radius:2px;border:2px solid rgba(255,255,255,.6);background:rgba(0,0,0,.25);color:#fff;font-size:1.1rem;cursor:pointer;display:grid;place-items:center}
+.arrow:hover{background:var(--pink);border-color:var(--pink)}
+.hero-ctrl .count{margin-left:auto;font-family:var(--f-display);font-style:italic;font-size:1rem!important;font-weight:800;font-size:.85rem;opacity:.85;font-variant-numeric:tabular-nums}
+@media(max-width:600px){.slides{height:440px}.slide .cap{bottom:72px}.slide::after{background:linear-gradient(0deg,rgba(15,10,34,.92) 0%,rgba(15,10,34,.5) 55%,rgba(15,10,34,.1) 100%)}.hero-ctrl .arrow{display:none}}
+
+/* ---------- search console (modeled on Japanese anime portals: joined search bar + condition table) ---------- */
+.console-wrap{position:relative;z-index:5;margin-top:-30px}
+.console{background:var(--surface);border:1px solid var(--line);border-top:5px solid var(--pink);border-radius:6px;box-shadow:0 12px 30px -16px rgba(24,18,46,.45);padding:18px;display:grid;gap:14px}
+@media(min-width:700px){.console{padding:22px 26px}}
+.qrow{display:flex;align-items:stretch;min-width:0}
+.qbox{flex:1;display:flex;align-items:center;gap:10px;background:var(--surface);border:2px solid var(--navy);border-right:0;border-radius:6px 0 0 6px;padding:0 14px;min-width:0}
+:root[data-theme="dark"] .qbox{border-color:var(--line)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .qbox{border-color:var(--line)}}
+.qbox svg{width:20px;height:20px;color:var(--ink-soft);flex:0 0 auto}
+.qbox input{flex:1;min-width:0;border:0;outline:0;background:transparent;font:inherit;font-size:1rem;color:var(--ink);padding:13px 0}
+.qbox input::placeholder{color:var(--ink-soft)}
+.qbox:focus-within{outline:3px solid color-mix(in srgb,var(--pink) 35%,transparent)}
+.qgo{flex:0 0 auto;font:inherit;border:0;cursor:pointer;background:#D9312B;color:#fff;padding:0 22px;border-radius:0 6px 6px 0;display:flex;flex-direction:column;justify-content:center;align-items:center;line-height:1.1;min-height:52px}
+.qgo b{font-family:var(--f-display);font-weight:800;font-size:1.05rem;letter-spacing:.05em}
+.qgo span{font-size:.62rem;font-weight:700}
+.qgo:hover{background:#B8231E}
+.ctable{display:grid;border:1px solid var(--line);border-radius:4px;overflow:hidden}
+.crow{display:grid;grid-template-columns:140px 1fr;border-top:1px solid var(--line)}
+.crow:first-child{border-top:0}
+.clabel{background:var(--navy);color:#fff;display:flex;flex-direction:column;justify-content:center;padding:10px 14px;line-height:1.15}
+.clabel b{font-family:var(--f-display);font-weight:800;font-size:1rem;letter-spacing:.05em}
+.clabel span{font-size:.68rem;font-weight:700;color:var(--yellow)}
+.ccell{padding:10px 12px;display:flex;flex-direction:column;gap:8px;min-width:0}
+@media(max-width:600px){.crow{grid-template-columns:1fr}.clabel{flex-direction:row;align-items:baseline;gap:8px;padding:6px 12px}}
+.pills{display:flex;flex-wrap:wrap;gap:6px}
+.pill{font:inherit;font-size:.86rem;font-weight:500;padding:5px 14px;border-radius:20px;border:1px solid #3255AF;background:#F2F6FD;color:#3255AF;cursor:pointer;min-height:34px;transition:background .15s,color .15s}
+:root[data-theme="dark"] .pill{background:transparent;border-color:#7F9BE0;color:#B9CBF5}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .pill{background:transparent;border-color:#7F9BE0;color:#B9CBF5}}
+.pill:hover{background:#DCE6FA}
+.pill[aria-pressed="true"]{background:#3255AF;color:#fff;border-color:#3255AF;font-weight:700}
+.pill .n{font-size:.78rem;opacity:.75;font-variant-numeric:tabular-nums}
+.subpills{display:flex;flex-wrap:wrap;gap:6px;padding-left:12px;border-left:3px solid var(--line)}
+.subpills[hidden]{display:none}
+.subpills .pill{font-size:.8rem;min-height:30px;padding:3px 12px}
+.dates{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.dates label{display:flex;align-items:center;gap:6px;font-size:.8rem;font-weight:700;color:var(--ink-soft)}
+.dates input{font:inherit;font-family:var(--f-round);font-size:.95rem;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:6px 8px;min-height:38px}
+.dates input:focus{border-color:#3255AF;outline:0}
+.dates .sep{color:var(--ink-soft)}
+.quick{display:flex;gap:6px;flex-wrap:wrap}
+.quick button{font:inherit;font-size:.8rem;font-weight:700;border:0;border-bottom:2px solid #3255AF;background:none;color:#3255AF;padding:2px 2px;cursor:pointer;margin-right:8px}
+:root[data-theme="dark"] .quick button{color:#B9CBF5;border-color:#7F9BE0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .quick button{color:#B9CBF5;border-color:#7F9BE0}}
+.checks{display:flex;flex-wrap:wrap;gap:6px 18px}
+.checks label{display:flex;align-items:center;gap:7px;font-size:.9rem;cursor:pointer}
+.checks input{width:18px;height:18px;accent-color:#D9312B}
+
+/* ---------- full-bleed bands ---------- */
+.band-sec{padding-block:44px}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:18px}
+.sec-head h2{display:flex;flex-direction:column;line-height:1.05;border-left:6px solid var(--pink);padding-left:12px}
+.sec-head h2 .en{font-family:var(--f-display);font-style:italic;font-weight:800;font-size:clamp(1.7rem,3.6vw,2.4rem);letter-spacing:.02em}
+.sec-head h2 .ja{font-size:.8rem;font-weight:700;color:var(--ink-soft);margin-top:4px}
+.sec-head p{margin:0;color:var(--ink-soft);font-weight:500}
+.series-band{background:var(--band-series)}
+.logo-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
+.logo-tile{position:relative;display:flex;flex-direction:column;align-items:stretch;background:#fff;border:1px solid #D6D1E4;border-radius:6px;box-shadow:0 2px 6px rgba(24,18,46,.08);cursor:pointer;padding:0;font:inherit;color:#18122E;overflow:hidden;transition:transform .12s}
+.logo-tile:hover{transform:translateY(-3px);box-shadow:0 10px 20px -8px rgba(24,18,46,.3)}
+.logo-tile[aria-pressed="true"]{outline:3px solid #D9312B;outline-offset:2px}
+.logo-tile .lg{height:104px;display:grid;place-items:center;padding:14px 16px}
+.logo-tile .lg img{max-height:74px;max-width:100%;object-fit:contain}
+.logo-tile .ft{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:7px 12px;font-weight:800;font-size:.8rem;background:var(--sw);color:#fff}
+.logo-tile .ft b{background:rgba(0,0,0,.28);border-radius:2px;padding:0 9px;font-variant-numeric:tabular-nums}
+.area-band{background:var(--band-area)}
+.area-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.area-card{position:relative;overflow:hidden;border-radius:6px;min-height:190px;display:flex;flex-direction:column;justify-content:flex-end;padding:18px;color:#fff;text-align:left;border:0;cursor:pointer;font:inherit;isolation:isolate;box-shadow:var(--shadow);transition:transform .15s}
+.area-card:hover{transform:translateY(-3px)}
+.area-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform .5s}
+.area-card:hover img{transform:scale(1.05)}
+.area-card::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,rgba(10,8,24,.94) 0%,rgba(10,8,24,.7) 45%,rgba(10,8,24,.25) 100%)}
+.area-card.nat{background:linear-gradient(135deg,#0D6B4E,#C1461F)}
+.area-card h3{font-family:var(--f-display);font-style:italic;font-weight:800;font-size:2rem;line-height:1.05;text-transform:uppercase}
+.area-card p{margin:4px 0 0;font-weight:700;font-size:.9rem;opacity:.92}
+.area-card .cnt{position:absolute;top:14px;right:14px;background:var(--yellow);color:#1A1530;font-weight:700;border-radius:2px;padding:3px 12px;font-size:.85rem}
+
+/* ---------- results ---------- */
+.results{padding-block:40px 20px;scroll-margin-top:70px}
+.rbar{position:sticky;top:calc(env(safe-area-inset-top,0px) + 61px);z-index:20;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line);margin-bottom:18px}
+.rbar .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;padding-block:10px}
+.rbar h2{font-family:var(--f-display);font-style:italic;font-weight:800;font-size:1.3rem;letter-spacing:.02em}
+.rbar h2 b{color:#D9312B}
+.rbar h2 small{font-family:var(--f-body);font-style:normal;font-size:.72rem;font-weight:700;color:var(--ink-soft);margin-left:6px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;flex:1 1 200px;min-width:0}
+.chip{display:inline-flex;align-items:center;gap:4px;font-size:.8rem;font-weight:700;background:#3255AF;color:#fff;border:0;border-radius:20px;padding:2px 4px 2px 11px}
+.chip button{border:0;background:transparent;color:#fff;font-size:1rem;line-height:1;cursor:pointer;padding:2px 6px;border-radius:50%}
+.chip button:hover{color:var(--pink)}
+.clear{font:inherit;font-size:.82rem;border:0;background:none;color:var(--accent);font-weight:800;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.rbar select{font:inherit;font-size:.86rem;font-weight:700;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:6px 10px;min-height:38px}
+.edit{font:inherit;font-weight:700;font-size:.84rem;border:0;background:var(--navy);color:#fff;border-radius:4px;padding:8px 14px;cursor:pointer;min-height:38px}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px}
+@media(max-width:400px){.grid{grid-template-columns:1fr}}
+.card{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:6px;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;min-width:0;transition:transform .18s,border-color .18s}
+.card:hover{transform:translateY(-4px);box-shadow:0 16px 30px -14px rgba(24,18,46,.4)}
+.ribbon{position:absolute;z-index:3;left:0;top:14px;background:#D9312B;color:#fff;font-family:var(--f-display);font-style:italic;font-weight:800;font-size:.85rem;letter-spacing:.04em;padding:3px 12px 3px 10px;clip-path:polygon(0 0,100% 0,calc(100% - 8px) 50%,100% 100%,0 100%)}
+.band.has-ribbon .ip{margin-top:26px}
+.band{position:relative;height:180px;background:var(--ev-base);overflow:hidden;isolation:isolate;color:#fff;padding:12px 14px;display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.band::before{content:"";position:absolute;inset:0;z-index:-1;background:var(--ev-fx)}
+.band .kv{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-1;transition:transform .5s}
+.card:hover .band .kv{transform:scale(1.05)}
+.band.fit-contain .kv{object-fit:contain;background:#F4F2EE}
+.band.has-img::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(0,0,0,.45) 0%,transparent 35%)}
+.band.has-img::before{display:none}
+.band .ip{font-weight:700;font-size:.76rem;background:rgba(0,0,0,.55);padding:2px 9px;border-radius:2px;backdrop-filter:blur(4px)}
+@media(max-width:600px){.card .band{height:160px}}
+.status{font-size:.74rem;font-weight:700;padding:2px 9px;border-radius:2px;white-space:nowrap}
+.st-open{background:var(--ok-bg);color:var(--ok)}
+.st-ending{background:var(--warn-bg);color:var(--warn)}
+.st-soon{background:var(--soon-bg);color:var(--soon)}
+.st-past{background:var(--past-bg);color:var(--past)}
+.cbody{padding:14px 16px 16px;display:flex;flex-direction:column;gap:7px;flex:1}
+.date-line{font-family:var(--f-round);font-size:.95rem;font-variant-numeric:tabular-nums;color:var(--ev-text,var(--accent))}
+.card h3{font-size:1.12rem;font-weight:900;line-height:1.3}
+.jp{font-size:.8rem;color:var(--ink-soft);line-height:1.4;margin:-3px 0 0}
+.type{font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft)}
+.facts{list-style:none;margin:2px 0 0;padding:0;display:grid;gap:5px}
+.facts li{display:flex;gap:8px;align-items:flex-start;font-size:.88rem;line-height:1.4;min-width:0}
+.facts svg{width:16px;height:16px;flex:0 0 auto;margin-top:2px;color:var(--ev-text,var(--accent))}
+.badges{display:flex;flex-wrap:wrap;gap:6px}
+.badge{font-size:.73rem;font-weight:700;padding:1px 8px;border-radius:2px;background:var(--surface-2);color:var(--ink)}
+.badge.nat{background:transparent;border:1.5px dashed var(--ink-soft)}
+.actions{margin-top:auto;padding-top:10px;display:flex;gap:8px;flex-wrap:wrap}
+.btn{font:inherit;font-weight:700;font-size:.88rem;border-radius:4px;padding:9px 15px;cursor:pointer;border:2px solid transparent;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+.btn-primary{background:#D9312B;color:#fff}
+.btn-primary:hover{background:#B8231E}
+.btn-line{background:transparent;border-color:var(--line);color:var(--ink)}
+.btn-line:hover{border-color:var(--ink)}
+.empty{text-align:center;padding:50px 16px;border:3px dashed var(--line);border-radius:20px;color:var(--ink-soft)}
+.empty h3{font-size:1.1rem;color:var(--ink);margin-bottom:6px}
+
+/* event palettes (series-specific) */
+.ev-solo{--ev-base:linear-gradient(135deg,#160C33,#2C1466 55%,#4C2C9C);--ev-fx:radial-gradient(180px 140px at 85% 10%,rgba(139,92,246,.9),transparent 70%);--sw:#4C2C9C;--ev-text:#6D3FE0;--ev-text-d:#B49BFF}
+.ev-lupin{--ev-base:linear-gradient(135deg,#22090C,#5C1017 55%,#8C2A1E);--ev-fx:linear-gradient(100deg,transparent 30%,rgba(232,178,61,.55) 55%,transparent 75%);--sw:#A8281C;--ev-text:#A8281C;--ev-text-d:#F2C466}
+.ev-db{--ev-base:linear-gradient(135deg,#2E0B00,#9C2B0B 55%,#E38A1E);--ev-fx:none;--sw:#E0660F;--ev-text:#C2410C;--ev-text-d:#FFB35C}
+.ev-madoka{--ev-base:linear-gradient(135deg,#240B33,#5C1E63 55%,#9C3E8C);--ev-fx:none;--sw:#C2408F;--ev-text:#B8327F;--ev-text-d:#FF9FD6}
+.ev-stone{--ev-base:linear-gradient(135deg,#032B22,#0D6B4E 55%,#2FAE7E);--ev-fx:none;--sw:#12875F;--ev-text:#0D7A57;--ev-text-d:#6FE3B5}
+.ev-haikyu{--ev-base:linear-gradient(135deg,#2A1200,#7A2E0A 55%,#C1461F);--ev-fx:none;--sw:#E0561F;--ev-text:#C1461F;--ev-text-d:#FFB07A}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .card{--ev-text:var(--ev-text-d)}}
+:root[data-theme="dark"] .card{--ev-text:var(--ev-text-d)}
+
+/* ---------- video banner (full width) ---------- */
+.vbanner{position:relative;overflow:hidden;background:linear-gradient(110deg,var(--violet),var(--pink) 55%,#FF8A3D);color:#fff;margin-top:40px}
+.vbanner::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(-45deg,rgba(255,255,255,.08) 0 14px,transparent 14px 28px)}
+.vbanner .wrap{position:relative;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px;padding-block:38px}
+.vbanner h2{font-family:var(--f-display);font-style:italic;font-weight:800;font-size:clamp(1.7rem,3.8vw,2.6rem);line-height:1.05;text-transform:uppercase}
+.vbanner h2 small{display:block;font-family:var(--f-body);font-style:normal;font-size:.85rem;font-weight:700;text-transform:none;margin-top:4px}
+.vbanner p{margin:6px 0 0;font-weight:700;opacity:.95}
+.sns{display:flex;flex-wrap:wrap;gap:10px}
+.sns a{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:700;font-size:.95rem;background:#fff;color:#18122E;border-radius:4px;padding:10px 18px;transition:transform .12s}
+.sns a:hover{transform:translateY(-2px)}
+.sns svg{width:18px;height:18px}
+
+
+@media(max-width:600px){
+  .logo-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .logo-tile .lg{height:78px;padding:10px}
+  .logo-tile .lg img{max-height:54px}
+  .logo-tile .ft{font-size:.72rem;padding:5px 9px}
+  .band-sec{padding-block:32px}
+  .area-card{min-height:150px}
+  .sec-head p{display:none}
+}
+/* ---------- detail panel ---------- */
+dialog{border:0;padding:0;border-radius:8px;max-width:680px;width:calc(100% - 24px);max-height:calc(100% - 32px);background:var(--surface);color:var(--ink);box-shadow:0 30px 80px -20px rgba(0,0,0,.6)}
+dialog::backdrop{background:rgba(10,8,20,.65);backdrop-filter:blur(3px)}
+body.lock{overflow:hidden}
+.d-top{position:sticky;top:0;height:0;z-index:5;display:flex;justify-content:flex-end}
+.d-close{position:relative;margin:12px 12px 0 0;width:38px;height:38px;border-radius:50%;border:0;background:rgba(0,0,0,.55);color:#fff;font-size:1.3rem;cursor:pointer}
+.d-head{height:64px}
+.d-body{padding:18px 20px 22px;display:flex;flex-direction:column;gap:12px}
+.d-body h2{font-size:1.45rem;font-weight:900;line-height:1.25}
+.d-body p{margin:0}
+.d-logo{max-height:48px;max-width:220px;object-fit:contain;align-self:flex-start;background:#fff;border-radius:10px;padding:6px 10px}
+.gallery{display:flex;flex-direction:column;gap:8px}
+.gallery .main{width:100%;aspect-ratio:16/10;object-fit:contain;background:var(--surface-2);border-radius:14px}
+.thumbs{display:flex;gap:8px;overflow-x:auto;padding-bottom:2px}
+.thumbs button{flex:0 0 auto;padding:0;border:3px solid transparent;border-radius:10px;background:none;cursor:pointer;line-height:0}
+.thumbs button[aria-current="true"]{border-color:var(--pink)}
+.thumbs img{width:72px;height:52px;object-fit:cover;border-radius:7px}
+.credit{font-size:.72rem;color:var(--ink-soft)}
+.d-table{display:grid;grid-template-columns:max-content 1fr;gap:6px 14px;background:var(--surface-2);border-radius:14px;padding:12px 14px;font-size:.9rem}
+.d-table dt{color:var(--ink-soft);font-weight:800}
+.d-table dd{margin:0;min-width:0}
+@media(max-width:480px){.d-table{grid-template-columns:1fr}.d-table dd{margin-bottom:6px}}
+.nearby{background:var(--band-area);border-radius:14px;padding:12px 14px;font-size:.9rem}
+.nearby b{display:block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:2px}
+.links{display:flex;flex-direction:column;gap:8px}
+.links a{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:11px 14px;border:1px solid var(--line);border-radius:4px;text-decoration:none;font-weight:800;font-size:.9rem}
+.links a:hover{border-color:var(--pink);color:var(--accent)}
+.verified{font-size:.78rem;color:var(--ink-soft)}
+
+footer{background:var(--navy);color:#CFC8E8;padding-block:30px 38px}
+footer p{max-width:72ch;font-size:.84rem;margin:0 0 8px}
+footer .logo{color:#fff;margin-bottom:14px}
+</style>
+
+</head>
+<body>
+<svg style="display:none" aria-hidden="true">
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 2C7.6 2 4 5.6 4 10c0 6 8 12 8 12s8-6 8-12c0-4.4-3.6-8-8-8Zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z" fill="currentColor"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M3 10h18M8 3v4M16 3v4" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+  <symbol id="i-yen" viewBox="0 0 24 24"><path d="M12 3 6 12h4v3H6v2h4v4h4v-4h4v-2h-4v-3h4L12 3Z" fill="currentColor"/></symbol>
+  <symbol id="i-tag" viewBox="0 0 24 24"><path d="M3 12V4a1 1 0 0 1 1-1h8l9 9-9 9-9-9Zm5-5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z" fill="currentColor"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2 3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21l1.4-7L2 9.3l7-.8L12 2Z" fill="currentColor"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2.6"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></symbol>
+  <symbol id="i-yt" viewBox="0 0 24 24"><path d="M22 8.2a3 3 0 0 0-2.1-2.1C18 5.6 12 5.6 12 5.6s-6 0-7.9.5A3 3 0 0 0 2 8.2 31 31 0 0 0 1.6 12 31 31 0 0 0 2 15.8a3 3 0 0 0 2.1 2.1c1.9.5 7.9.5 7.9.5s6 0 7.9-.5a3 3 0 0 0 2.1-2.1c.3-1.2.4-2.5.4-3.8s-.1-2.6-.4-3.8ZM10 15V9l5.2 3L10 15Z" fill="currentColor"/></symbol>
+  <symbol id="i-tt" viewBox="0 0 24 24"><path d="M16.6 2h-3.3v13.2a2.9 2.9 0 1 1-2-2.8V9a6.2 6.2 0 1 0 5.3 6.1V8.4a7.6 7.6 0 0 0 4.4 1.4V6.5a4.4 4.4 0 0 1-4.4-4.5Z" fill="currentColor"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="17.3" cy="6.7" r="1.3" fill="currentColor"/></symbol>
+</svg>
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="logo" href="#top"><span class="mark"><span></span></span><span>Japan Anime<br>Event Guide<small>訪日アニメファンのためのイベントガイド</small></span></a>
+    <nav class="topnav" aria-label="Sections">
+      <a href="#search"><b>SEARCH</b><span>検索</span></a><a href="#series"><b>SERIES</b><span>作品</span></a><a href="#areas"><b>AREA</b><span>エリア</span></a><a href="#events"><b>EVENTS</b><span>イベント一覧</span></a><a href="#videos"><b>VIDEOS</b><span>動画</span></a>
+    </nav>
+    <div class="topsns">
+      <a href="https://www.youtube.com/@tanjiro_animeiventinjapan" target="_blank" rel="noopener" aria-label="YouTube"><svg aria-hidden="true"><use href="#i-yt"/></svg></a>
+      <a href="https://www.tiktok.com/@japan_anime_info" target="_blank" rel="noopener" aria-label="TikTok"><svg aria-hidden="true"><use href="#i-tt"/></svg></a>
+      <a href="https://www.instagram.com/tanjiro_animeivent_injapan/" target="_blank" rel="noopener" aria-label="Instagram"><svg aria-hidden="true"><use href="#i-ig"/></svg></a>
+    </div>
+  </div>
+</header>
+
+<section class="hero" id="top" aria-roledescription="carousel" aria-label="Featured events">
+  <div class="slides" id="slides"></div>
+  <div class="hero-ctrl">
+    <div class="wrap">
+      <button type="button" class="arrow" id="prev" aria-label="Previous event">‹</button>
+      <div class="dots" id="dots"></div>
+      <button type="button" class="arrow" id="next" aria-label="Next event">›</button>
+      <span class="count" id="heroCount"></span>
+    </div>
+  </div>
+</section>
+
+<div class="console-wrap" id="search">
+  <div class="wrap">
+    <form class="console" id="searchForm" role="search" aria-label="Find events">
+      <div class="qrow">
+        <div class="qbox">
+          <svg aria-hidden="true"><use href="#i-search"/></svg>
+          <input id="q" type="search" placeholder="Series, venue or area (e.g. Dragon Ball, Shibuya)" aria-label="Search events" autocomplete="off">
+        </div>
+        <button type="submit" class="qgo"><b>SEARCH</b><span>検索</span></button>
+      </div>
+      <div class="ctable">
+        <div class="crow">
+          <div class="clabel"><b>AREA</b><span>エリア</span></div>
+          <div class="ccell"><div class="pills" id="cityPills"></div><div class="subpills" id="hoodPills" hidden></div></div>
+        </div>
+        <div class="crow">
+          <div class="clabel"><b>DATES</b><span>滞在日程</span></div>
+          <div class="ccell">
+            <div class="dates"><label>Arrive <input type="date" id="fFrom"></label><span class="sep">–</span><label>Leave <input type="date" id="fTo"></label></div>
+            <div class="quick" id="quick"><button type="button" data-q="now">Open today</button><button type="button" data-q="7">Next 7 days</button><button type="button" data-q="30">Next 30 days</button></div>
+          </div>
+        </div>
+        <div class="crow">
+          <div class="clabel"><b>TYPE</b><span>種類</span></div>
+          <div class="ccell"><div class="pills" id="typePills"></div></div>
+        </div>
+        <div class="crow">
+          <div class="clabel"><b>FILTER</b><span>条件</span></div>
+          <div class="ccell"><div class="checks" id="togPills"></div></div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<section class="band-sec series-band" id="series" style="margin-top:44px">
+  <div class="wrap">
+    <div class="sec-head"><h2><span class="en">SERIES</span><span class="ja">作品から探す</span></h2><p>Tap a title to see its events.</p></div>
+    <div class="logo-grid" id="logoGrid"></div>
+  </div>
+</section>
+
+<section class="band-sec area-band" id="areas">
+  <div class="wrap">
+    <div class="sec-head"><h2><span class="en">AREA</span><span class="ja">エリアから探す</span></h2><p>Nationwide chains are open in every city.</p></div>
+    <div class="area-grid" id="areaGrid"></div>
+  </div>
+</section>
+
+<section class="results" id="events">
+  <div class="rbar">
+    <div class="wrap">
+      <h2 id="count" aria-live="polite"></h2>
+      <div class="chips" id="activeChips"></div>
+      <label class="sr" for="fSort">Sort</label>
+      <select id="fSort">
+        <option value="smart">Recommended</option>
+        <option value="ending">Ending soonest</option>
+        <option value="starting">Starting soonest</option>
+        <option value="az">Series A–Z</option>
+      </select>
+      <button type="button" class="edit" id="editSearch">Edit search</button>
+    </div>
+  </div>
+  <div class="wrap"><div class="grid" id="grid"></div></div>
+</section>
+
+<section class="vbanner" id="videos">
+  <div class="wrap">
+    <div>
+      <h2>Watch on video<small>イベントを動画でチェック</small></h2>
+      <p>Short walk-throughs of new pop-ups and collabs, posted every day.</p>
+    </div>
+    <nav class="sns" aria-label="Our video channels">
+      <a href="https://www.youtube.com/@tanjiro_animeiventinjapan" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-yt"/></svg>YouTube</a>
+      <a href="https://www.tiktok.com/@japan_anime_info" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-tt"/></svg>TikTok</a>
+      <a href="https://www.instagram.com/tanjiro_animeivent_injapan/" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-ig"/></svg>Instagram</a>
+    </nav>
+  </div>
+</section>
+
+<dialog id="detail" aria-labelledby="dTitle"></dialog>
+
+<footer>
+  <div class="wrap">
+    <a class="logo" href="#top"><span class="mark"><span></span></span><span>Japan Anime<br>Event Guide</span></a>
+    <p>An independent project by tanjiro_animeivent_injapan. Not affiliated with any studio, brand, retailer or venue listed. Every listing comes from public press releases and official venue pages, linked on each event. Event images are official press materials from the organizers; series logos are from Wikimedia Commons or official press materials.</p>
+    <p>Dates, hours and prices were checked on the date shown on each event. Schedules in Japan do change, so check the official link before you travel. No bookings or purchases happen on this site. This site currently contains no ads or affiliate links; if they are added, they will be clearly labeled.</p>
+<p><a href="privacy.html" style="color:#fff">Privacy &amp; disclosures</a> · <a href="https://www.instagram.com/tanjiro_animeivent_injapan/" target="_blank" rel="noopener" style="color:#fff">Contact (Instagram)</a></p>
+  </div>
+</footer>
+
+<script>
+(async()=>{
+let DATA;
+try{ DATA=await (await fetch("events.json",{cache:"no-cache"})).json(); }
+catch(err){ document.getElementById("grid").innerHTML='<div class="empty"><h3>Event list could not load</h3><p>Please reload the page.</p></div>'; return; }
+const EVENTS=DATA.events;
+const SERIES=Object.fromEntries(DATA.series.map(x=>[x.ip,x]));
+
+const $ = s => document.querySelector(s);
+document.documentElement.lang="en";
+const DAY = 864e5;
+const jstISO = (()=>{ try{ return new Intl.DateTimeFormat("en-CA",{timeZone:"Asia/Tokyo",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date()); }catch(_){ return new Date().toISOString().slice(0,10); } })();
+const toD = s => s ? new Date(s+"T00:00:00Z") : null;
+const today = toD(jstISO);
+const iso = d => d.toISOString().slice(0,10);
+const esc = s => String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const mapUrl = q => "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(q);
+
+function status(e){
+  const s=toD(e.start), en=toD(e.end);
+  if(en && en<today) return {cls:"st-past",txt:"Ended",rank:3};
+  if(s && s>today){ const n=Math.round((s-today)/DAY); return {cls:"st-soon",txt:n===1?"Starts tomorrow":`Starts in ${n} days`,rank:2}; }
+  if(en){ const n=Math.round((en-today)/DAY); if(n<=14) return {cls:"st-ending",txt:n===0?"Last day today":`Ends in ${n} day${n===1?"":"s"}`,rank:1}; }
+  return {cls:"st-open",txt:"Open now",rank:1};
+}
+const isPast = e => { const en=toD(e.end); return !!en && en<today; };
+const isOpenNow = e => { const s=toD(e.start), en=toD(e.end); return (!s||s<=today)&&(!en||en>=today); };
+const overlaps = (e,from,to) => { const s=toD(e.start)||new Date(0), en=toD(e.end)||new Date(8.64e15); return (!to||s<=to)&&(!from||en>=from); };
+const uniq = a => [...new Set(a)];
+const live = EVENTS.filter(e=>!isPast(e));
+/* Pickup score (0–100, +100 when the owner pins an event): series size + buzz after the release + timing + how easy it is to visit */
+const TIER={S:40,A:30,B:20,C:10}, BUZZ=[0,8,16,25], ACC={venue:10,chain:7,reserve:4,online:4};
+function timing(e){ if(isPast(e)) return -999; const s=toD(e.start), en=toD(e.end);
+  if(!s||s<=today){ const left=en?Math.round((en-today)/DAY):999; return left>7?25:20; }
+  const n=Math.round((s-today)/DAY); return n<=14?18:n<=45?10:4; }
+function score(e){ const r=e.rank||{}; return (r.pinned?100:0)+(TIER[r.ipTier]??10)+(BUZZ[r.buzz]??0)+timing(e)+(ACC[r.access]??5); }
+const PICKS = live.slice().sort((a,b)=>score(b)-score(a)).slice(0,6);
+const pickRank = id => PICKS.findIndex(p=>p.id===id)+1;
+const IPS = uniq(EVENTS.map(e=>e.ip)).sort((a,b)=>a.localeCompare(b));
+const AREA_TREE = [["Tokyo",["Shibuya","Harajuku","Tokyo Station","Ikebukuro"]],["Osaka",["Shinsaibashi"]]];
+const TYPES = uniq(EVENTS.map(e=>e.type.split(" · ")[0])).sort();
+const locLabel = e => e.areas.length ? e.areas.join(" / ") : "Nationwide";
+
+const DEFAULTS = {q:"",area:"",ip:"",type:"",from:"",to:"",free:false,now:false,nat:true,past:false,sort:"smart"};
+const state = {...DEFAULTS};
+
+/* ---------- hero slider ---------- */
+const HERO = PICKS.filter(e=>e.hero);
+let cur=0, timer=null;
+$("#slides").innerHTML = HERO.map((e,i)=>{ const st=status(e); return `<div class="slide${i===0?" on":""}" role="group" aria-roledescription="slide" aria-label="${i+1} of ${HERO.length}: ${esc(e.title)}" ${i?'aria-hidden="true"':''}>
+  <img src="${esc(e.hero)}" alt="" style="object-position:${esc(e.heroPos||"center")}" ${i?'loading="lazy"':''}>
+  <div class="cap"><div class="wrap">
+    <div class="kick"><span class="pick">PICK UP ${i+1}</span><span class="tag">${esc(e.type)}</span><span class="status ${st.cls}">${st.txt}</span></div>
+    <h2>${esc(e.title)}</h2>
+    <p>${esc(e.dateText)} · ${esc(locLabel(e))}</p>
+    <button type="button" class="go" data-open="${e.id}">See details</button>
+  </div></div></div>`; }).join("");
+$("#dots").innerHTML = HERO.map((e,i)=>`<button type="button" aria-label="Show ${esc(e.title)}" aria-current="${i===0}" data-dot="${i}"></button>`).join("");
+function show(i){
+  const sl=[...document.querySelectorAll(".slide")], dt=[...document.querySelectorAll("[data-dot]")];
+  cur=(i+HERO.length)%HERO.length;
+  sl.forEach((s,k)=>{ s.classList.toggle("on",k===cur); s.setAttribute("aria-hidden",String(k!==cur)); });
+  dt.forEach((d,k)=>d.setAttribute("aria-current",String(k===cur)));
+  $("#heroCount").textContent=`${String(cur+1).padStart(2,"0")} / ${String(HERO.length).padStart(2,"0")}`;
+}
+const reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+function play(){ stop(); if(!reduce) timer=setInterval(()=>show(cur+1),6500); }
+function stop(){ if(timer) clearInterval(timer); timer=null; }
+$("#prev").addEventListener("click",()=>{show(cur-1);play();});
+$("#next").addEventListener("click",()=>{show(cur+1);play();});
+$("#dots").addEventListener("click",e=>{const d=e.target.closest("[data-dot]"); if(d){show(+d.dataset.dot);play();}});
+$(".hero").addEventListener("mouseenter",stop); $(".hero").addEventListener("mouseleave",play);
+$(".hero").addEventListener("focusin",stop);
+show(0); play();
+
+/* ---------- search console ---------- */
+const countIn = f => live.filter(f).length;
+function renderConsole(){
+  const cities=[["","All Japan",live.length]].concat(AREA_TREE.map(([c])=>["city:"+c,c,countIn(e=>e.cities.includes(c))])).concat([["nat","Nationwide chains",countIn(e=>e.nat)]]);
+  const cityOf = state.area.startsWith("hood:") ? (AREA_TREE.find(([,h])=>h.includes(state.area.slice(5)))||[""])[0] : state.area.startsWith("city:")?state.area.slice(5):"";
+  $("#cityPills").innerHTML = cities.map(([v,l,n])=>{ const on = v===state.area || (v==="city:"+cityOf && cityOf); return `<button type="button" class="pill" data-area="${v}" aria-pressed="${!!on}">${esc(l)} <span class="n">${n}</span></button>`; }).join("");
+  const hoods = cityOf ? AREA_TREE.find(([c])=>c===cityOf)[1].filter(h=>EVENTS.some(e=>e.areas.includes(h))) : [];
+  $("#hoodPills").hidden = !hoods.length;
+  $("#hoodPills").innerHTML = hoods.map(h=>`<button type="button" class="pill" data-area="hood:${esc(h)}" aria-pressed="${state.area==="hood:"+h}">${esc(h)}</button>`).join("");
+  $("#typePills").innerHTML = [["","Everything"]].concat(TYPES.map(t=>[t,t])).map(([v,l])=>`<button type="button" class="pill" data-type="${esc(v)}" aria-pressed="${state.type===v}">${esc(l)}</button>`).join("");
+  const togs=[["now","Open now"],["free","Free entry"],["nat","Include nationwide chains"],["past","Show past events"]];
+  $("#togPills").innerHTML = togs.map(([k,l])=>`<label><input type="checkbox" data-tog="${k}" ${state[k]?"checked":""}>${esc(l)}</label>`).join("");
+}
+$("#searchForm").addEventListener("click",e=>{
+  const a=e.target.closest("[data-area]"); if(a){ state.area = (state.area===a.dataset.area && a.dataset.area) ? "" : a.dataset.area; update(); return; }
+  const t=e.target.closest("[data-type]"); if(t){ state.type=t.dataset.type; update(); return; }
+  const q=e.target.closest("[data-q]"); if(q){ if(q.dataset.q==="now"){ state.from=state.to=jstISO; } else { state.from=jstISO; state.to=iso(new Date(today.getTime()+(+q.dataset.q)*DAY)); } syncInputs(); update(); }
+});
+$("#togPills").addEventListener("change",e=>{const g=e.target.closest("[data-tog]"); if(g){ state[g.dataset.tog]=g.checked; update(); }});
+$("#searchForm").addEventListener("submit",ev=>{ev.preventDefault();state.q=$("#q").value.trim();update();$("#events").scrollIntoView({behavior:reduce?"auto":"smooth"});});
+$("#q").addEventListener("input",()=>{state.q=$("#q").value.trim();update();});
+$("#fFrom").addEventListener("change",()=>{state.from=$("#fFrom").value; if(state.to&&state.from&&state.to<state.from) state.to=""; syncInputs(); update();});
+$("#fTo").addEventListener("change",()=>{state.to=$("#fTo").value; if(state.from&&state.to&&state.to<state.from) state.to=state.from; syncInputs(); update();});
+$("#fSort").addEventListener("change",()=>{state.sort=$("#fSort").value;update();});
+$("#editSearch").addEventListener("click",()=>{$("#search").scrollIntoView({behavior:reduce?"auto":"smooth"}); setTimeout(()=>$("#q").focus({preventScroll:true}),400);});
+function syncInputs(){ $("#q").value=state.q; $("#fFrom").value=state.from; $("#fTo").value=state.to; $("#fTo").min=state.from||""; $("#fSort").value=state.sort; }
+
+/* ---------- series logos ---------- */
+function renderLogos(){
+  $("#logoGrid").innerHTML = IPS.map(ip=>{
+    const e=EVENTS.find(x=>x.ip===ip), n=EVENTS.filter(x=>x.ip===ip&&!isPast(x)).length, lg=(SERIES[ip]||{}).logo;
+    return `<button type="button" class="logo-tile ${e.pal}" data-ip="${esc(ip)}" aria-pressed="${state.ip===ip}" aria-label="${esc(ip)}, ${n} event${n===1?"":"s"}">
+      <span class="lg">${lg?`<img src="${esc(lg)}" alt="" loading="lazy">`:`<b>${esc(ip)}</b>`}</span>
+      <span class="ft">${esc(ip)} <b>${n}</b></span></button>`;
+  }).join("");
+}
+$("#logoGrid").addEventListener("click",e=>{const b=e.target.closest("[data-ip]"); if(!b)return; state.ip=state.ip===b.dataset.ip?"":b.dataset.ip; update(); if(state.ip) $("#events").scrollIntoView({behavior:reduce?"auto":"smooth"});});
+
+/* ---------- area cards ---------- */
+const AREA_CARDS=[
+  {v:"city:Tokyo",name:"Tokyo",sub:"Shibuya · Harajuku · Tokyo Station · Ikebukuro",img:"img/solo-1.jpg",pos:"70% center",n:()=>countIn(e=>e.cities.includes("Tokyo"))},
+  {v:"city:Osaka",name:"Osaka",sub:"Shinsaibashi · Dotonbori",img:"img/madoka-5.jpg",pos:"center",n:()=>countIn(e=>e.cities.includes("Osaka"))},
+  {v:"nat",name:"Anywhere in Japan",sub:"Collab menus at chain restaurants and convenience stores",img:"img/hero-haikyu.jpg",pos:"center 35%",n:()=>countIn(e=>e.nat)}
+];
+$("#areaGrid").innerHTML = AREA_CARDS.map(a=>`<button type="button" class="area-card" data-area-card="${a.v}"><img src="${a.img}" alt="" loading="lazy" style="object-position:${a.pos}"><span class="cnt">${a.n()} events</span><h3>${a.name}</h3><p>${a.sub}</p></button>`).join("");
+$("#areaGrid").addEventListener("click",e=>{const b=e.target.closest("[data-area-card]"); if(!b)return; state.area=b.dataset.areaCard; update(); $("#events").scrollIntoView({behavior:reduce?"auto":"smooth"});});
+
+/* ---------- filtering ---------- */
+function inArea(e){
+  const a=state.area; if(!a) return true;
+  if(a==="nat") return e.nat;
+  const local = a.startsWith("city:") ? e.cities.includes(a.slice(5)) : e.areas.includes(a.slice(5));
+  return local || (state.nat && e.nat);
+}
+function matches(e){
+  if(!state.past && isPast(e)) return false;
+  if(state.q){
+    const hay=[e.ip,e.title,e.jp,e.type,e.areas.join(" "),e.cities.join(" "),e.city,e.station,e.overview,e.keywords,e.tips.join(" "),e.price,e.details.map(d=>d[1]).join(" ")].join(" ").toLowerCase();
+    if(!state.q.toLowerCase().split(/\s+/).filter(Boolean).every(w=>hay.includes(w))) return false;
+  }
+  if(!inArea(e)) return false;
+  if(state.ip && e.ip!==state.ip) return false;
+  if(state.type && !e.type.startsWith(state.type)) return false;
+  if(state.free && !e.free) return false;
+  if(state.now && !isOpenNow(e)) return false;
+  if((state.from||state.to) && !overlaps(e,toD(state.from),toD(state.to))) return false;
+  return true;
+}
+const localFirst = e => { const a=state.area; if(!a||a==="nat") return 0; const local=a.startsWith("city:")?e.cities.includes(a.slice(5)):e.areas.includes(a.slice(5)); return local?0:1; };
+function sortList(list){
+  const far=8.64e15, endT=e=>toD(e.end)?.getTime()??far, startT=e=>(toD(e.start)||today).getTime();
+  let cmp;
+  if(state.sort==="az") cmp=(a,b)=>a.ip.localeCompare(b.ip);
+  else if(state.sort==="starting") cmp=(a,b)=>startT(a)-startT(b);
+  else if(state.sort==="ending") cmp=(a,b)=>endT(a)-endT(b);
+  else cmp=(a,b)=>score(b)-score(a);
+  return list.sort((a,b)=>localFirst(a)-localFirst(b)||cmp(a,b));
+}
+
+function band(e,st){
+  const has=e.imgs&&e.imgs.length;
+  const cls="band"+(has?" has-img":"")+(has&&e.imgFit==="contain"?" fit-contain":"");
+  const img=has?`<img class="kv" src="${esc(e.imgs[0])}" alt="${esc(e.title)}" loading="lazy" style="object-position:${esc(e.imgPos||"center")}">`:"";
+  const pr=pickRank(e.id), rib=pr&&pr<=3;
+  return `${rib?`<span class="ribbon">PICK UP</span>`:""}<div class="${cls}${rib?" has-ribbon":""}">${img}<span class="ip">${esc(e.ip)}</span><span class="status ${st.cls}">${st.txt}</span></div>`;
+}
+function card(e){
+  const st=status(e);
+  const nat = e.nat ? `<span class="badge nat">${e.areas.length?"Also nationwide":"Nationwide"}</span>` : "";
+  return `<article class="card ${e.pal}">
+    ${band(e,st)}
+    <div class="cbody">
+      <span class="date-line">${esc(e.dateText)}</span>
+      <h3>${esc(e.title)}</h3>
+      <p class="jp" lang="ja">${esc(e.jp)}</p>
+      <span class="type">${esc(e.type)} · ${esc(locLabel(e))}</span>
+      <ul class="facts">
+        <li><svg aria-hidden="true"><use href="#i-pin"/></svg><span><b>${esc(e.station)}</b></span></li>
+        <li><svg aria-hidden="true"><use href="#i-yen"/></svg><span>${esc(e.price)}</span></li>
+      </ul>
+      <div class="badges">${e.tips.map(t=>`<span class="badge">${esc(t)}</span>`).join("")}${nat}</div>
+      <div class="actions">
+        <button type="button" class="btn btn-primary" data-open="${e.id}">Details &amp; access</button>
+        <a class="btn btn-line" href="${esc(mapUrl(e.map))}" target="_blank" rel="noopener">Map ↗</a>
+      </div>
+    </div>
+  </article>`;
+}
+
+const AREA_TXT = v => v==="nat" ? "Nationwide chains" : v.slice(5);
+const LABELS = {q:v=>`“${v}”`,area:v=>`Area: ${AREA_TXT(v)}`,ip:v=>`Series: ${v}`,type:v=>`Type: ${v}`,from:v=>`From ${v}`,to:v=>`Until ${v}`,free:()=>"Free entry",now:()=>"Open now",past:()=>"Including past"};
+
+function update(){
+  const list=sortList(EVENTS.filter(matches));
+  $("#count").innerHTML = `<b>${list.length}</b> EVENT${list.length===1?"":"S"}<small>件</small>`;
+  $("#grid").innerHTML = list.length ? list.map(card).join("") :
+    `<div class="empty" style="grid-column:1/-1"><h3>No events match these filters</h3><p>Try another area or widen your trip dates.</p><button type="button" class="clear" data-clear>Clear all filters</button></div>`;
+  const active=Object.keys(LABELS).filter(k=>state[k]);
+  $("#activeChips").innerHTML = active.map(k=>`<span class="chip">${esc(LABELS[k](state[k]))}<button type="button" aria-label="Remove filter" data-rm="${k}">×</button></span>`).join("") +
+    (active.length?`<button type="button" class="clear" data-clear>Clear all</button>`:"");
+  renderConsole(); renderLogos();
+}
+document.addEventListener("click",e=>{
+  const rm=e.target.closest("[data-rm]"); if(rm){const k=rm.dataset.rm;state[k]=DEFAULTS[k];syncInputs();update();return;}
+  if(e.target.closest("[data-clear]")){Object.assign(state,{...DEFAULTS,sort:state.sort});syncInputs();update();return;}
+  const op=e.target.closest("[data-open]"); if(op) openDetail(op.dataset.open);
+});
+
+/* ---------- detail ---------- */
+const dlg=$("#detail");
+function openDetail(id,fromHash){
+  const e=EVENTS.find(x=>x.id===id); if(!e) return; const st=status(e);
+  dlg.className=e.pal;
+  const lg=(SERIES[e.ip]||{}).logo;
+  const maps=[["Open in Maps",e.map]].concat(e.map2?[[`Open in Maps · ${e.map2[0]}`,e.map2[1]]]:[]);
+  dlg.innerHTML=`<div class="d-top"><button type="button" class="d-close" aria-label="Close" data-close>×</button></div>
+    <div class="band d-head"><span class="ip">${esc(e.ip)}</span><span class="status ${st.cls}" style="margin-right:52px">${st.txt}</span></div>
+    <div class="d-body">
+      ${lg?`<img class="d-logo" src="${esc(lg)}" alt="${esc(e.ip)} logo">`:""}
+      <span class="date-line" style="display:block">${esc(e.dateText)}</span>
+      <h2 id="dTitle">${esc(e.title)}</h2>
+      <p class="jp" lang="ja">${esc(e.jp)}</p>
+      <div class="badges">${e.tips.map(t=>`<span class="badge">${esc(t)}</span>`).join("")}</div>
+      ${e.imgs?`<div class="gallery"><img class="main" id="gMain" src="${esc(e.imgs[0])}" alt="${esc(e.title)} image 1">
+        <div class="thumbs">${e.imgs.map((u,i)=>`<button type="button" data-g="${esc(u)}" data-i="${i+1}" aria-current="${i===0}" aria-label="Show image ${i+1}"><img src="${esc(u)}" alt=""></button>`).join("")}</div>
+        <span class="credit">Images: official press materials from the organizers.</span></div>`:""}
+      <p>${esc(e.overview)}</p>
+      <dl class="d-table">
+        <dt>Access</dt><dd>${esc(e.station)}</dd>
+        <dt>Dates</dt><dd>${esc(e.dateText)}</dd>
+        <dt>Price</dt><dd>${esc(e.price)}</dd>
+        ${e.details.map(([k,v])=>`<dt>${esc(k)}</dt><dd${/[\u3040-\u30ff\u4e00-\u9fff]/.test(v)?' lang="ja"':''}>${esc(v)}</dd>`).join("")}
+      </dl>
+      <div class="links">${maps.map(([t,q])=>`<a href="${esc(mapUrl(q))}" target="_blank" rel="noopener">${esc(t)}<span aria-hidden="true">↗</span></a>`).join("")}</div>
+      <div class="nearby"><b>While you're there</b>${esc(e.nearby)}</div>
+      <div class="links">${e.links.map(([t,u])=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}<span aria-hidden="true">↗</span></a>`).join("")}</div>
+      <p class="verified">Checked on ${esc(e.verified)} against the official sources above.</p>
+    </div>`;
+  if(!fromHash){ try{ history.replaceState(null,"","#"+id); }catch(_){} }
+  document.body.classList.add("lock"); stop();
+  if(typeof dlg.showModal==="function") dlg.showModal(); else dlg.setAttribute("open","");
+  dlg.scrollTop=0;
+}
+dlg.addEventListener("close",()=>{ document.body.classList.remove("lock"); play(); try{ history.replaceState(null,"",location.pathname+location.search); }catch(_){} });
+dlg.addEventListener("click",e=>{
+  const g=e.target.closest("[data-g]"); if(g){ const m=$("#gMain"); m.src=g.dataset.g; m.alt=m.alt.replace(/\d+$/,g.dataset.i); dlg.querySelectorAll("[data-g]").forEach(b=>b.setAttribute("aria-current",String(b===g))); return; }
+  if(e.target===dlg||e.target.closest("[data-close]")) dlg.close();
+});
+
+const h=location.hash.slice(1); if(h && EVENTS.some(e=>e.id===h)) setTimeout(()=>openDetail(h,true),50);
+syncInputs(); update();
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,516 @@
+{
+ "updated": "2026-09-30",
+ "series": [
+  {
+   "ip": "Solo Leveling",
+   "logo": "img/logo-solo.png",
+   "tier": "A"
+  },
+  {
+   "ip": "Lupin the Third",
+   "logo": "img/logo-lupin.png",
+   "tier": "B"
+  },
+  {
+   "ip": "Dragon Ball",
+   "logo": "img/logo-db.png",
+   "tier": "S"
+  },
+  {
+   "ip": "Madoka Magica",
+   "logo": "img/logo-madoka.png",
+   "tier": "B"
+  },
+  {
+   "ip": "Dr. STONE",
+   "logo": "img/logo-stone.png",
+   "tier": "B"
+  },
+  {
+   "ip": "Haikyu!!",
+   "logo": "img/logo-haikyu.png",
+   "tier": "A"
+  }
+ ],
+ "events": [
+  {
+   "id": "solo-leveling-exhibition",
+   "cities": [
+    "Tokyo"
+   ],
+   "nat": false,
+   "tips": [
+    "Book online (cheaper)",
+    "Timed entry",
+    "Sold on Klook / KKday / Trip.com"
+   ],
+   "map": "Tokyu Plaza Shibuya",
+   "ip": "Solo Leveling",
+   "pal": "ev-solo",
+   "type": "Exhibition",
+   "title": "Solo Leveling: The Exhibition",
+   "jp": "「俺だけレベルアップな件」展",
+   "tagline": "Level up.",
+   "areas": [
+    "Shibuya"
+   ],
+   "city": "Tokyo",
+   "station": "Shibuya Sta. · 3 min walk",
+   "start": "2026-07-17",
+   "end": "2026-11-01",
+   "dateText": "Jul 17 – Nov 1, 2026",
+   "price": "Adults from ¥2,800 (online, weekday)",
+   "free": false,
+   "overview": "Japan's first immersive exhibition for Solo Leveling, built around the series' biggest arcs: walk-through sets, large-format art and photo spots themed to Sung Jin-Woo's rise. Entry is by date-and-time ticket, so book before you go.",
+   "details": [
+    [
+     "Venue",
+     "Tokyu Plaza Shibuya, 4F"
+    ],
+    [
+     "Address (JP)",
+     "〒150-0043 東京都渋谷区道玄坂1-2-3 渋谷フクラス 東急プラザ渋谷 4階"
+    ],
+    [
+     "Hours",
+     "Weekdays 11:00–20:00 (last entry 19:30), weekends & holidays 11:00–21:00 (last entry 20:30)"
+    ],
+    [
+     "Adult tickets",
+     "Online ¥2,800 weekday / ¥3,100 weekend; same-day ¥500 more; Super Pass ¥3,800 online"
+    ],
+    [
+     "Student / child",
+     "Online from ¥1,500 / ¥600"
+    ],
+    [
+     "Tickets for visitors",
+     "Klook, KKday, Trip.com, Cool Japan Travel (English sites)"
+    ],
+    [
+     "Tickets in Japan",
+     "Pia / Rakuten Ticket / Lawson / asoview"
+    ]
+   ],
+   "nearby": "Shibuya Scramble Crossing is right outside. Shibuya Sky's observation deck and the Hachiko statue are both under 10 minutes on foot.",
+   "links": [
+    [
+     "Official exhibition site",
+     "https://sololeveling-exhibition.com/"
+    ],
+    [
+     "Venue page (Tokyu Plaza Shibuya)",
+     "https://tokyu-plaza.com/shibuya/event/detail/62"
+    ]
+   ],
+   "verified": "Sep 29, 2026",
+   "keywords": "ore dake level up na ken sung jinwoo manhwa",
+   "rank": {
+    "ipTier": "A",
+    "buzz": 3,
+    "access": "venue",
+    "buzzNote": "Covered by Animate Times, WOWOW Plus, Tokyo Shimbun x PR TIMES and others; run extended to Nov 1",
+    "pinned": false
+   },
+   "hero": "img/solo-1.jpg",
+   "heroPos": "65% center",
+   "imgs": [
+    "img/solo-1.jpg",
+    "img/solo-2.jpg"
+   ],
+   "imgPos": "70% center"
+  },
+  {
+   "id": "lupin-55th-popup",
+   "cities": [
+    "Tokyo"
+   ],
+   "nat": false,
+   "tips": [
+    "Walk-in OK",
+    "Limited stock"
+   ],
+   "map": "Laforet Harajuku",
+   "ip": "Lupin the Third",
+   "pal": "ev-lupin",
+   "type": "Pop-up shop",
+   "title": "Lupin the Third 55th Anniversary Pop-Up",
+   "jp": "『ルパン三世』55周年 POP-UP",
+   "tagline": "Steal the spotlight.",
+   "areas": [
+    "Harajuku"
+   ],
+   "city": "Tokyo",
+   "station": "Meiji-jingumae Sta. · 1 min walk",
+   "start": "2026-10-06",
+   "end": "2026-10-18",
+   "dateText": "Oct 6 – Oct 18, 2026",
+   "price": "Free entry",
+   "free": true,
+   "overview": "A pop-up for 55 years of Lupin the Third, built around art styles from across the franchise's history: apparel and an artist collaboration with JUN INAGAWA. Items are first come, first served while stock lasts, and the store may limit how many you can buy. Some items sell online later on ZOZOTOWN, partly by lottery or pre-order.",
+   "details": [
+    [
+     "Venue",
+     "Laforet Harajuku, 5F (MAKE THE STAGE)"
+    ],
+    [
+     "Address (JP)",
+     "〒150-0001 東京都渋谷区神宮前1-11-6 ラフォーレ原宿 5F"
+    ],
+    [
+     "Hours",
+     "11:00–20:00"
+    ],
+    [
+     "Also online",
+     "ZOZOTOWN, Oct 23 – Nov 16 (some items by lottery or pre-order)"
+    ]
+   ],
+   "nearby": "Takeshita Street's crepe stands and boutiques start right outside. Meiji Shrine and Yoyogi Park are about 10 minutes on foot.",
+   "links": [
+    [
+     "Laforet Harajuku pop-up schedule",
+     "https://www.laforet.ne.jp/pop_up_shop/"
+    ],
+    [
+     "Original press release",
+     "https://prtimes.jp/main/html/rd/p/000000601.000096287.html"
+    ]
+   ],
+   "verified": "Sep 29, 2026",
+   "keywords": "lupin iii arsene jigen goemon fujiko zenigata laforet omotesando",
+   "rank": {
+    "ipTier": "B",
+    "buzz": 1,
+    "access": "venue",
+    "buzzNote": "ZOZO press release and Laforet listing",
+    "pinned": false
+   },
+   "hero": "img/lupin-1.jpg",
+   "heroPos": "center",
+   "imgs": [
+    "img/lupin-1.jpg",
+    "img/lupin-2.jpg",
+    "img/lupin-3.jpg",
+    "img/lupin-4.jpg",
+    "img/lupin-5.jpg"
+   ],
+   "imgPos": "center"
+  },
+  {
+   "id": "dragon-ball-kuji-saiyan",
+   "imgs": [
+    "img/db-1.jpg",
+    "img/db-2.jpg",
+    "img/db-3.jpg",
+    "img/db-4.jpg"
+   ],
+   "imgFit": "contain",
+   "cities": [
+    "Tokyo"
+   ],
+   "nat": true,
+   "tips": [
+    "Walk-in OK",
+    "Cards accepted",
+    "While stocks last"
+   ],
+   "map": "Dragon Ball Store Tokyo, Tokyo Character Street",
+   "ip": "Dragon Ball",
+   "pal": "ev-db",
+   "type": "Store · Lottery",
+   "title": "Ichiban Kuji Dragon Ball: Spirit of the Saiyan",
+   "jp": "一番くじ ドラゴンボール SPIRIT OF THE SAIYAN",
+   "tagline": "Saiyan spirit, unleashed.",
+   "areas": [
+    "Tokyo Station"
+   ],
+   "city": "Tokyo + nationwide",
+   "station": "Tokyo Sta. · direct underground access",
+   "start": "2026-10-17",
+   "end": null,
+   "dateText": "From Oct 17, 2026 (while stocks last)",
+   "price": "From ¥800 per draw",
+   "free": false,
+   "overview": "The newest Ichiban Kuji prize-lottery figure line, centered on the Son family's Saiyan bloodline: Goku, Gohan, Goten, Bardock and Raditz in the MASTERLISE line. Dragon Ball Store Tokyo, the world's first permanent Dragon Ball store, carries it, as do 7-Eleven and Ito-Yokado stores across Japan.",
+   "details": [
+    [
+     "Store",
+     "Dragon Ball Store Tokyo, Tokyo Character Street, Tokyo Ekimae 1-bangai, 1F"
+    ],
+    [
+     "Address (JP)",
+     "東京都千代田区丸の内1-9-1 東京駅一番街 東京キャラクターストリート"
+    ],
+    [
+     "Hours",
+     "10:00–20:30"
+    ],
+    [
+     "Payment",
+     "Credit cards, e-money, QR code payments, cash"
+    ],
+    [
+     "Also sold at",
+     "7-Eleven, Ito-Yokado (nationwide)"
+    ]
+   ],
+   "nearby": "Tokyo Character Street shares the arcade with Pokémon Center, Jump Shop and other character stores. The Imperial Palace East Garden is about 15 minutes on foot.",
+   "links": [
+    [
+     "Store page (Tokyo Ekimae 1-bangai)",
+     "https://www.tokyoeki-1bangai.co.jp/shop/detail/?cd=000258"
+    ],
+    [
+     "Lottery lineup coverage",
+     "https://animeanime.jp/article/2026/09/27/103270.html"
+    ]
+   ],
+   "verified": "Sep 29, 2026",
+   "keywords": "goku gohan goten bardock raditz ichiban kuji figure character street marunouchi 7-eleven",
+   "rank": {
+    "ipTier": "S",
+    "buzz": 2,
+    "access": "venue",
+    "buzzNote": "Anime! Anime! and lottery-news coverage",
+    "pinned": false
+   },
+   "hero": "img/hero-db.jpg",
+   "heroPos": "center"
+  },
+  {
+   "id": "madoka-soul-gem-jewelry",
+   "imgs": [
+    "img/madoka-1.jpg",
+    "img/madoka-2.jpg",
+    "img/madoka-3.jpg",
+    "img/madoka-4.jpg",
+    "img/madoka-5.jpg"
+   ],
+   "imgPos": "center 20%",
+   "cities": [
+    "Tokyo",
+    "Osaka"
+   ],
+   "nat": false,
+   "tips": [
+    "Closed Wed & Thu",
+    "Walk-in to view",
+    "Made to order"
+   ],
+   "map": "U-TREASURE Ikebukuro",
+   "map2": [
+    "Osaka store",
+    "U-TREASURE Shinsaibashi"
+   ],
+   "ip": "Madoka Magica",
+   "pal": "ev-madoka",
+   "type": "Store · Jewelry",
+   "title": "Madoka Magica Soul Gem Jewelry",
+   "jp": "劇場版『魔法少女まどか☆マギカ〈ワルプルギスの廻天〉』ソウルジェム・ジュエリー",
+   "tagline": "Make a wish.",
+   "areas": [
+    "Ikebukuro",
+    "Shinsaibashi"
+   ],
+   "city": "Tokyo + Osaka",
+   "station": "Ikebukuro Sta. (E exit) · 8 min / Shinsaibashi Sta. · 3 min",
+   "start": "2026-09-24",
+   "end": "2026-11-06",
+   "dateText": "Reservations Sep 24 – Nov 6, 2026",
+   "price": "From ¥25,300",
+   "free": false,
+   "overview": "A fine-jewelry line based on the Soul Gems and Dark Orbs from Madoka Magica: sterling silver necklaces, plus a limited run of 18K gold and platinum miniature figures. Sold by reservation and shipped with a wooden keepsake case. Many pieces are made to order. You can see them in person, without a booking, at two U-TREASURE stores.",
+   "details": [
+    [
+     "Tokyo store",
+     "U-TREASURE Concept Store Ikebukuro, 4F Otomate Bldg"
+    ],
+    [
+     "Address (JP)",
+     "〒170-0013 東京都豊島区東池袋1-23-5 オトメイトビル4F"
+    ],
+    [
+     "Osaka store",
+     "U-TREASURE Concept Store Shinsaibashi, 1F ANGLE ONE Bldg"
+    ],
+    [
+     "Address (JP)",
+     "〒542-0083 大阪府大阪市中央区東心斎橋1-19-21 ANGLEONEビル 1F"
+    ],
+    [
+     "Hours",
+     "11:00–19:00 (both stores)"
+    ],
+    [
+     "Closed",
+     "Wednesdays and Thursdays (open on public holidays)"
+    ],
+    [
+     "From overseas",
+     "Proxy purchase via WorldShopping in English or Chinese; no delivery to the EU, UK, Iceland, Liechtenstein or Norway"
+    ],
+    [
+     "Tax-free",
+     "May be available in store under certain conditions; ask staff"
+    ]
+   ],
+   "nearby": "Ikebukuro: Sunshine City and Otome Road are within 10 minutes of the east exit. Osaka: Dotonbori and the Shinsaibashi-suji arcade are a few minutes away, and Amerikamura is about 5 minutes further.",
+   "links": [
+    [
+     "U-TREASURE official site",
+     "https://u-treasure.jp/"
+    ],
+    [
+     "Collection coverage",
+     "https://animeanime.jp/article/2026/09/26/103256.html"
+    ]
+   ],
+   "verified": "Sep 29, 2026",
+   "keywords": "puella magi madoka walpurgis soul gem u-treasure shinsaibashi dotonbori jewellery necklace",
+   "rank": {
+    "ipTier": "B",
+    "buzz": 2,
+    "access": "reserve",
+    "buzzNote": "Anime! Anime! coverage; reservations closing soon on U-TREASURE",
+    "pinned": false
+   },
+   "hero": "img/hero-madoka.jpg",
+   "heroPos": "center"
+  },
+  {
+   "id": "dr-stone-pizza-la",
+   "imgs": [
+    "img/stone-1.jpg",
+    "img/stone-2.jpg",
+    "img/stone-3.jpg",
+    "img/stone-4.jpg"
+   ],
+   "imgPos": "center 30%",
+   "cities": [],
+   "nat": true,
+   "tips": [
+    "Ordering in Japanese",
+    "Random bonus",
+    "Limited quantity"
+   ],
+   "map": "Pizza-La",
+   "ip": "Dr. STONE",
+   "pal": "ev-stone",
+   "type": "Food collab",
+   "title": "Dr. STONE × Pizza-La",
+   "jp": "TVアニメ『Dr.STONE』×ピザーラ",
+   "tagline": "Science, delivered hot.",
+   "areas": [],
+   "city": "Any Pizza-La in Japan",
+   "station": "Delivery or takeout at any Pizza-La",
+   "start": "2026-10-01",
+   "end": "2026-11-01",
+   "dateText": "Oct 1 – Nov 1, 2026",
+   "price": "From ¥3,490",
+   "free": false,
+   "overview": "Two collaboration pizzas themed to Dr. STONE's Kingdom of Science, each set with one random character item (wire keychain or acrylic coaster, six designs). Sets are limited and may sell out.",
+   "details": [
+    [
+     "Where",
+     "Any Pizza-La location, nationwide"
+    ],
+    [
+     "How to order",
+     "Pizza-La's Japanese website or by phone to a store; delivery or takeout"
+    ],
+    [
+     "Notes",
+     "Takeout discount doesn't apply. Bonus design is random and can't be chosen or exchanged."
+    ]
+   ],
+   "nearby": "Pizza-La delivers to most hotels in big cities. Ask your front desk to help with a phone order if needed.",
+   "links": [
+    [
+     "Coverage & menu",
+     "https://animeanime.jp/article/2026/09/25/103230.html"
+    ],
+    [
+     "Original press release",
+     "https://prtimes.jp/main/html/rd/p/000000568.000037526.html"
+    ]
+   ],
+   "verified": "Sep 29, 2026",
+   "keywords": "senku pizza la delivery food",
+   "rank": {
+    "ipTier": "B",
+    "buzz": 3,
+    "access": "chain",
+    "buzzNote": "Anime! Anime!, Cho! Animedia, D-Times, Infoseek, collabo-cafe",
+    "pinned": false
+   },
+   "hero": "img/hero-stone.jpg",
+   "heroPos": "center 30%"
+  },
+  {
+   "id": "haikyu-ootoya",
+   "imgs": [
+    "img/haikyu-1.jpg",
+    "img/haikyu-2.jpg",
+    "img/haikyu-3.jpg",
+    "img/haikyu-4.jpg"
+   ],
+   "imgPos": "center 40%",
+   "cities": [],
+   "nat": true,
+   "tips": [
+    "Walk-in dine-in",
+    "Random bonus",
+    "Limited quantity"
+   ],
+   "map": "Ootoya",
+   "ip": "Haikyu!!",
+   "pal": "ev-haikyu",
+   "type": "Food collab",
+   "title": "Haikyu!! × Ootoya",
+   "jp": "大戸屋×ハイキュー!! コラボキャンペーン",
+   "tagline": "Fuel up like a champion.",
+   "areas": [],
+   "city": "Any Ootoya in Japan",
+   "station": "Any Ootoya restaurant",
+   "start": "2026-10-08",
+   "end": "2026-11-23",
+   "dateText": "Oct 8 – Nov 23, 2026",
+   "price": "¥1,880 per set",
+   "free": false,
+   "overview": "Ootoya's second Haikyu!! collaboration: set meals designed after rival schools from the series (Date Tech, Fukurodani, Inarizaki and more), Each set meal comes with one random hologram postcard (first half) or sticker (second half). There is also a dessert plate for ¥680. About 24,000 sets are planned, and the menu ends when they sell out.",
+   "details": [
+    [
+     "Where",
+     "All Ootoya restaurants in Japan (food-court branches may have a different menu)"
+    ],
+    [
+     "Dessert plate",
+     "¥680, with a random sticker"
+    ],
+    [
+     "Themed stores",
+     "Extra decorations at Ikebukuro, Namba, Sendai, Sapporo, Omiya and other branches"
+    ]
+   ],
+   "nearby": "Ootoya has branches near most major stations in Tokyo, including Shibuya, Shinjuku and Ikebukuro.",
+   "links": [
+    [
+     "Original press release",
+     "https://prtimes.jp/main/html/rd/p/000000401.000017712.html"
+    ]
+   ],
+   "verified": "Sep 29, 2026",
+   "keywords": "haikyuu karasuno hinata kageyama volleyball ootoya teishoku set meal restaurant",
+   "rank": {
+    "ipTier": "A",
+    "buzz": 2,
+    "access": "chain",
+    "buzzNote": "Ootoya press release; collab-news coverage",
+    "pinned": false
+   },
+   "hero": "img/hero-haikyu.jpg",
+   "heroPos": "center"
+  }
+ ]
+}
