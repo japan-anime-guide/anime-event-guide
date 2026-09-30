@@ -250,6 +250,21 @@ img{max-width:100%}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .card{--ev-text:var(--ev-text-d)}}
 :root[data-theme="dark"] .card{--ev-text:var(--ev-text-d)}
 
+/* ---------- travel essentials (affiliate, labeled PR) ---------- */
+.ess-band{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.ess-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.ess{display:flex;gap:14px;align-items:flex-start;text-decoration:none;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:16px;transition:border-color .15s,transform .15s;min-width:0}
+.ess:hover{border-color:var(--ink);transform:translateY(-2px)}
+.ess .ic{flex:0 0 auto;width:44px;height:44px;border-radius:6px;background:var(--navy);color:var(--yellow);display:grid;place-items:center}
+.ess .ic svg{width:24px;height:24px}
+.ess b{display:block;font-size:1rem;font-weight:900;line-height:1.3}
+.ess p{margin:4px 0 6px;font-size:.86rem;color:var(--ink-soft);line-height:1.5}
+.ess .go2{font-size:.8rem;font-weight:700;color:#D9312B}
+.pr{display:inline-block;font-family:var(--f-display);font-style:normal;font-weight:800;font-size:.68rem;letter-spacing:.06em;background:#6C6780;color:#fff;border-radius:2px;padding:0 5px;margin-left:6px;vertical-align:middle}
+.disc{font-size:.78rem;color:var(--ink-soft);margin:12px 0 0}
+.d-ess{display:flex;flex-direction:column;gap:8px}
+.d-ess h3{font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);margin:0}
+
 /* ---------- video banner (full width) ---------- */
 .vbanner{position:relative;overflow:hidden;background:linear-gradient(110deg,var(--violet),var(--pink) 55%,#FF8A3D);color:#fff;margin-top:40px}
 .vbanner::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(-45deg,rgba(255,255,255,.08) 0 14px,transparent 14px 28px)}
@@ -318,7 +333,9 @@ footer .logo{color:#fff;margin-bottom:14px}
   <symbol id="i-yt" viewBox="0 0 24 24"><path d="M22 8.2a3 3 0 0 0-2.1-2.1C18 5.6 12 5.6 12 5.6s-6 0-7.9.5A3 3 0 0 0 2 8.2 31 31 0 0 0 1.6 12 31 31 0 0 0 2 15.8a3 3 0 0 0 2.1 2.1c1.9.5 7.9.5 7.9.5s6 0 7.9-.5a3 3 0 0 0 2.1-2.1c.3-1.2.4-2.5.4-3.8s-.1-2.6-.4-3.8ZM10 15V9l5.2 3L10 15Z" fill="currentColor"/></symbol>
   <symbol id="i-tt" viewBox="0 0 24 24"><path d="M16.6 2h-3.3v13.2a2.9 2.9 0 1 1-2-2.8V9a6.2 6.2 0 1 0 5.3 6.1V8.4a7.6 7.6 0 0 0 4.4 1.4V6.5a4.4 4.4 0 0 1-4.4-4.5Z" fill="currentColor"/></symbol>
   <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="17.3" cy="6.7" r="1.3" fill="currentColor"/></symbol>
-</svg>
+  <symbol id="i-wifi" viewBox="0 0 24 24"><path d="M2 8.8a15 15 0 0 1 20 0M5.5 12.3a10 10 0 0 1 13 0M9 15.8a5 5 0 0 1 6 0" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="19.5" r="1.6" fill="currentColor"/></symbol>
+  <symbol id="i-train" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="14" rx="3" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M5 10h14M9 21l1.5-4M15 21l-1.5-4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><circle cx="9" cy="13.5" r="1.1" fill="currentColor"/><circle cx="15" cy="13.5" r="1.1" fill="currentColor"/></symbol>
+  <symbol id="i-pass" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M7 10h6M7 14h4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol></svg>
 
 <header class="topbar">
   <div class="wrap">
@@ -413,6 +430,14 @@ footer .logo{color:#fff;margin-bottom:14px}
   <div class="wrap"><div class="grid" id="grid"></div></div>
 </section>
 
+<section class="band-sec ess-band" id="essentials">
+  <div class="wrap">
+    <div class="sec-head"><h2><span class="en">TRAVEL ESSENTIALS</span><span class="ja">旅の準備</span></h2><p>Handy for getting to the events.</p></div>
+    <div class="ess-grid" id="essGrid"></div>
+    <p class="disc">Links marked <span class="pr" style="margin:0">PR</span> are affiliate links: if you book through them we may earn a small commission, at no extra cost to you. It helps keep this guide free. <a href="privacy.html">Details</a></p>
+  </div>
+</section>
+
 <section class="vbanner" id="videos">
   <div class="wrap">
     <div>
@@ -433,7 +458,7 @@ footer .logo{color:#fff;margin-bottom:14px}
   <div class="wrap">
     <a class="logo" href="#top"><span class="mark"><span></span></span><span>Japan Anime<br>Event Guide</span></a>
     <p>An independent project by tanjiro_animeivent_injapan. Not affiliated with any studio, brand, retailer or venue listed. Every listing comes from public press releases and official venue pages, linked on each event. Event images are official press materials from the organizers; series logos are from Wikimedia Commons or official press materials.</p>
-    <p>Dates, hours and prices were checked on the date shown on each event. Schedules in Japan do change, so check the official link before you travel. No bookings or purchases happen on this site. This site currently contains no ads or affiliate links; if they are added, they will be clearly labeled.</p>
+    <p>Dates, hours and prices were checked on the date shown on each event. Schedules in Japan do change, so check the official link before you travel. No bookings or purchases happen on this site. Some links to booking sites are affiliate links, marked PR.</p>
 <p><a href="privacy.html" style="color:#fff">Privacy &amp; disclosures</a> · <a href="https://www.instagram.com/tanjiro_animeivent_injapan/" target="_blank" rel="noopener" style="color:#fff">Contact (Instagram)</a></p>
   </div>
 </footer>
@@ -641,6 +666,12 @@ document.addEventListener("click",e=>{
   const op=e.target.closest("[data-open]"); if(op) openDetail(op.dataset.open);
 });
 
+/* ---------- travel essentials ---------- */
+const ESS = DATA.essentials || [];
+const essFor = e => ESS.filter(x=>x.cities.includes("*") || x.cities.some(c=>e.cities.includes(c)));
+const essLink = (x,cls) => `<a class="${cls}" href="${esc(x.url)}" target="_blank" rel="sponsored noopener">`;
+$("#essGrid").innerHTML = ESS.map(x=>`${essLink(x,"ess")}<span class="ic"><svg aria-hidden="true"><use href="#i-${esc(x.icon)}"/></svg></span><span style="min-width:0"><b>${esc(x.title)}<span class="pr">PR</span></b><p>${esc(x.desc)}</p><span class="go2">Book on ${esc(x.seller)} ↗</span></span></a>`).join("");
+
 /* ---------- detail ---------- */
 const dlg=$("#detail");
 function openDetail(id,fromHash){
@@ -668,6 +699,7 @@ function openDetail(id,fromHash){
       </dl>
       <div class="links">${maps.map(([t,q])=>`<a href="${esc(mapUrl(q))}" target="_blank" rel="noopener">${esc(t)}<span aria-hidden="true">↗</span></a>`).join("")}</div>
       <div class="nearby"><b>While you're there</b>${esc(e.nearby)}</div>
+      ${essFor(e).length?`<div class="d-ess"><h3>Before you go</h3><div class="links">${essFor(e).map(x=>`${essLink(x,"")}<span>${esc(x.title)} · ${esc(x.seller)}<span class="pr">PR</span></span><span aria-hidden="true">↗</span></a>`).join("")}</div><p class="disc" style="margin:0">PR = affiliate link. We may earn a commission at no extra cost to you.</p></div>`:""}
       <div class="links">${e.links.map(([t,u])=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}<span aria-hidden="true">↗</span></a>`).join("")}</div>
       <p class="verified">Checked on ${esc(e.verified)} against the official sources above.</p>
     </div>`;
@@ -687,5 +719,7 @@ syncInputs(); update();
 })();
 </script>
 
+<script>var vc_pid = "892716973";</script>
+<script src="https://aml.valuecommerce.com/vcdal.js" async></script>
 </body>
 </html>

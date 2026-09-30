@@ -41,8 +41,7 @@
    "nat": false,
    "tips": [
     "Book online (cheaper)",
-    "Timed entry",
-    "Sold on Klook / KKday / Trip.com"
+    "Timed entry"
    ],
    "map": "Tokyu Plaza Shibuya",
    "ip": "Solo Leveling",
@@ -85,7 +84,7 @@
     ],
     [
      "Tickets for visitors",
-     "Klook, KKday, Trip.com, Cool Japan Travel (English sites)"
+     "KKday, Trip.com, Cool Japan Travel (English sites)"
     ],
     [
      "Tickets in Japan",
@@ -512,5 +511,47 @@
    "hero": "img/hero-haikyu.jpg",
    "heroPos": "center"
   }
- ]
+ ],
+ "essentials": [
+  {
+   "id": "esim",
+   "title": "Japan eSIM",
+   "desc": "Stay online from the moment you land. Scan a QR code, no SIM swap. Plans from 1 day to unlimited data.",
+   "url": "https://www.klook.com/en-US/activity/109393-japan-esim-high-speed-internet-qr-code-voucher/",
+   "icon": "wifi",
+   "cities": [
+    "*"
+   ],
+   "seller": "Klook"
+  },
+  {
+   "id": "skyliner",
+   "title": "Narita Airport → Tokyo",
+   "desc": "Keisei Skyliner reserved seats to Ueno and Nippori, about 40 minutes. Useful for Ikebukuro, Tokyo Station and Shibuya trips.",
+   "url": "https://www.klook.com/en-US/activity/1410-skyliner-tokyo/",
+   "icon": "train",
+   "cities": [
+    "Tokyo"
+   ],
+   "seller": "Klook"
+  },
+  {
+   "id": "rapit",
+   "title": "Kansai Airport → Osaka",
+   "desc": "Nankai Rapi:t limited express to Namba, one stop from Shinsaibashi.",
+   "url": "https://www.klook.com/en-US/activity/599-kansai-airport-namba-train-ticket-osaka/",
+   "icon": "train",
+   "cities": [
+    "Osaka"
+   ],
+   "seller": "Klook"
+  }
+ ],
+ "affiliate": {
+  "network": "ValueCommerce LinkSwitch",
+  "programs": [
+   "Klook"
+  ],
+  "rules": "Link only currently bookable Klook product pages. Never Tokyo Disney Resort or USJ. Never promote Klook coupons. Label every affiliate link PR."
+ }
 }
