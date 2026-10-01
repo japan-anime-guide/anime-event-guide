@@ -250,7 +250,7 @@ img{max-width:100%}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .card{--ev-text:var(--ev-text-d)}}
 :root[data-theme="dark"] .card{--ev-text:var(--ev-text-d)}
 
-/* ---------- travel essentials (affiliate, labeled PR) ---------- */
+/* ---------- travel essentials (PR label shown only for items marked affiliate:true) ---------- */
 .ess-band{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .ess-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
 .ess{display:flex;gap:14px;align-items:flex-start;text-decoration:none;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:16px;transition:border-color .15s,transform .15s;min-width:0}
@@ -434,7 +434,7 @@ footer .logo{color:#fff;margin-bottom:14px}
   <div class="wrap">
     <div class="sec-head"><h2><span class="en">TRAVEL ESSENTIALS</span><span class="ja">旅の準備</span></h2><p>Handy for getting to the events.</p></div>
     <div class="ess-grid" id="essGrid"></div>
-    <p class="disc">Links marked <span class="pr" style="margin:0">PR</span> are affiliate links: if you book through them we may earn a small commission, at no extra cost to you. It helps keep this guide free. <a href="privacy.html">Details</a></p>
+    <p class="disc" id="essDisc" hidden>Links marked <span class="pr" style="margin:0">PR</span> are affiliate links: if you book through them we may earn a small commission, at no extra cost to you. It helps keep this guide free. <a href="privacy.html">Details</a></p>
   </div>
 </section>
 
@@ -458,7 +458,7 @@ footer .logo{color:#fff;margin-bottom:14px}
   <div class="wrap">
     <a class="logo" href="#top"><span class="mark"><span></span></span><span>Japan Anime<br>Event Guide</span></a>
     <p>An independent project by tanjiro_animeivent_injapan. Not affiliated with any studio, brand, retailer or venue listed. Every listing comes from public press releases and official venue pages, linked on each event. Event images are official press materials from the organizers; series logos are from Wikimedia Commons or official press materials.</p>
-    <p>Dates, hours and prices were checked on the date shown on each event. Schedules in Japan do change, so check the official link before you travel. No bookings or purchases happen on this site. Some links to booking sites are affiliate links, marked PR.</p>
+    <p>Dates, hours and prices were checked on the date shown on each event. Schedules in Japan do change, so check the official link before you travel. No bookings or purchases happen on this site. Any affiliate link is clearly marked PR.</p>
 <p><a href="privacy.html" style="color:#fff">Privacy &amp; disclosures</a> · <a href="https://www.instagram.com/tanjiro_animeivent_injapan/" target="_blank" rel="noopener" style="color:#fff">Contact (Instagram)</a></p>
   </div>
 </footer>
@@ -669,8 +669,10 @@ document.addEventListener("click",e=>{
 /* ---------- travel essentials ---------- */
 const ESS = DATA.essentials || [];
 const essFor = e => ESS.filter(x=>x.cities.includes("*") || x.cities.some(c=>e.cities.includes(c)));
-const essLink = (x,cls) => `<a class="${cls}" href="${esc(x.url)}" target="_blank" rel="sponsored noopener">`;
-$("#essGrid").innerHTML = ESS.map(x=>`${essLink(x,"ess")}<span class="ic"><svg aria-hidden="true"><use href="#i-${esc(x.icon)}"/></svg></span><span style="min-width:0"><b>${esc(x.title)}<span class="pr">PR</span></b><p>${esc(x.desc)}</p><span class="go2">Book on ${esc(x.seller)} ↗</span></span></a>`).join("");
+const essLink = (x,cls) => `<a class="${cls}" href="${esc(x.url)}" target="_blank" rel="${x.affiliate?"sponsored ":""}noopener">`;
+const prTag = x => x.affiliate ? `<span class="pr">PR</span>` : "";
+$("#essDisc").hidden = !ESS.some(x=>x.affiliate);
+$("#essGrid").innerHTML = ESS.map(x=>`${essLink(x,"ess")}<span class="ic"><svg aria-hidden="true"><use href="#i-${esc(x.icon)}"/></svg></span><span style="min-width:0"><b>${esc(x.title)}${prTag(x)}</b><p>${esc(x.desc)}</p><span class="go2">Book on ${esc(x.seller)} ↗</span></span></a>`).join("");
 
 /* ---------- detail ---------- */
 const dlg=$("#detail");
@@ -699,7 +701,7 @@ function openDetail(id,fromHash){
       </dl>
       <div class="links">${maps.map(([t,q])=>`<a href="${esc(mapUrl(q))}" target="_blank" rel="noopener">${esc(t)}<span aria-hidden="true">↗</span></a>`).join("")}</div>
       <div class="nearby"><b>While you're there</b>${esc(e.nearby)}</div>
-      ${essFor(e).length?`<div class="d-ess"><h3>Before you go</h3><div class="links">${essFor(e).map(x=>`${essLink(x,"")}<span>${esc(x.title)} · ${esc(x.seller)}<span class="pr">PR</span></span><span aria-hidden="true">↗</span></a>`).join("")}</div><p class="disc" style="margin:0">PR = affiliate link. We may earn a commission at no extra cost to you.</p></div>`:""}
+      ${essFor(e).length?`<div class="d-ess"><h3>Before you go</h3><div class="links">${essFor(e).map(x=>`${essLink(x,"")}<span>${esc(x.title)} · ${esc(x.seller)}${prTag(x)}</span><span aria-hidden="true">↗</span></a>`).join("")}</div>${essFor(e).some(x=>x.affiliate)?`<p class="disc" style="margin:0">PR = affiliate link. We may earn a commission at no extra cost to you.</p>`:""}</div>`:""}
       <div class="links">${e.links.map(([t,u])=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}<span aria-hidden="true">↗</span></a>`).join("")}</div>
       <p class="verified">Checked on ${esc(e.verified)} against the official sources above.</p>
     </div>`;
@@ -719,7 +721,5 @@ syncInputs(); update();
 })();
 </script>
 
-<script>var vc_pid = "892716973";</script>
-<script src="https://aml.valuecommerce.com/vcdal.js" async></script>
 </body>
 </html>

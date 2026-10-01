@@ -522,7 +522,8 @@
    "cities": [
     "*"
    ],
-   "seller": "Klook"
+   "seller": "Klook",
+   "affiliate": false
   },
   {
    "id": "skyliner",
@@ -533,7 +534,8 @@
    "cities": [
     "Tokyo"
    ],
-   "seller": "Klook"
+   "seller": "Klook",
+   "affiliate": false
   },
   {
    "id": "rapit",
@@ -544,14 +546,13 @@
    "cities": [
     "Osaka"
    ],
-   "seller": "Klook"
+   "seller": "Klook",
+   "affiliate": false
   }
  ],
  "affiliate": {
-  "network": "ValueCommerce LinkSwitch",
-  "programs": [
-   "Klook"
-  ],
-  "rules": "Link only currently bookable Klook product pages. Never Tokyo Disney Resort or USJ. Never promote Klook coupons. Label every affiliate link PR."
+  "network": null,
+  "programs": [],
+  "rules": "No affiliate program is active (ValueCommerce declined the site on 2026-10-01). Essentials are plain links. Set affiliate:true on an item only after a program is approved and its tracking is in place; every affiliate link must show PR."
  }
 }
