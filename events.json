@@ -820,37 +820,37 @@
    "id": "esim",
    "title": "Japan eSIM",
    "desc": "Stay online from the moment you land. Scan a QR code, no SIM swap. Plans from 1 day to unlimited data.",
-   "url": "https://www.klook.com/en-US/activity/109393-japan-esim-high-speed-internet-qr-code-voucher/",
+   "url": "https://klook.tpo.lu/oZeAB9BG",
    "icon": "wifi",
    "cities": [
     "*"
    ],
    "seller": "Klook",
-   "affiliate": false
+   "affiliate": true
   },
   {
    "id": "skyliner",
    "title": "Narita Airport → Tokyo",
    "desc": "Keisei Skyliner reserved seats to Ueno and Nippori, about 40 minutes. Useful for Ikebukuro, Tokyo Station and Shibuya trips.",
-   "url": "https://www.klook.com/en-US/activity/1410-skyliner-tokyo/",
+   "url": "https://klook.tpo.lu/U4msazXp",
    "icon": "train",
    "cities": [
     "Tokyo"
    ],
    "seller": "Klook",
-   "affiliate": false
+   "affiliate": true
   },
   {
    "id": "rapit",
    "title": "Kansai Airport → Osaka",
    "desc": "Nankai Rapi:t limited express to Namba, one stop from Shinsaibashi.",
-   "url": "https://www.klook.com/en-US/activity/599-kansai-airport-namba-train-ticket-osaka/",
+   "url": "https://klook.tpo.lu/uUL5xOy4",
    "icon": "train",
    "cities": [
     "Osaka"
    ],
    "seller": "Klook",
-   "affiliate": false
+   "affiliate": true
   }
  ],
  "affiliate": {
