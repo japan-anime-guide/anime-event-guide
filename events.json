@@ -819,13 +819,13 @@
   {
    "id": "esim",
    "title": "Japan eSIM",
-   "desc": "Stay online from the moment you land. Scan a QR code, no SIM swap. Plans from 1 day to unlimited data.",
-   "url": "https://klook.tpo.lu/oZeAB9BG",
+   "desc": "Stay online from the moment you land. Install by QR code, no SIM swap. Fixed-data and unlimited plans for Japan.",
+   "url": "https://yesim.tpo.lu/WcVBnSZS",
    "icon": "wifi",
    "cities": [
     "*"
    ],
-   "seller": "Klook",
+   "seller": "Yesim",
    "affiliate": true
   },
   {
