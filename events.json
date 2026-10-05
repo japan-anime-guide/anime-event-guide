@@ -48,12 +48,12 @@
   },
   {
    "ip": "My Hero Academia",
-   "logo": null,
+   "logo": "img/logo-mha.png",
    "tier": "A"
   },
   {
    "ip": "Chiikawa",
-   "logo": null,
+   "logo": "img/logo-chiikawa.png",
    "tier": "B"
   }
  ],
@@ -1017,10 +1017,13 @@
     "buzzNote": "Anime! Anime!, Kyara Hobi; Marui official listing",
     "pinned": false
    },
-   "hero": "img/hq2-1.jpg",
-   "heroPos": "center",
+   "hero": "img/hero-hq2.jpg",
+   "heroPos": "center 30%",
    "imgs": [
-    "img/hq2-1.jpg"
+    "img/hq2-1.jpg",
+    "img/hq2-2.jpg",
+    "img/hq2-3.jpg",
+    "img/hq2-4.jpg"
    ],
    "imgPos": "center"
   },
@@ -1095,10 +1098,14 @@
     "buzzNote": "Grapestone press release; Inside Games, Kyara Hobi, Best Calendar",
     "pinned": false
    },
-   "hero": "img/chiikawa-1.jpg",
+   "hero": "img/hero-chiikawa.jpg",
    "heroPos": "center",
    "imgs": [
-    "img/chiikawa-1.jpg"
+    "img/chiikawa-1.jpg",
+    "img/chiikawa-2.jpg",
+    "img/chiikawa-3.jpg",
+    "img/chiikawa-4.jpg",
+    "img/chiikawa-5.jpg"
    ],
    "imgPos": "center"
   }
