@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03",
+ "updated": "2026-10-05",
  "series": [
   {
    "ip": "Solo Leveling",
@@ -44,6 +44,16 @@
   {
    "ip": "Detective Conan",
    "logo": "img/logo-conan.png",
+   "tier": "B"
+  },
+  {
+   "ip": "My Hero Academia",
+   "logo": null,
+   "tier": "A"
+  },
+  {
+   "ip": "Chiikawa",
+   "logo": null,
    "tier": "B"
   }
  ],
@@ -811,6 +821,284 @@
     "img/conan-3.jpg",
     "img/conan-4.jpg",
     "img/conan-5.jpg"
+   ],
+   "imgPos": "center"
+  },
+  {
+   "id": "my-hero-academia-cafe-hero-holics",
+   "cities": [
+    "Tokyo",
+    "Osaka"
+   ],
+   "nat": false,
+   "tips": [
+    "Booking recommended",
+    "Walk-ins if seats free",
+    "Random bonus"
+   ],
+   "map": "BOX cafe&space Q Plaza Harajuku",
+   "map2": [
+    "Osaka cafe",
+    "BOX cafe&space HEP FIVE"
+   ],
+   "ip": "My Hero Academia",
+   "pal": "ev-db",
+   "type": "Collab café",
+   "title": "My Hero Academia Café: We Are Hero Holics",
+   "jp": "僕のヒーローアカデミアカフェ -WE ARE HERO HOLICS-",
+   "tagline": "Plus Ultra, with pizza.",
+   "areas": [
+    "Harajuku",
+    "Umeda"
+   ],
+   "city": "Tokyo + Osaka (also Nagoya, Sapporo)",
+   "station": "Meiji-jingumae Sta. · 4 min walk / Osaka-umeda Sta. (Hankyu) · 1 min",
+   "start": "2026-10-16",
+   "end": "2026-12-20",
+   "dateText": "Oct 16 – Dec 20, 2026 (Harajuku); Osaka Oct 22 – Dec 6",
+   "price": "Reservation ¥715; pizzas ¥2,090",
+   "free": false,
+   "overview": "A My Hero Academia collaboration café with pizzas, donuts and drinks themed to Deku, Bakugo, Todoroki, Uraraka, All Might, Endeavor and Hawks. Drinks come with a random character coaster, and buying goods at the café gets a random hero card. It runs in Harajuku, Osaka (Umeda), Nagoya and Sapporo, with advance booking on the café's website, which has an English page.",
+   "details": [
+    [
+     "Tokyo café",
+     "BOX cafe&space Q Plaza Harajuku, 3F (Oct 16 – Dec 20)"
+    ],
+    [
+     "Address (JP)",
+     "東京都渋谷区神宮前6-28-6 キュープラザ原宿 3F"
+    ],
+    [
+     "Osaka café",
+     "BOX cafe&space HEP FIVE, 7F (Oct 22 – Dec 6)"
+    ],
+    [
+     "Address (JP)",
+     "大阪府大阪市北区角田町5-15 HEP FIVE 7F"
+    ],
+    [
+     "Other cafés",
+     "BOX cafe&space Global Gate Nagoya (Oct 16 – Nov 29); Café Interlude, Coach and Four Shinkawa-dori, Sapporo (Oct 16 – Nov 29)"
+    ],
+    [
+     "Booking",
+     "Online, ¥715 per person (includes a hologram sticker); walk-ins only if seats are free"
+    ],
+    [
+     "Menu",
+     "Pizzas ¥2,090; donuts ¥990; sides ¥790; themed drinks ¥990"
+    ],
+    [
+     "Bonuses",
+     "Random coaster (7 designs) with each themed drink; random hero card when you buy café goods"
+    ]
+   ],
+   "nearby": "Q Plaza Harajuku is at the Harajuku/Omotesando crossing, a few minutes from Takeshita Street and Omotesando Hills. In Osaka, HEP FIVE is the mall with the red Ferris wheel on its roof, in the middle of Umeda.",
+   "links": [
+    [
+     "Official café & booking site",
+     "https://heroaca-cafe.ltr-online.com/"
+    ],
+    [
+     "Coverage & menu",
+     "https://animeanime.jp/article/2026/10/03/103463.html"
+    ]
+   ],
+   "verified": "Oct 5, 2026",
+   "keywords": "mha boku no hero academia bnha deku izuku midoriya bakugo katsuki todoroki shoto uraraka all might endeavor hawks collab cafe box cafe harajuku hep five umeda nagoya sapporo pizza",
+   "rank": {
+    "ipTier": "A",
+    "buzz": 2,
+    "access": "reserve",
+    "buzzNote": "Anime! Anime!, Denfaminicogamer, Kyara Hobi, Have a Good Holiday",
+    "pinned": false
+   },
+   "hero": "img/mha-1.jpg",
+   "heroPos": "center",
+   "imgs": [
+    "img/mha-1.jpg",
+    "img/mha-2.jpg",
+    "img/mha-3.jpg",
+    "img/mha-4.jpg",
+    "img/mha-5.jpg"
+   ],
+   "imgPos": "center"
+  },
+  {
+   "id": "haikyu-school-festival-popup-marui",
+   "cities": [
+    "Tokyo",
+    "Osaka"
+   ],
+   "nat": false,
+   "tips": [
+    "Free entry",
+    "Lottery entry on Oct 23–24 (some hours)",
+    "Random bonus"
+   ],
+   "map": "Shinjuku Marui Annex",
+   "map2": [
+    "Osaka store",
+    "Namba Marui"
+   ],
+   "ip": "Haikyu!!",
+   "pal": "ev-haikyu",
+   "type": "Pop-up shop",
+   "title": "Haikyu!! School Festival Pop-Up Shop",
+   "jp": "ハイキュー!! わくわく文化祭 POP UP SHOP by Production I.G",
+   "tagline": "Festival mode: on.",
+   "areas": [
+    "Shinjuku",
+    "Namba"
+   ],
+   "city": "Tokyo + Osaka",
+   "station": "Shinjuku-sanchome Sta. (Exit C4) · 2 min walk / Namba Sta. · 1 min",
+   "start": "2026-10-23",
+   "end": "2026-11-29",
+   "dateText": "Tokyo Oct 23 – Nov 8; Osaka Nov 14 – 29, 2026",
+   "price": "Free entry",
+   "free": true,
+   "overview": "A Haikyu!! pop-up with new art of the characters enjoying a school festival: acrylic stands, badges, cards, fans, towels and a venue-only lottery. Every ¥2,200 spent gets a random postcard (9 designs), and there is a photo spot with standees. It opens in Shinjuku and then moves to Namba in Osaka.",
+   "details": [
+    [
+     "Tokyo venue",
+     "Shinjuku Marui Annex, 6F Calendarium 6 (Oct 23 – Nov 8)"
+    ],
+    [
+     "Address (JP)",
+     "〒160-0022 東京都新宿区新宿3-1-26 新宿マルイ アネックス 6階"
+    ],
+    [
+     "Hours (Tokyo)",
+     "Weekdays 11:00–19:00, weekends & holidays 10:30–19:00"
+    ],
+    [
+     "Osaka venue",
+     "Namba Marui, 5F Event Space (Nov 14 – 29), 11:00–19:00"
+    ],
+    [
+     "Address (JP)",
+     "大阪府大阪市中央区難波3-8-9 なんばマルイ 5階"
+    ],
+    [
+     "Entry",
+     "Free. On Oct 23 and 24, some morning-to-afternoon slots need a LINE lottery ticket (applications close Oct 6, 23:59 JST)"
+    ],
+    [
+     "Prices",
+     "Acrylic stands ¥1,980; random badges ¥550; acrylic charm keychains ¥1,200; venue lottery ¥880 per draw"
+    ],
+    [
+     "Later stops",
+     "Morera Gifu Dec 4 – 6; Smark Isesaki (Gunma) Dec 11 – 13"
+    ]
+   ],
+   "nearby": "Shinjuku Marui Annex is on Shinjuku-dori near Isetan; Shinjuku Gyoen garden is about 10 minutes on foot. In Osaka, Namba Marui faces Namba Station, a short walk from Dotonbori.",
+   "links": [
+    [
+     "Official event page (Marui)",
+     "https://www.0101.co.jp/405/info/index.html?contents_id=1156"
+    ],
+    [
+     "Entry info (Shinjuku Marui Annex)",
+     "https://www.0101.co.jp/005/event/detail.html?article_seq=144195&article_type=sto&hashtag=animeent"
+    ],
+    [
+     "Coverage",
+     "https://animeanime.jp/article/2026/10/03/103469.html"
+    ]
+   ],
+   "verified": "Oct 5, 2026",
+   "keywords": "haikyuu karasuno hinata kageyama oikawa iwaizumi atsumu osamu miya culture festival bunkasai production ig marui shinjuku namba popup",
+   "rank": {
+    "ipTier": "A",
+    "buzz": 1,
+    "access": "venue",
+    "buzzNote": "Anime! Anime!, Kyara Hobi; Marui official listing",
+    "pinned": false
+   },
+   "hero": "img/hq2-1.jpg",
+   "heroPos": "center",
+   "imgs": [
+    "img/hq2-1.jpg"
+   ],
+   "imgPos": "center"
+  },
+  {
+   "id": "chiikawa-tokyo-banana-solamachi",
+   "cities": [
+    "Tokyo"
+   ],
+   "nat": false,
+   "tips": [
+    "Walk-in OK",
+    "May sell out early",
+    "Ends Oct 14"
+   ],
+   "map": "Tokyo Solamachi East Yard 1F Sora no Komachi",
+   "ip": "Chiikawa",
+   "pal": "ev-madoka",
+   "type": "Pop-up shop",
+   "title": "Chiikawa × Tokyo Banana Pop-Up",
+   "jp": "「ちいかわ」×「東京ばな奈」ポップアップショップ",
+   "tagline": "Tokyo's sweetest souvenir.",
+   "areas": [
+    "Oshiage"
+   ],
+   "city": "Tokyo",
+   "station": "Tokyo Skytree Sta. · 4 min walk",
+   "start": "2026-10-01",
+   "end": "2026-10-14",
+   "dateText": "Oct 1 – Oct 14, 2026",
+   "price": "Free entry; sweets from ¥853",
+   "free": true,
+   "overview": "A limited pop-up of Chiikawa collaboration goods from Tokyo Banana, one of Tokyo's best-known souvenir sweets. It sells a new eco bag, a tote bag, banana-milk cookie sandwiches and banana pudding cakes, and the larger boxes include a random character sticker. Items may sell out before the end date.",
+   "details": [
+    [
+     "Venue",
+     "Tokyo Solamachi, East Yard 1F, No. 10 \"Sora no Komachi\""
+    ],
+    [
+     "Address (JP)",
+     "東京都墨田区押上1-1-2 東京スカイツリータウン・ソラマチ イーストヤード1F 10番地「空の小町」"
+    ],
+    [
+     "Hours",
+     "10:00–22:00"
+    ],
+    [
+     "Goods",
+     "Eco bag ¥1,200; tote bag ¥1,350"
+    ],
+    [
+     "Sweets",
+     "Cookie sandwich 12 pcs ¥1,850 / 18 pcs ¥2,700; banana pudding cake 4 pcs ¥853 / 8 pcs ¥1,706 (18- and 8-piece boxes include a random sticker)"
+    ]
+   ],
+   "nearby": "Tokyo Solamachi is the shopping complex at the foot of Tokyo Skytree, with the observation decks and Sumida Aquarium in the same building. Asakusa and Senso-ji are one train stop or about 20 minutes on foot away.",
+   "links": [
+    [
+     "Original press release",
+     "https://prtimes.jp/main/html/rd/p/000002148.000025606.html"
+    ],
+    [
+     "Coverage",
+     "https://www.inside-games.jp/article/2026/10/01/188534.html"
+    ]
+   ],
+   "verified": "Oct 5, 2026",
+   "keywords": "chiikawa hachiware usagi tokyo banana tokyo banana world souvenir sweets skytree solamachi oshiage eco bag tote",
+   "rank": {
+    "ipTier": "B",
+    "buzz": 1,
+    "access": "venue",
+    "buzzNote": "Grapestone press release; Inside Games, Kyara Hobi, Best Calendar",
+    "pinned": false
+   },
+   "hero": "img/chiikawa-1.jpg",
+   "heroPos": "center",
+   "imgs": [
+    "img/chiikawa-1.jpg"
    ],
    "imgPos": "center"
   }
