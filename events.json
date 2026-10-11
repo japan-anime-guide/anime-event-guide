@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05",
+ "updated": "2026-10-11",
  "series": [
   {
    "ip": "Solo Leveling",
@@ -55,6 +55,10 @@
    "ip": "Chiikawa",
    "logo": "img/logo-chiikawa.png",
    "tier": "B"
+  },
+  {
+   "ip": "Demon Slayer",
+   "tier": "S"
   }
  ],
  "events": [
@@ -535,96 +539,6 @@
    },
    "hero": "img/hero-haikyu.jpg",
    "heroPos": "center"
-  },
-  {
-   "id": "jujutsu-kaisen-5th-popup-shibuya-tsutaya",
-   "cities": [
-    "Tokyo"
-   ],
-   "nat": false,
-   "tips": [
-    "Walk-in OK",
-    "Cashless only",
-    "Ends Oct 8"
-   ],
-   "map": "SHIBUYA TSUTAYA",
-   "ip": "Jujutsu Kaisen",
-   "pal": "ev-solo",
-   "type": "Pop-up shop",
-   "title": "Jujutsu Kaisen 5th Anniversary Pop-Up Shop",
-   "jp": "アニメ『呪術廻戦』5th anniversary POP UP SHOP",
-   "tagline": "Domain expansion: Shibuya.",
-   "areas": [
-    "Shibuya"
-   ],
-   "city": "Tokyo",
-   "station": "Shibuya Sta. · 1 min walk",
-   "start": "2026-10-02",
-   "end": "2026-10-08",
-   "dateText": "Oct 2 – Oct 8, 2026",
-   "price": "Free entry",
-   "free": true,
-   "overview": "A return run of the Jujutsu Kaisen 5th-anniversary pop-up, with new kimono-style art of Itadori, Fushiguro, Kugisaki, Nanami and Gojo on acrylic stands, scroll-style tapestries and blind-pack goods. A no-lose roulette game costs ¥800 a spin, and every ¥2,200 spent gets a random bromide while stocks last.",
-   "details": [
-    [
-     "Venue",
-     "SHIBUYA TSUTAYA, 6F (IP Shoten)"
-    ],
-    [
-     "Address (JP)",
-     "東京都渋谷区宇田川町21-6 QFRONT SHIBUYA TSUTAYA 6階 IP書店"
-    ],
-    [
-     "Hours",
-     "10:00–21:00"
-    ],
-    [
-     "Goods",
-     "Acrylic stands ¥1,760, tapestries ¥2,750, blind-pack keychains ¥660, cards/stickers/badges ¥550"
-    ],
-    [
-     "Roulette game",
-     "¥800 per spin; 1st prize is a big acrylic stand of your choice"
-    ],
-    [
-     "Payment",
-     "Cashless only (cards, e-money, QR); no cash in the building"
-    ],
-    [
-     "Notes",
-     "Purchase limits and entry limits may apply on busy days; check the store page before you go"
-    ]
-   ],
-   "nearby": "SHIBUYA TSUTAYA sits right on Shibuya Scramble Crossing; the Starbucks inside overlooks it. The Hachiko statue is across the street, and Shibuya Sky is about 5 minutes on foot.",
-   "links": [
-    [
-     "Official event page (SHIBUYA TSUTAYA)",
-     "https://shibuyatsutaya.tsite.jp/article/2661.html"
-    ],
-    [
-     "Store hours (SHIBUYA TSUTAYA)",
-     "https://shibuyatsutaya.tsite.jp/floor/"
-    ]
-   ],
-   "verified": "Oct 3, 2026",
-   "keywords": "jjk jujutsu kaisen gojo satoru itadori yuji megumi nobara nanami kimono tsutaya qfront ip shoten",
-   "rank": {
-    "ipTier": "S",
-    "buzz": 1,
-    "access": "venue",
-    "buzzNote": "SHIBUYA TSUTAYA official listing; Collabo-Cafe coverage",
-    "pinned": false
-   },
-   "hero": "img/jjk-1.jpg",
-   "heroPos": "center",
-   "imgs": [
-    "img/jjk-1.jpg",
-    "img/jjk-2.jpg",
-    "img/jjk-3.jpg",
-    "img/jjk-4.jpg",
-    "img/jjk-5.jpg"
-   ],
-   "imgPos": "center 20%"
   },
   {
    "id": "attack-on-titan-earth-music-ecology",
@@ -1108,6 +1022,187 @@
     "img/chiikawa-5.jpg"
    ],
    "imgPos": "center"
+  },
+  {
+   "id": "demon-slayer-fair-jump-shop-2026",
+   "cities": [
+    "Tokyo",
+    "Osaka"
+   ],
+   "nat": true,
+   "tips": [
+    "Walk-in OK",
+    "Some items already sold out online",
+    "Ends Oct 25"
+   ],
+   "map": "JUMP SHOP Tokyo Station, Tokyo Character Street",
+   "map2": [
+    "Osaka store",
+    "JUMP SHOP Umeda HEP FIVE"
+   ],
+   "ip": "Demon Slayer",
+   "pal": "ev-solo",
+   "type": "Store fair",
+   "title": "Demon Slayer Fair at JUMP SHOP",
+   "jp": "『鬼滅の刃』フェア in JUMP SHOP",
+   "tagline": "24 new goods from the Shonen Jump store.",
+   "areas": [
+    "Tokyo Station",
+    "Shibuya",
+    "Ikebukuro"
+   ],
+   "city": "Tokyo + Osaka + nationwide",
+   "station": "Tokyo Sta. (Tokyo Character Street, B1) / Shibuya PARCO 6F / Ikebukuro PARCO B2F / HEP FIVE 6F, Umeda",
+   "start": "2026-10-09",
+   "end": "2026-10-25",
+   "dateText": "Oct 9 – Oct 25, 2026",
+   "price": "Free entry; goods ¥440–¥5,500",
+   "free": true,
+   "overview": "JUMP SHOP, the official Shonen Jump goods store, is running a Demon Slayer fair with 24 new items, from stationery and towels to a Tanjiro rice plate, an embroidered bag and a Doma cult cushion. Random-pack badges, cards and acrylic keychains are also part of the line-up. The goods are sold at the permanent JUMP SHOP stores, a limited-time Lalaport Fukuoka store and the JUMP SHOP online store.",
+   "details": [
+    [
+     "Tokyo stores",
+     "JUMP SHOP Tokyo Station (Tokyo Character Street, B1), Shibuya PARCO 6F, Ikebukuro PARCO B2F, Tokyo Skytree Town Solamachi 4F"
+    ],
+    [
+     "Osaka stores",
+     "HEP FIVE 6F (Umeda), Daimaru Shinsaibashi main bldg 9F, Tennoji Mio main bldg 6F"
+    ],
+    [
+     "Other cities",
+     "Sapporo, Sendai, Yokohama, Nagoya, Hiroshima, Fukuoka (Canal City OPA B1) and a limited-time Lalaport Fukuoka store. The Okayama store is closed for renovation until Nov 19"
+    ],
+    [
+     "Address (JP)",
+     "〒100-0005 東京都千代田区丸の内1-9-1 東京駅一番街 B1 東京キャラクターストリート内（JUMP SHOP 東京駅店）"
+    ],
+    [
+     "Not included",
+     "THE ジャンプショップ 神保町 and RofJ BY JUMP SHOP"
+    ],
+    [
+     "Prices",
+     "Clear file ¥660; ring notebook ¥990; die-cut towel ¥1,760; Tanjiro / Zenitsu plates ¥2,420; embroidered bag ¥4,950; cult leader cushion ¥5,500; random packs ¥440–¥990"
+    ],
+    [
+     "Hours",
+     "Follow each shopping mall's hours"
+    ],
+    [
+     "Online",
+     "JUMP SHOP online store (ships within Japan)"
+    ]
+   ],
+   "nearby": "The Tokyo Station store sits in Tokyo Character Street, a basement row of official anime and character shops inside the station's First Avenue mall. In Osaka, the Umeda store is in HEP FIVE, the mall with the red Ferris wheel by Osaka-umeda Station.",
+   "links": [
+    [
+     "Official fair page (JUMP SHOP online)",
+     "https://jumpshop-benelic.com/collections/261009kimetsu"
+    ],
+    [
+     "Official store list",
+     "https://jumpshop-benelic.com/pages/shop"
+    ],
+    [
+     "Coverage",
+     "https://collabo-cafe.com/events/collabo/kimetsu-jump-shop-fair-2026/"
+    ]
+   ],
+   "verified": "Oct 11, 2026",
+   "keywords": "demon slayer kimetsu no yaiba tanjiro nezuko zenitsu inosuke doma kanae shinobu kanao jump shop shonen jump shueisha goods fair tokyo station character street shibuya parco ikebukuro umeda hep five",
+   "rank": {
+    "ipTier": "S",
+    "buzz": 1,
+    "access": "chain",
+    "buzzNote": "Collabo-Cafe, Tinpan Blog; JUMP SHOP official fair page",
+    "pinned": false
+   }
+  },
+  {
+   "id": "chiikawa-popup-store-fukuoka-mitsukoshi",
+   "cities": [
+    "Fukuoka"
+   ],
+   "nat": false,
+   "tips": [
+    "LINE entry ticket Oct 16–18",
+    "Photo ID needed Oct 16–18",
+    "Novelty while supplies last"
+   ],
+   "map": "Fukuoka Mitsukoshi",
+   "ip": "Chiikawa",
+   "pal": "ev-madoka",
+   "type": "Pop-up shop",
+   "title": "Chiikawa Pop-Up Store Fukuoka",
+   "jp": "ちいかわ POP UP STORE 福岡三越",
+   "tagline": "Chiikawa lands in Tenjin.",
+   "areas": [
+    "Tenjin"
+   ],
+   "city": "Fukuoka",
+   "station": "Nishitetsu Fukuoka (Tenjin) Sta. · directly connected",
+   "start": "2026-10-16",
+   "end": "2026-11-03",
+   "dateText": "Oct 16 – Nov 3, 2026",
+   "price": "Free entry; prices not announced",
+   "free": true,
+   "overview": "A Chiikawa pop-up store at Fukuoka Mitsukoshi with event-limited goods, new items and capsule toys. Chiikawa purchases come with a novelty and a venue-only shopper bag while supplies last. For the first three days (Oct 16–18) entry needs a free LINE ticket and photo ID.",
+   "details": [
+    [
+     "Venue",
+     "Fukuoka Mitsukoshi, 9F Mitsukoshi Gallery"
+    ],
+    [
+     "Address (JP)",
+     "福岡県福岡市中央区天神2-1-1 福岡三越 9階 三越ギャラリー"
+    ],
+    [
+     "Hours",
+     "10:00–19:00 (Nov 3 until 17:00); open every day"
+    ],
+    [
+     "Entry",
+     "Oct 16–18: free LINE entry ticket (one entry per person, 30-minute slots, name must match photo ID). Tickets for entry up to 12:30 open at 19:00 the day before; later slots open 1 hour before. From Oct 19 the store may switch to free entry"
+    ],
+    [
+     "Bonuses",
+     "One novelty and one venue-only shopper bag per Chiikawa purchase, while supplies last (capsule toys excluded)"
+    ],
+    [
+     "Also here",
+     "Nagano Market pop-up shop and a Koupen-chan shop run at the same time"
+    ]
+   ],
+   "nearby": "Fukuoka Mitsukoshi sits on top of Nishitetsu Fukuoka (Tenjin) Station and links to the Tenjin underground mall.",
+   "links": [
+    [
+     "Original press release",
+     "https://prtimes.jp/main/html/rd/p/000000483.000027592.html"
+    ],
+    [
+     "Entry info (official)",
+     "https://chiikawa-info.jp/pus.html"
+    ],
+    [
+     "Coverage",
+     "https://premium.gamepedia.jp/hobby/?p=260418"
+    ]
+   ],
+   "verified": "Oct 11, 2026",
+   "keywords": "chiikawa hachiware usagi momonga kurimanju rakko nagano fukuoka mitsukoshi tenjin popup store kyushu",
+   "rank": {
+    "ipTier": "B",
+    "buzz": 1,
+    "access": "venue",
+    "buzzNote": "Nishinippon Shimbun press release; Inside Games, Gamepedia, Best Calendar",
+    "pinned": false
+   },
+   "hero": "img/hero-chiikawa-fk.jpg",
+   "heroPos": "center",
+   "imgs": [
+    "img/chiikawa-fk-1.jpg"
+   ],
+   "imgPos": "center 35%"
   }
  ],
  "essentials": [
