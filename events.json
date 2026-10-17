@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-17",
   "series": [
     {
       "ip": "Solo Leveling",
@@ -63,6 +63,11 @@
     {
       "ip": "Evangelion",
       "logo": "img/logo-eva.png",
+      "tier": "A"
+    },
+    {
+      "ip": "Chainsaw Man",
+      "logo": "img/logo-csm.png",
       "tier": "A"
     }
   ],
@@ -1326,6 +1331,210 @@
         "img/cpk-4.jpg",
         "img/cpk-5.jpg"
       ],
+      "imgPos": "center"
+    },
+    {
+      "id": "chainsaw-man-crocs-collection",
+      "cities": [
+        "Tokyo",
+        "Osaka"
+      ],
+      "nat": true,
+      "tips": [
+        "Walk-in to buy",
+        "Stock varies by store",
+        "Pochita clog: atmos only"
+      ],
+      "map": "Crocs Shibuya PARCO",
+      "map2": [
+        "Osaka store",
+        "Crocs HEP FIVE"
+      ],
+      "ip": "Chainsaw Man",
+      "pal": "ev-solo",
+      "type": "Store · Footwear",
+      "title": "Chainsaw Man × Crocs",
+      "jp": "『チェンソーマン』× クロックス 初コラボコレクション",
+      "tagline": "Rev up your feet.",
+      "areas": [
+        "Shibuya",
+        "Shinjuku",
+        "Ikebukuro",
+        "Odaiba",
+        "Umeda",
+        "Shinsaibashi"
+      ],
+      "city": "Tokyo + Osaka + nationwide",
+      "station": "Shibuya PARCO (Shibuya Sta.) / Shinjuku Marui Main Bldg / HEP FIVE (Umeda) / Shinsaibashi PARCO",
+      "start": "2026-10-27",
+      "end": null,
+      "dateText": "From Oct 27, 2026 (while stocks last)",
+      "price": "Clogs ¥11,550–¥13,750; Jibbitz from ¥770",
+      "free": false,
+      "overview": "Crocs Japan's first Chainsaw Man collection goes on sale on October 27, 2026. It includes a Chainsaw Man classic clog with a chainsaw-blade detail, a Power clog with horns and faux fur, a multicolour clog and a fleece-lined Pochita clog, plus Jibbitz charms. The multicolour and Pochita clogs are sold only at atmos.",
+      "details": [
+        [
+          "Release",
+          "Tue Oct 27, 2026; no end date announced"
+        ],
+        [
+          "Crocs stores (Tokyo)",
+          "Shibuya PARCO, DiverCity Tokyo Plaza, Shinjuku Marui Main Bldg, Ueno Marui, Ikebukuro Sunshine City Alta"
+        ],
+        [
+          "Crocs stores (Osaka)",
+          "HEP FIVE, Shinsaibashi PARCO"
+        ],
+        [
+          "Other Crocs stores",
+          "Yokohama Vivre, Nagoya PARCO, Canal City OPA (Fukuoka) and partner stores"
+        ],
+        [
+          "atmos",
+          "atmos Ikebukuro (pop-up from Oct 27) and some other atmos stores; multicolour and Pochita clogs are atmos-only"
+        ],
+        [
+          "Also at",
+          "Some ABC-MART (e.g. Grand Stage Osaka), Super Sports Xebio and Murasaki Sports stores; Crocs Japan online store"
+        ],
+        [
+          "Prices",
+          "Chainsaw Man / Power classic clogs ¥11,550; multicolour clog ¥12,100; Pochita lined clog ¥13,750; Jibbitz 5-pack ¥2,620; single Jibbitz ¥770 (tax incl.)"
+        ],
+        [
+          "Sizes",
+          "20–31 cm"
+        ],
+        [
+          "Note",
+          "Line-up differs by store and items may sell out; check with the store before visiting"
+        ]
+      ],
+      "nearby": "Shibuya PARCO also houses Nintendo Tokyo, Pokémon Center Shibuya and JUMP SHOP, so one stop covers several anime and game stores.",
+      "links": [
+        [
+          "Crocs Japan collection page",
+          "https://www.crocs.co.jp/c/collections/chainsaw-man"
+        ],
+        [
+          "Press release (Crocs Japan, PR TIMES)",
+          "https://prtimes.jp/main/html/rd/p/000000258.000023595.html"
+        ],
+        [
+          "Collection coverage (Fashion Press)",
+          "https://www.fashion-press.net/news/152099"
+        ]
+      ],
+      "verified": "Oct 17, 2026",
+      "keywords": "chainsaw man csm denji power pochita makima aki crocs clog jibbitz shoes atmos abc-mart shibuya parco",
+      "rank": {
+        "ipTier": "A",
+        "buzz": 3,
+        "access": "chain",
+        "buzzNote": "Crocs Japan press release; Fashion Press, Dengeki Hobby, tokyohive, Yahoo Shopping, Anime Fire, JustFreshKicks",
+        "pinned": false
+      },
+      "hero": "img/hero-csm.jpg",
+      "heroPos": "center",
+      "imgs": [
+        "img/csm-1.jpg",
+        "img/csm-2.jpg",
+        "img/csm-3.jpg",
+        "img/csm-4.jpg",
+        "img/csm-5.jpg"
+      ],
+      "imgFit": "contain",
+      "imgPos": "center"
+    },
+    {
+      "id": "dragon-ball-lego-icons-shenron-goku",
+      "cities": [],
+      "nat": true,
+      "tips": [
+        "Walk-in to buy",
+        "Ages 18+ set",
+        "Insiders early access Nov 1"
+      ],
+      "map": "LEGO Store",
+      "ip": "Dragon Ball",
+      "pal": "ev-db",
+      "type": "Store · Toy",
+      "title": "LEGO Icons Dragon Ball: Shenron & Goku",
+      "jp": "レゴ®アイコン ドラゴンボール 神龍＆孫悟空 11390",
+      "tagline": "Gather all seven bricks.",
+      "areas": [],
+      "city": "LEGO Stores across Japan",
+      "station": "Any LEGO Store, LEGOLAND Discovery Center Tokyo / Osaka or LEGOLAND Japan",
+      "start": "2026-11-04",
+      "end": null,
+      "dateText": "From Nov 4, 2026 (LEGO Insiders from Nov 1)",
+      "price": "¥23,980",
+      "free": false,
+      "overview": "The first LEGO Dragon Ball set, LEGO Icons 11390 Shenron & Goku, goes on sale in Japan on November 4, 2026. The 1,764-piece model recreates Shenron rising from the seven Dragon Balls, with a minifigure of young Goku riding the Flying Nimbus. LEGO Insiders members can buy it from November 1.",
+      "details": [
+        [
+          "Release",
+          "Wed Nov 4, 2026 (LEGO Insiders members from Sun Nov 1)"
+        ],
+        [
+          "Price",
+          "¥23,980 (tax incl.)"
+        ],
+        [
+          "Set",
+          "1,764 pieces; ages 18+; about 32 cm high × 24 cm deep × 26 cm wide"
+        ],
+        [
+          "Includes",
+          "Shenron, the seven Dragon Balls on the base, and a Goku minifigure on the Flying Nimbus"
+        ],
+        [
+          "Where to buy",
+          "LEGO Stores in Japan, LEGO.com (Japan), LEGOLAND Japan Resort, LEGOLAND Discovery Center Tokyo and Osaka, and an authorised LEGO shop on Rakuten. Not every store carries it"
+        ],
+        [
+          "Note",
+          "Online purchase on LEGO.com is limited to buyers aged 18+"
+        ]
+      ],
+      "nearby": "For more Dragon Ball, the Dragon Ball kuji at Tokyo Character Street (Tokyo Station) is also on this guide.",
+      "links": [
+        [
+          "Official product page (LEGO.com Japan)",
+          "https://www.lego.com/ja-jp/product/dragon-ball-shenron-goku-11390"
+        ],
+        [
+          "Announcement (Dragon Ball Official Site)",
+          "https://dragon-ball-official.com/news/01_4459.html"
+        ],
+        [
+          "LEGO Store locations (LEGO.com)",
+          "https://www.lego.com/ja-jp/stores"
+        ],
+        [
+          "Release coverage (Famitsu)",
+          "https://www.famitsu.com/article/202609/89461"
+        ]
+      ],
+      "verified": "Oct 17, 2026",
+      "keywords": "dragon ball lego icons 11390 shenron shenlong goku son goku nimbus kinto-un dragon balls set brick legoland",
+      "rank": {
+        "ipTier": "S",
+        "buzz": 3,
+        "access": "chain",
+        "buzzNote": "Dragon Ball Official; Famitsu, Fashion Press, Anime! Anime!, Inside Games, Cho! Animedia, D-Times, Zaikei",
+        "pinned": false
+      },
+      "hero": "img/hero-dblego.jpg",
+      "heroPos": "center",
+      "imgs": [
+        "img/dblego-1.jpg",
+        "img/dblego-2.jpg",
+        "img/dblego-3.jpg",
+        "img/dblego-4.jpg",
+        "img/dblego-5.jpg"
+      ],
+      "imgFit": "contain",
       "imgPos": "center"
     }
   ],
