@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17",
+  "updated": "2026-10-19",
   "series": [
     {
       "ip": "Solo Leveling",
@@ -68,6 +68,11 @@
     {
       "ip": "Chainsaw Man",
       "logo": "img/logo-csm.png",
+      "tier": "A"
+    },
+    {
+      "ip": "Bleach",
+      "logo": "img/logo-bleach.png",
       "tier": "A"
     }
   ],
@@ -157,83 +162,6 @@
         "img/solo-2.jpg"
       ],
       "imgPos": "70% center"
-    },
-    {
-      "id": "lupin-55th-popup",
-      "cities": [
-        "Tokyo"
-      ],
-      "nat": false,
-      "tips": [
-        "Walk-in OK",
-        "Limited stock"
-      ],
-      "map": "Laforet Harajuku",
-      "ip": "Lupin the Third",
-      "pal": "ev-lupin",
-      "type": "Pop-up shop",
-      "title": "Lupin the Third 55th Anniversary Pop-Up",
-      "jp": "『ルパン三世』55周年 POP-UP",
-      "tagline": "Steal the spotlight.",
-      "areas": [
-        "Harajuku"
-      ],
-      "city": "Tokyo",
-      "station": "Meiji-jingumae Sta. · 1 min walk",
-      "start": "2026-10-06",
-      "end": "2026-10-18",
-      "dateText": "Oct 6 – Oct 18, 2026",
-      "price": "Free entry",
-      "free": true,
-      "overview": "A pop-up for 55 years of Lupin the Third, built around art styles from across the franchise's history: apparel and an artist collaboration with JUN INAGAWA. Items are first come, first served while stock lasts, and the store may limit how many you can buy. Some items sell online later on ZOZOTOWN, partly by lottery or pre-order.",
-      "details": [
-        [
-          "Venue",
-          "Laforet Harajuku, 5F (MAKE THE STAGE)"
-        ],
-        [
-          "Address (JP)",
-          "〒150-0001 東京都渋谷区神宮前1-11-6 ラフォーレ原宿 5F"
-        ],
-        [
-          "Hours",
-          "11:00–20:00"
-        ],
-        [
-          "Also online",
-          "ZOZOTOWN, Oct 23 – Nov 16 (some items by lottery or pre-order)"
-        ]
-      ],
-      "nearby": "Takeshita Street's crepe stands and boutiques start right outside. Meiji Shrine and Yoyogi Park are about 10 minutes on foot.",
-      "links": [
-        [
-          "Laforet Harajuku pop-up schedule",
-          "https://www.laforet.ne.jp/pop_up_shop/"
-        ],
-        [
-          "Original press release",
-          "https://prtimes.jp/main/html/rd/p/000000601.000096287.html"
-        ]
-      ],
-      "verified": "Sep 29, 2026",
-      "keywords": "lupin iii arsene jigen goemon fujiko zenigata laforet omotesando",
-      "rank": {
-        "ipTier": "B",
-        "buzz": 1,
-        "access": "venue",
-        "buzzNote": "ZOZO press release and Laforet listing",
-        "pinned": false
-      },
-      "hero": "img/lupin-1.jpg",
-      "heroPos": "center",
-      "imgs": [
-        "img/lupin-1.jpg",
-        "img/lupin-2.jpg",
-        "img/lupin-3.jpg",
-        "img/lupin-4.jpg",
-        "img/lupin-5.jpg"
-      ],
-      "imgPos": "center"
     },
     {
       "id": "dragon-ball-kuji-saiyan",
@@ -1536,6 +1464,184 @@
       ],
       "imgFit": "contain",
       "imgPos": "center"
+    },
+    {
+      "id": "my-hero-academia-umeda-sky-building-2026",
+      "cities": [
+        "Osaka"
+      ],
+      "nat": false,
+      "tips": [
+        "Collab ticket ¥2,800",
+        "Goods shop is free to enter",
+        "Open until 22:30"
+      ],
+      "map": "Umeda Sky Building",
+      "ip": "My Hero Academia",
+      "pal": "ev-db",
+      "type": "Observatory collab",
+      "title": "My Hero Academia × Umeda Sky Building Floating Garden Observatory",
+      "jp": "アニメ『僕のヒーローアカデミア』×梅田スカイビル 空中庭園展望台",
+      "tagline": "Heroes above Umeda.",
+      "areas": [
+        "Umeda"
+      ],
+      "city": "Osaka",
+      "station": "JR Osaka Sta. · 7 min walk / Osaka-umeda Sta. (Hankyu) · 9 min",
+      "start": "2026-10-30",
+      "end": "2026-11-30",
+      "dateText": "Oct 30 – Nov 30, 2026 · 9:30–22:30 (last entry 22:00)",
+      "price": "Collab ticket ¥2,800 (adults)",
+      "free": false,
+      "overview": "My Hero Academia takes over the Floating Garden Observatory at the Umeda Sky Building in Osaka from October 30 to November 30, 2026, with new artwork of Deku, Bakugo, Todoroki and classmates in winter outfits. A collab admission ticket includes two random stickers and a stamp-rally sheet, the 40F café serves themed drinks, and the 39F shop sells event-exclusive goods.",
+      "details": [
+        [
+          "Dates",
+          "Oct 30 – Nov 30, 2026; observatory 9:30–22:30 (last entry 22:00)"
+        ],
+        [
+          "Nov 8",
+          "Shorter hours for inspection: 9:30–19:00 (last entry 18:30); the 39F shop and 40F café close at 18:00"
+        ],
+        [
+          "Collab ticket",
+          "Observatory admission + 2 random stickers + stamp-rally sheet: adults (junior high and up) ¥2,800, children 4–12 ¥1,200. Online from Oct 16 (asoview), at the venue from Oct 30. Cash or credit card"
+        ],
+        [
+          "Stamp rally",
+          "Collect the stamps for a random glass magnet (6 designs), exchanged at the 39F ticket counter"
+        ],
+        [
+          "Collab drink",
+          "cafe SKY 40 (40F), ¥880, 10:00–22:00, with a random clear coaster (6 designs)"
+        ],
+        [
+          "Goods",
+          "UMEDA SKYBLDG GALLERY SHOP (39F, free-entry area), 10:00–22:00 — e.g. big acrylic stands ¥1,980, souvenir cookies ¥1,620; a random postcard for every ¥2,000 spent"
+        ],
+        [
+          "Address (JP)",
+          "大阪市北区大淀中1-1-88 梅田スカイビル"
+        ]
+      ],
+      "nearby": "The My Hero Academia café at BOX cafe&space HEP FIVE, also in Umeda, is on this guide too (until Dec 6).",
+      "links": [
+        [
+          "Official event page (AMNIBUS)",
+          "https://event.amnibus.com/heroaca-skybldg/"
+        ],
+        [
+          "Umeda Sky Building official site",
+          "https://www.skybldg.co.jp/"
+        ],
+        [
+          "Collab ticket (asoview)",
+          "https://www.asoview.com/channel/tickets/J1uJNuIbLa/"
+        ],
+        [
+          "Coverage (Anime! Anime!)",
+          "https://animeanime.jp/article/2026/10/17/103918.html"
+        ]
+      ],
+      "verified": "Oct 19, 2026",
+      "keywords": "mha boku no hero academia bnha deku izuku midoriya bakugo katsuki todoroki kirishima umeda sky building floating garden observatory kuchu teien osaka stamp rally collab drink",
+      "rank": {
+        "ipTier": "A",
+        "buzz": 2,
+        "buzzNote": "Anime! Anime!, Kyara Hobi, Have a Good Holiday; Umeda Sky Building official",
+        "access": "venue",
+        "pinned": false
+      },
+      "hero": "img/hero-mhasky.jpg",
+      "heroPos": "center",
+      "imgs": [
+        "img/mhasky-1.jpg",
+        "img/mhasky-2.jpg",
+        "img/mhasky-3.jpg",
+        "img/mhasky-4.jpg",
+        "img/mhasky-5.jpg"
+      ],
+      "imgPos": "center",
+      "imgFit": "contain"
+    },
+    {
+      "id": "bleach-tybw-graniph-shikai",
+      "cities": [],
+      "nat": true,
+      "tips": [
+        "Walk-in to buy",
+        "17 items",
+        "Also sold online"
+      ],
+      "map": "graniph",
+      "ip": "Bleach",
+      "pal": "ev-lupin",
+      "type": "Store · Apparel",
+      "title": "BLEACH: Thousand-Year Blood War × graniph",
+      "jp": "TVアニメ『BLEACH 千年血戦篇』× グラニフ",
+      "tagline": "Release your Zanpakutō.",
+      "areas": [],
+      "city": "graniph stores across Japan",
+      "station": "graniph stores in Japan and the graniph online store",
+      "start": "2026-10-20",
+      "end": null,
+      "dateText": "From Oct 20, 2026",
+      "price": "¥3,500 – ¥17,000",
+      "free": false,
+      "overview": "Graphic-apparel brand graniph's first collaboration with the anime Bleach: Thousand-Year Blood War: 17 items themed on the Shikai release commands of the Soul Reapers' Zanpakutō. Designs feature Renji, Kenpachi, Byakuya, Mayuri, Ichigo and others, plus a Soul Reaper version of graniph's own character Beautiful Shadow. It goes on sale on October 20, 2026 at graniph stores in Japan and online.",
+      "details": [
+        [
+          "Release",
+          "Tue Oct 20, 2026 at graniph stores in Japan (online pre-orders ran Oct 14–19)"
+        ],
+        [
+          "Items",
+          "17 items: long-sleeve tee, sweatshirt, hoodies, jacquard cardigan, shirts, track pants, varsity jacket, T-shirts, cap, bags, wallet and charm"
+        ],
+        [
+          "Prices",
+          "T-shirts ¥3,900; Byakuya hoodie ¥8,900; Ichigo shirt ¥7,900; Mayuri cardigan ¥7,900; varsity jacket ¥17,000; charm ¥3,500 (tax incl.)"
+        ],
+        [
+          "Where to buy",
+          "graniph stores in Japan and the graniph online store. Stock varies by store"
+        ]
+      ],
+      "nearby": "For more anime fashion, the Chainsaw Man × Crocs collection (from Oct 27) is also on this guide.",
+      "links": [
+        [
+          "Official collection page (graniph)",
+          "https://www.graniph.com/collection/collection_01419"
+        ],
+        [
+          "Press release (graniph)",
+          "https://digitalpr.jp/r/145804"
+        ],
+        [
+          "Coverage (Anime! Anime!)",
+          "https://animeanime.jp/article/2026/10/17/103912.html"
+        ]
+      ],
+      "verified": "Oct 19, 2026",
+      "keywords": "bleach thousand-year blood war tybw sennen kessen hen graniph ichigo kurosaki renji byakuya kenpachi mayuri toshiro hitsugaya shikai zanpakuto apparel t-shirt hoodie",
+      "rank": {
+        "ipTier": "A",
+        "buzz": 2,
+        "buzzNote": "graniph press release; Anime! Anime!, Toy People, Tinpan Blog",
+        "access": "chain",
+        "pinned": false
+      },
+      "hero": "img/hero-bleach.jpg",
+      "heroPos": "center",
+      "imgs": [
+        "img/bleach-1.jpg",
+        "img/bleach-2.jpg",
+        "img/bleach-3.jpg",
+        "img/bleach-4.jpg",
+        "img/bleach-5.jpg"
+      ],
+      "imgPos": "center",
+      "imgFit": "contain"
     }
   ],
   "essentials": [
