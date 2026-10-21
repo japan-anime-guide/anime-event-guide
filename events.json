@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-21",
   "series": [
     {
       "ip": "Solo Leveling",
@@ -74,6 +74,16 @@
       "ip": "Bleach",
       "logo": "img/logo-bleach.png",
       "tier": "A"
+    },
+    {
+      "ip": "Tokyo Revengers",
+      "logo": "img/logo-tokyorev.png",
+      "tier": "B"
+    },
+    {
+      "ip": "One Piece",
+      "logo": "img/logo-onepiece.png",
+      "tier": "S"
     }
   ],
   "events": [
@@ -1642,6 +1652,189 @@
       ],
       "imgPos": "center",
       "imgFit": "contain"
+    },
+    {
+      "id": "tokyo-revengers-cafe-e-diner-bar-bonten",
+      "imgs": [
+        "img/tokyorev-1.jpg",
+        "img/tokyorev-2.jpg",
+        "img/tokyorev-3.jpg",
+        "img/tokyorev-4.jpg",
+        "img/tokyorev-5.jpg"
+      ],
+      "imgFit": "contain",
+      "cities": [
+        "Tokyo",
+        "Osaka"
+      ],
+      "nat": false,
+      "tips": [
+        "Eat-in tickets needed some days",
+        "Goods: walk-in",
+        "Random coaster"
+      ],
+      "map": "E-DINER Ikebukuro, 1-23-1 Higashi-Ikebukuro",
+      "map2": [
+        "Osaka goods shop",
+        "EDITH ANIME SHOP HEP FIVE"
+      ],
+      "ip": "Tokyo Revengers",
+      "pal": "ev-lupin",
+      "type": "Collab café",
+      "title": "Tokyo Revengers Café: Bar Bonten",
+      "jp": "東京リベンジャーズ カフェ in E-DINER -Bar 梵天-",
+      "tagline": "Last orders at Bonten.",
+      "areas": [
+        "Ikebukuro",
+        "Umeda"
+      ],
+      "city": "Tokyo (café) + Osaka (goods only)",
+      "station": "Ikebukuro Sta. · 4 min walk / Osaka-umeda Sta. (Hankyu) · 1 min",
+      "start": "2026-10-20",
+      "end": "2026-11-08",
+      "dateText": "Oct 20 – Nov 8, 2026",
+      "price": "Free entry for goods; dishes ¥1,210–¥1,540, drinks ¥990",
+      "free": false,
+      "overview": "A Tokyo Revengers collaboration café themed on the bar of the Bonten gang, with a dish or drink for each of eight members including Mikey, Sanzu, Koko, Ran and Rindo. Each themed item comes with a random coaster (8 designs). E-DINER in Ikebukuro serves the food and sells goods; EDITH ANIME SHOP in HEP FIVE, Osaka sells the goods only.",
+      "details": [
+        [
+          "Tokyo café",
+          "E-DINER Ikebukuro, Social Bldg 1F, 11:00–20:00"
+        ],
+        [
+          "Address (JP)",
+          "東京都豊島区東池袋1-23-1 ソシアルビル1F"
+        ],
+        [
+          "Osaka (goods only)",
+          "EDITH ANIME SHOP, HEP FIVE 6F, 11:00–21:00"
+        ],
+        [
+          "Address (JP)",
+          "大阪府大阪市北区角田町5-15 HEP FIVE 6階"
+        ],
+        [
+          "Eat-in tickets",
+          "Required Oct 20–25, Oct 31, Nov 1, Nov 3, Nov 7 and Nov 8 (booked online, first come first served; no changes or cancellations). Other days free seating"
+        ],
+        [
+          "Menu",
+          "Dishes ¥1,210–¥1,540; drinks ¥990; takeout available"
+        ],
+        [
+          "Goods",
+          "Acrylic stands ¥1,430; blind can badges ¥550; big acrylic stands ¥3,960; mug ¥1,650"
+        ],
+        [
+          "In-store lottery",
+          "¥770 per draw, eat-in customers only, credit card only"
+        ],
+        [
+          "Payment",
+          "Cash, credit cards, iD, QUICPay, QR codes, transit IC cards"
+        ]
+      ],
+      "nearby": "E-DINER is on the east side of Ikebukuro, a short walk from Sunshine City and the anime shops of Otome Road. In Osaka, HEP FIVE is the Umeda mall with the red Ferris wheel on its roof.",
+      "links": [
+        [
+          "Official café page",
+          "https://www.edith.co.jp/lp/tokyo-revengers-cafe/"
+        ],
+        [
+          "Press release",
+          "https://prtimes.jp/main/html/rd/p/000000360.000066407.html"
+        ]
+      ],
+      "verified": "Oct 21, 2026",
+      "keywords": "tokyo revengers toman bonten mikey manjiro sano sanzu haruchiyo koko kokonoi ran rindo haitani kakucho mochizuki takeomi collab cafe ikebukuro e-diner hep five umeda",
+      "rank": {
+        "ipTier": "B",
+        "buzz": 2,
+        "buzzNote": "E-DINER (EDITH) press release; Nijimen, Kyara Hobi (Gamepedia), Sokumaga",
+        "access": "venue",
+        "pinned": false
+      },
+      "hero": "img/tokyorev-1.jpg",
+      "heroPos": "center",
+      "imgPos": "center"
+    },
+    {
+      "id": "one-piece-ichiban-kuji-animal-gathering",
+      "imgs": [
+        "img/opkuji-1.jpg",
+        "img/opkuji-2.jpg",
+        "img/opkuji-3.jpg",
+        "img/opkuji-4.jpg",
+        "img/opkuji-5.jpg"
+      ],
+      "imgFit": "contain",
+      "cities": [],
+      "nat": true,
+      "tips": [
+        "No blanks",
+        "While stocks last",
+        "From ¥750"
+      ],
+      "map": "FamilyMart",
+      "ip": "One Piece",
+      "pal": "ev-solo",
+      "type": "Store · Lottery",
+      "title": "Ichiban Kuji One Piece: Animal Gathering",
+      "jp": "一番くじ ワンピース～あにまる大集合！～",
+      "tagline": "Chopper, Karoo and the whole zoo.",
+      "areas": [],
+      "city": "Nationwide (FamilyMart, Mugiwara Store and more)",
+      "station": "Any FamilyMart or Mugiwara Store that carries it",
+      "start": "2026-11-14",
+      "end": null,
+      "dateText": "From Nov 14, 2026 (rolling release, while stocks last)",
+      "price": "¥750 per draw",
+      "free": false,
+      "overview": "A new Ichiban Kuji prize lottery built around One Piece's animal characters. Prizes include a figure of Chopper mixing medicine (A Prize), a blanket, mugs, head magnets of Laboon, Bepo and others, Super Spot-Billed Duck Troop acrylic stands, and a roughly 40 cm Karoo plush as the Last One Prize. Every draw wins something.",
+      "details": [
+        [
+          "Sold at",
+          "FamilyMart, Mugiwara Store, Ichiban Kuji official shops, Ichiban Kuji ONLINE and others"
+        ],
+        [
+          "Release",
+          "From Nov 14, 2026, rolling release; dates may differ by store"
+        ],
+        [
+          "Price",
+          "¥750 per draw (tax incl.)"
+        ],
+        [
+          "Prizes",
+          "A: Chopper multi-stand (~10 cm); B: blanket; C: mugs; D: head magnets; E: towels; F: Spot-Billed Duck acrylic stands; G: stickers; H: rubber goods; Last One: Karoo plush (~40 cm)"
+        ],
+        [
+          "Note",
+          "Stores may not stock it; it ends when sold out. The official page asks buyers not to phone stores"
+        ]
+      ],
+      "nearby": "Mugiwara Store Tokyo is in Shibuya PARCO, next to Nintendo TOKYO, Pokémon Center Shibuya and JUMP SHOP.",
+      "links": [
+        [
+          "Official lineup (Ichiban Kuji)",
+          "https://1kuji.com/products/onep105"
+        ],
+        [
+          "Coverage",
+          "https://animeanime.jp/article/2026/10/19/103987.html"
+        ]
+      ],
+      "verified": "Oct 21, 2026",
+      "keywords": "one piece ichiban kuji chopper karoo laboon bepo kung-fu dugong lapahn spot-billed duck familymart mugiwara store lottery",
+      "rank": {
+        "ipTier": "S",
+        "buzz": 2,
+        "buzzNote": "Ichiban Kuji official; Anime! Anime!, Inside Games, Dengeki Hobby, Kyara Hobi, Tinpan Blog",
+        "access": "chain",
+        "pinned": false
+      },
+      "hero": "img/hero-opkuji.jpg",
+      "heroPos": "center"
     }
   ],
   "essentials": [
