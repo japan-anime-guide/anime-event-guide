@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-23",
   "series": [
     {
       "ip": "Solo Leveling",
@@ -84,6 +84,11 @@
       "ip": "One Piece",
       "logo": "img/logo-onepiece.png",
       "tier": "S"
+    },
+    {
+      "ip": "JoJo's Bizarre Adventure",
+      "logo": "img/logo-jojo.png",
+      "tier": "A"
     }
   ],
   "events": [
@@ -1835,6 +1840,93 @@
       },
       "hero": "img/hero-opkuji.jpg",
       "heroPos": "center"
+    },
+    {
+      "id": "jojo-jins-eyewear-2026",
+      "cities": [],
+      "nat": true,
+      "tips": [
+        "Walk-in to buy",
+        "8 frames",
+        "Also sold online"
+      ],
+      "map": "JINS",
+      "ip": "JoJo's Bizarre Adventure",
+      "pal": "ev-stone",
+      "type": "Store · Eyewear",
+      "title": "JoJo's Bizarre Adventure × JINS Eyewear",
+      "jp": "JINS × ジョジョの奇妙な冒険 コラボアイウエア",
+      "tagline": "Eight JoJos, eight frames.",
+      "areas": [],
+      "city": "JINS stores across Japan",
+      "station": "JINS stores in Japan and the JINS online shop",
+      "start": "2026-10-29",
+      "end": null,
+      "dateText": "From Oct 29, 2026",
+      "price": "¥14,900 per pair (tax incl., standard lenses)",
+      "free": false,
+      "overview": "Eyewear chain JINS releases eight glasses frames themed on eight JoJo's Bizarre Adventure protagonists, from Jonathan Joestar to Gyro Zeppeli. Each frame's shape and details reflect its character, and every pair comes with an original case and cleaning cloth. They go on sale on October 29, 2026 at JINS stores across Japan and the JINS online shop.",
+      "details": [
+        [
+          "Release",
+          "Thu Oct 29, 2026 at JINS stores in Japan and the JINS online shop"
+        ],
+        [
+          "Lineup",
+          "8 frames: Jonathan (square), Joseph (browline), Jotaro (Wellington), Josuke (oval), Giorno (oval), Jolyne (Boston), Johnny (vintage Boston), Gyro (vintage square)"
+        ],
+        [
+          "Price",
+          "¥14,900 each (tax incl.), including standard single-vision clear lenses (index 1.60). The available prescription range is limited"
+        ],
+        [
+          "Extras",
+          "Original case and character-themed cleaning cloth with every pair"
+        ],
+        [
+          "Where to buy",
+          "JINS stores across Japan and the JINS online shop"
+        ]
+      ],
+      "nearby": "For more anime fashion, the Chainsaw Man × Crocs collection (from Oct 27) and BLEACH × graniph are also on this guide.",
+      "links": [
+        [
+          "Official collaboration page (JINS)",
+          "https://www.jins.com/jp/collabo/jojo/"
+        ],
+        [
+          "Official announcement (JOJO portal)",
+          "https://jojo-portal.com/news/goods/647/"
+        ],
+        [
+          "Coverage (Anime! Anime!)",
+          "https://animeanime.jp/article/2026/10/22/104087.html"
+        ],
+        [
+          "Coverage (Famitsu)",
+          "https://www.famitsu.com/article/202610/91689"
+        ]
+      ],
+      "verified": "Oct 23, 2026",
+      "keywords": "jojo jojos bizarre adventure jojo no kimyou na bouken jins glasses eyewear frames jonathan joseph jotaro kujo josuke giorno giovanna jolyne johnny gyro zeppeli",
+      "rank": {
+        "ipTier": "A",
+        "buzz": 1,
+        "buzzNote": "JINS press release (via Famitsu); JOJO official portal; Anime! Anime!, Famitsu",
+        "access": "chain",
+        "pinned": false
+      },
+      "hero": "img/hero-jojojins.jpg",
+      "heroPos": "center",
+      "imgs": [
+        "img/jojojins-1.jpg",
+        "img/jojojins-2.jpg",
+        "img/jojojins-3.jpg",
+        "img/jojojins-4.jpg",
+        "img/jojojins-5.jpg"
+      ],
+      "imgPos": "center",
+      "imgFit": "contain"
     }
   ],
   "essentials": [
