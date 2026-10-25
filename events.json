@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23",
+  "updated": "2026-10-25",
   "series": [
     {
       "ip": "Solo Leveling",
@@ -1924,6 +1924,105 @@
         "img/jojojins-3.jpg",
         "img/jojojins-4.jpg",
         "img/jojojins-5.jpg"
+      ],
+      "imgPos": "center",
+      "imgFit": "contain"
+    },
+    {
+      "id": "jujutsu-kaisen-culling-game-yomiuriland-hanabiyori-2026",
+      "cities": [
+        "Tokyo"
+      ],
+      "nat": false,
+      "tips": [
+        "Park admission required",
+        "Advance SP pass online only",
+        "Goods inside the park"
+      ],
+      "map": "Yomiuriland",
+      "ip": "Jujutsu Kaisen",
+      "pal": "ev-solo",
+      "type": "Theme park collab",
+      "title": "Jujutsu Kaisen: The Culling Game × Yomiuriland & HANA·BIYORI",
+      "jp": "TVアニメ『呪術廻戦』「死滅回游」×よみうりランド・HANA・BIYORI",
+      "tagline": "A whole amusement park goes cursed for six weeks.",
+      "areas": [
+        "Inagi"
+      ],
+      "city": "Tokyo (Inagi)",
+      "station": "Keio-yomiuriland Sta. (Keio Sagamihara Line) · about 1.4 km uphill to the park gate (~24 min walk)",
+      "start": "2026-11-06",
+      "end": "2026-12-13",
+      "dateText": "Nov 6 – Dec 13, 2026 (closed on park holidays)",
+      "price": "Park admission required (SP pass ¥5,700 adults)",
+      "free": false,
+      "overview": "Yomiuriland amusement park and the neighbouring HANA·BIYORI garden run a Jujutsu Kaisen \"Culling Game\" collaboration with newly drawn mini-character art. The park adds collab goods, a stamp rally, themed food, a kitchen car, workshops and character voice lines on five rides; HANA·BIYORI has a word rally and mini game. Joining the event requires park admission.",
+      "details": [
+        [
+          "Venue",
+          "Yomiuriland (amusement park) and HANA·BIYORI. Goods, stamp rally start/goal and the bonus counter are inside the park; the two sites connect via a gate open from 11:00"
+        ],
+        [
+          "Address (JP)",
+          "東京都稲城市矢野口4015-1"
+        ],
+        [
+          "Hours",
+          "Same as Yomiuriland's opening hours (vary by day; check the park's site)"
+        ],
+        [
+          "Tickets",
+          "Event participation needs Yomiuriland admission. Advance-only SP One-Day Pass (park one-day pass + HANA·BIYORI entry + hologram postcard): adults ¥5,700, ages 12–17 ¥4,500, elementary/seniors ¥3,900, preschool ¥2,300 — sold online on Yomiran CLUB until Dec 13 20:00, not at the ticket windows. Regular admission price: see the park's site"
+        ],
+        [
+          "Goods",
+          "Sold at the Aurora Space in the GOODJOB!! area (same lineup at HANA·BIYORI): random clear cards from ¥440, can badges ¥550–660, acrylic stands ¥1,430, acrylic figures ¥1,980, face towels ¥3,300, extra-large tapestries ¥8,800 and more. One random bromide per ¥2,000 spent"
+        ],
+        [
+          "Stamp rally",
+          "¥1,100 per sheet (max 3 per purchase); collect all stamps in the park for a clear shikishi (5 designs, random)"
+        ],
+        [
+          "Collab food",
+          "Itadori's Black Flash mapo tofu rice bowl ¥1,300, Megumi's ten-topping tonkotsu miso ramen ¥1,500, Yuta's stew ¥800, Choso's chocolate churros ¥850, Higuruma's cheese fries ¥850 (bonus bromide Nov 6–23, placemat Nov 24–Dec 13, random, while stocks last). Plus a collab kitchen car near CAR factory"
+        ],
+        [
+          "Other",
+          "Ride tie-ins with recorded character voices (Spin Runway, Bandit, Hero Training Center, Sweets Cup, Fight Ippatsu); workshops ¥400–800; at HANA·BIYORI a word rally ¥900, mini game ¥700 and a lucky-draw ¥500"
+        ]
+      ],
+      "nearby": "Yomiuriland is an amusement park on a hill in Inagi, western Tokyo. HANA·BIYORI is next door and connects to the park through a gate (open from 11:00); the SP pass covers both.",
+      "links": [
+        [
+          "Official announcement (Jujutsu Kaisen anime site)",
+          "https://jujutsukaisen.jp/news/20261023_01.php"
+        ],
+        [
+          "Goods & event details (The Chara)",
+          "https://www.the-chara.com/blog/?p=123069"
+        ],
+        [
+          "Coverage (Collabo-Cafe, English)",
+          "https://collabo-cafe.com/en/events/collabo/jujutsukaisen-theme-park-yomiuriland-hanabiyori-2026/"
+        ]
+      ],
+      "verified": "Oct 25, 2026",
+      "keywords": "jujutsu kaisen jjk culling game shimetsu kaiyu itadori megumi fushiguro yuta okkotsu choso higuruma naoya panda yomiuriland hanabiyori inagi tokyo amusement park stamp rally collab food goods",
+      "rank": {
+        "ipTier": "S",
+        "buzz": 1,
+        "buzzNote": "Collabo-Cafe; Jujutsu Kaisen official site and The Chara (goods operator) details",
+        "access": "venue",
+        "pinned": false
+      },
+      "hero": "img/hero-jjkyl.jpg",
+      "heroPos": "center",
+      "imgs": [
+        "img/jjkyl-1.jpg",
+        "img/jjkyl-2.jpg",
+        "img/jjkyl-3.jpg",
+        "img/jjkyl-4.jpg",
+        "img/jjkyl-5.jpg"
       ],
       "imgPos": "center",
       "imgFit": "contain"
