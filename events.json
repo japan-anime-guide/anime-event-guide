@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-27",
   "series": [
     {
       "ip": "Solo Leveling",
@@ -893,101 +893,6 @@
         "img/hq2-4.jpg"
       ],
       "imgPos": "center"
-    },
-    {
-      "id": "demon-slayer-fair-jump-shop-2026",
-      "cities": [
-        "Tokyo",
-        "Osaka"
-      ],
-      "nat": true,
-      "tips": [
-        "Walk-in OK",
-        "Some items already sold out online",
-        "Ends Oct 25"
-      ],
-      "map": "JUMP SHOP Tokyo Station, Tokyo Character Street",
-      "map2": [
-        "Osaka store",
-        "JUMP SHOP Umeda HEP FIVE"
-      ],
-      "ip": "Demon Slayer",
-      "pal": "ev-solo",
-      "type": "Store fair",
-      "title": "Demon Slayer Fair at JUMP SHOP",
-      "jp": "『鬼滅の刃』フェア in JUMP SHOP",
-      "tagline": "24 new goods from the Shonen Jump store.",
-      "areas": [
-        "Tokyo Station",
-        "Shibuya",
-        "Ikebukuro"
-      ],
-      "city": "Tokyo + Osaka + nationwide",
-      "station": "Tokyo Sta. (Tokyo Character Street, B1) / Shibuya PARCO 6F / Ikebukuro PARCO B2F / HEP FIVE 6F, Umeda",
-      "start": "2026-10-09",
-      "end": "2026-10-25",
-      "dateText": "Oct 9 – Oct 25, 2026",
-      "price": "Free entry; goods ¥440–¥5,500",
-      "free": true,
-      "overview": "JUMP SHOP, the official Shonen Jump goods store, is running a Demon Slayer fair with 24 new items, from stationery and towels to a Tanjiro rice plate, an embroidered bag and a Doma cult cushion. Random-pack badges, cards and acrylic keychains are also part of the line-up. The goods are sold at the permanent JUMP SHOP stores, a limited-time Lalaport Fukuoka store and the JUMP SHOP online store.",
-      "details": [
-        [
-          "Tokyo stores",
-          "JUMP SHOP Tokyo Station (Tokyo Character Street, B1), Shibuya PARCO 6F, Ikebukuro PARCO B2F, Tokyo Skytree Town Solamachi 4F"
-        ],
-        [
-          "Osaka stores",
-          "HEP FIVE 6F (Umeda), Daimaru Shinsaibashi main bldg 9F, Tennoji Mio main bldg 6F"
-        ],
-        [
-          "Other cities",
-          "Sapporo, Sendai, Yokohama, Nagoya, Hiroshima, Fukuoka (Canal City OPA B1) and a limited-time Lalaport Fukuoka store. The Okayama store is closed for renovation until Nov 19"
-        ],
-        [
-          "Address (JP)",
-          "〒100-0005 東京都千代田区丸の内1-9-1 東京駅一番街 B1 東京キャラクターストリート内（JUMP SHOP 東京駅店）"
-        ],
-        [
-          "Not included",
-          "THE ジャンプショップ 神保町 and RofJ BY JUMP SHOP"
-        ],
-        [
-          "Prices",
-          "Clear file ¥660; ring notebook ¥990; die-cut towel ¥1,760; Tanjiro / Zenitsu plates ¥2,420; embroidered bag ¥4,950; cult leader cushion ¥5,500; random packs ¥440–¥990"
-        ],
-        [
-          "Hours",
-          "Follow each shopping mall's hours"
-        ],
-        [
-          "Online",
-          "JUMP SHOP online store (ships within Japan)"
-        ]
-      ],
-      "nearby": "The Tokyo Station store sits in Tokyo Character Street, a basement row of official anime and character shops inside the station's First Avenue mall. In Osaka, the Umeda store is in HEP FIVE, the mall with the red Ferris wheel by Osaka-umeda Station.",
-      "links": [
-        [
-          "Official fair page (JUMP SHOP online)",
-          "https://jumpshop-benelic.com/collections/261009kimetsu"
-        ],
-        [
-          "Official store list",
-          "https://jumpshop-benelic.com/pages/shop"
-        ],
-        [
-          "Coverage",
-          "https://collabo-cafe.com/events/collabo/kimetsu-jump-shop-fair-2026/"
-        ]
-      ],
-      "verified": "Oct 11, 2026",
-      "keywords": "demon slayer kimetsu no yaiba tanjiro nezuko zenitsu inosuke doma kanae shinobu kanao jump shop shonen jump shueisha goods fair tokyo station character street shibuya parco ikebukuro umeda hep five",
-      "rank": {
-        "ipTier": "S",
-        "buzz": 1,
-        "access": "chain",
-        "buzzNote": "Collabo-Cafe, Tinpan Blog; JUMP SHOP official fair page",
-        "pinned": false
-      }
     },
     {
       "id": "chiikawa-popup-store-fukuoka-mitsukoshi",
@@ -2023,6 +1928,105 @@
         "img/jjkyl-3.jpg",
         "img/jjkyl-4.jpg",
         "img/jjkyl-5.jpg"
+      ],
+      "imgPos": "center",
+      "imgFit": "contain"
+    },
+    {
+      "id": "jujutsu-kaisen-final-exhibition-shinjuku-2026",
+      "cities": [
+        "Tokyo"
+      ],
+      "nat": false,
+      "tips": [
+        "Timed-entry paper tickets (e+)",
+        "General sale from Nov 21",
+        "Japanese-only displays"
+      ],
+      "map": "Shinjuku Sumitomo Building Triangle Square",
+      "ip": "Jujutsu Kaisen",
+      "pal": "ev-solo",
+      "type": "Exhibition",
+      "title": "Jujutsu Kaisen Exhibition: The Final (Shinjuku)",
+      "jp": "芥見下々『呪術廻戦』完結展（新宿会場）",
+      "tagline": "The touring JJK exhibition ends where the final battle was fought.",
+      "areas": [
+        "Shinjuku"
+      ],
+      "city": "Tokyo (Shinjuku)",
+      "station": "Tochomae Sta. (Toei Oedo Line) · about 1 min walk; JR Shinjuku Sta. · about 15 min walk",
+      "start": "2026-12-25",
+      "end": "2027-01-25",
+      "dateText": "Dec 25, 2026 – Jan 25, 2027 (closed Jan 1)",
+      "price": "¥2,200 (timed entry)",
+      "free": false,
+      "overview": "The final stop of Gege Akutami's touring Jujutsu Kaisen exhibition opens in West Shinjuku, the setting of the manga's final battle, with a new key visual of Yuta Okkotsu and Rika. A new area, \"Domain of ≡\", covers the making of the spin-off Jujutsu Kaisen Modulo, including Akutami's own name (storyboard) drafts. The official shop adds new goods and a supplementary catalogue.",
+      "details": [
+        [
+          "Venue",
+          "Shinjuku Sumitomo Building, Triangle Square (三角広場)"
+        ],
+        [
+          "Address (JP)",
+          "東京都新宿区西新宿2-6-1 新宿住友ビル 三角広場"
+        ],
+        [
+          "Hours",
+          "10:00–20:00 (last entry 19:30). Closed Jan 1, 2027"
+        ],
+        [
+          "Tickets",
+          "Timed entry (date + hourly slot). Adults ¥2,200, junior/senior high ¥1,600, age 4 to elementary ¥1,000; ticket with the acrylic diorama goods ¥4,600 (limited). Audio guide (Japanese only, on your own phone with earphones) included. Plus e+ fees (¥110 per ticket issued)"
+        ],
+        [
+          "How to buy",
+          "Paper tickets from e+ only, printed at FamilyMart before you go — no tickets sold at the venue. Advance lottery on the e+ website Oct 26 – Nov 8 (e+ membership needs a Japanese mobile number); first-come general sale from Nov 21, 12:00, also at FamilyMart multi-copy machines. If a slot is not sold out you can buy on the day until that slot starts"
+        ],
+        [
+          "Goods",
+          "Shop entry only after the exhibition (no shop-only visits). New items include an acrylic card set ¥1,540, Domain Expansion tote (Itadori) ¥5,280, \"MEMORIES\" can badges ¥660 (random), acrylic MEGA figure ¥4,400 and catalogue supplement ¥1,540. Cash (yen), major credit cards, IC cards and QR payments accepted"
+        ],
+        [
+          "Good to know",
+          "Displays are in Japanese only and translation apps are not allowed; photos only at designated spots, no video. No suitcases or large luggage and no cloakroom — use station lockers. Two random stickers per visitor"
+        ]
+      ],
+      "nearby": "The venue is in the West Shinjuku skyscraper district, a short walk from the Tokyo Metropolitan Government Building and its free observation decks. Busy Shinjuku station area shopping is about 15 minutes away on foot.",
+      "links": [
+        [
+          "Official Shinjuku venue notes",
+          "https://jujutsuten.com/shinjuku/"
+        ],
+        [
+          "Official tickets page",
+          "https://jujutsuten.com/ticket/"
+        ],
+        [
+          "Coverage (Mynavi News)",
+          "https://news.mynavi.jp/article/20261026-5196926/"
+        ],
+        [
+          "Coverage (PASH! PLUS)",
+          "https://www.pashplus.jp/event/500243/"
+        ]
+      ],
+      "verified": "Oct 27, 2026",
+      "keywords": "jujutsu kaisen jjk exhibition final kanketsuten gege akutami yuta okkotsu rika itadori sukuna modulo shinjuku sumitomo building tochomae tokyo tickets e+ familymart",
+      "rank": {
+        "ipTier": "S",
+        "buzz": 3,
+        "buzzNote": "Jujutsu Kaisen exhibition official site; Oricon, MANTANWEB, Comic Natalie, Mynavi News, PASH! PLUS",
+        "access": "reserve",
+        "pinned": false
+      },
+      "hero": "img/hero-jjkfin.jpg",
+      "heroPos": "center",
+      "imgs": [
+        "img/jjkfin-1.jpg",
+        "img/jjkfin-2.jpg",
+        "img/jjkfin-3.jpg",
+        "img/jjkfin-4.jpg",
+        "img/jjkfin-5.jpg"
       ],
       "imgPos": "center",
       "imgFit": "contain"
