@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-29",
   "series": [
     {
       "ip": "Solo Leveling",
@@ -2027,6 +2027,123 @@
         "img/jjkfin-3.jpg",
         "img/jjkfin-4.jpg",
         "img/jjkfin-5.jpg"
+      ],
+      "imgPos": "center",
+      "imgFit": "contain"
+    },
+    {
+      "id": "haikyu-and-gallery-winter-cafe-2026",
+      "cities": [
+        "Tokyo",
+        "Osaka",
+        "Nagoya",
+        "Fukuoka",
+        "Sendai"
+      ],
+      "nat": false,
+      "tips": [
+        "Seat booking ¥330 recommended",
+        "Bring passport (name check)",
+        "Goods for café guests only"
+      ],
+      "map": "and GALLERY Ikebukuro, LABI1 LIFE SELECT Ikebukuro 7F",
+      "map2": [
+        "Osaka café",
+        "and GALLERY Namba 1, OCAT 5F"
+      ],
+      "ip": "Haikyu!!",
+      "pal": "ev-haikyu",
+      "type": "Collab café",
+      "title": "Haikyu!! × and GALLERY Winter Café",
+      "jp": "アニメ「ハイキュー!!」× and GALLERY Collaboration Cafe",
+      "tagline": "Karasuno's walk home after practice.",
+      "areas": [
+        "Ikebukuro",
+        "Yurakucho",
+        "Namba"
+      ],
+      "city": "Tokyo + Osaka (also Nagoya, Fukuoka, Sendai)",
+      "station": "Ikebukuro Sta. (East Exit) · 1 min / Yurakucho Sta. · connected / JR Namba Sta. · 1 min",
+      "start": "2026-11-03",
+      "end": "2026-12-06",
+      "dateText": "Nov 3 – Dec 6, 2026",
+      "price": "Seat booking ¥330; dishes ¥1,200–¥1,600, drinks ¥850",
+      "free": false,
+      "overview": "A Haikyu!! collaboration café at six and GALLERY shops across Japan, built around new artwork of six Karasuno players in winter school uniforms walking home at dusk. Each of Hinata, Kageyama, Tsukishima, Sawamura, Sugawara and Azumane gets a themed dish and drink, and goods use the new artwork. Goods are sold only to café guests.",
+      "details": [
+        [
+          "Tokyo",
+          "and GALLERY Ikebukuro (LABI1 LIFE SELECT Ikebukuro 7F), 1 min from Ikebukuro Sta. East Exit; and GALLERY Bic Camera Yurakucho 7F, connected to Yurakucho Sta."
+        ],
+        [
+          "Address (JP)",
+          "東京都豊島区東池袋1丁目5-7 LABI1 LIFE SELECT池袋7F / 東京都千代田区有楽町1丁目11-1 ビックカメラ有楽町店 7F"
+        ],
+        [
+          "Osaka",
+          "and GALLERY Namba 1 (OCAT 5F), 1 min from JR Namba Sta. Closed Nov 18"
+        ],
+        [
+          "Address (JP)",
+          "大阪府大阪市浪速区湊町1-4-1 OCAT 5F"
+        ],
+        [
+          "Other cities",
+          "Nagoya 1 (Banshoji Bldg 1F, Osu; 5 min from Kamimaezu Sta.), Fukuoka (5 min from Yakuin Sta.), Sendai (3 min from Aobadori-Ichibancho Sta.; some reduced-hours days)"
+        ],
+        [
+          "Seating",
+          "70-minute slots from 11:00 (last slot 19:00). Seat booking ¥330 per person via TableCheck, until 10:00 the day before; booked guests get a random postcard. Walk-ins only when seats are free. No bookings on some days (incl. Nov 3–8); short hours (until 16:00) on Nov 12, 19 and 28"
+        ],
+        [
+          "Name check",
+          "The booking name must match your ID; a passport is accepted"
+        ],
+        [
+          "Menu",
+          "Dishes ¥1,200–¥1,600 (e.g. Kageyama's black pork curry ¥1,600); drinks ¥850, or ¥1,500 with a random drink charm. Random paper coaster with each themed item"
+        ],
+        [
+          "Goods",
+          "Random can badges ¥550; big acrylic stands ¥3,300; random mini acrylic stands ¥850; acrylic key chains ¥750; clear file ¥770; towel ¥1,320; random clear cards ¥660. One checkout per visit, per-item limits; random sticker per ¥3,000"
+        ],
+        [
+          "Payment",
+          "Cash, credit cards, transit IC cards, PayPay, iD, QUICPay (varies by shop)"
+        ]
+      ],
+      "nearby": "and GALLERY Ikebukuro is on the east side of Ikebukuro Station, a short walk from Sunshine City and Otome Road. The Yurakucho shop sits inside Bic Camera next to Ginza, and the Namba shop is in the OCAT bus terminal building near Den Den Town.",
+      "links": [
+        [
+          "Official café page",
+          "https://collabocafe.and-gallery.com/haikyu"
+        ],
+        [
+          "Official anime news",
+          "https://haikyu.jp/news/5931/"
+        ],
+        [
+          "Coverage",
+          "https://dengekionline.com/article/202610/90630"
+        ]
+      ],
+      "verified": "Oct 29, 2026",
+      "keywords": "haikyu haikyuu karasuno hinata shoyo kageyama tobio tsukishima kei sawamura daichi sugawara koshi azumane asahi collab cafe and gallery ikebukuro yurakucho namba ocat nagoya fukuoka sendai winter",
+      "rank": {
+        "ipTier": "A",
+        "buzz": 1,
+        "buzzNote": "and GALLERY official site; Dengeki Online, Real Sound",
+        "access": "reserve",
+        "pinned": false
+      },
+      "hero": "img/hero-hqag.jpg",
+      "heroPos": "center",
+      "imgs": [
+        "img/hqag-1.jpg",
+        "img/hqag-2.jpg",
+        "img/hqag-3.jpg",
+        "img/hqag-4.jpg",
+        "img/hqag-5.jpg"
       ],
       "imgPos": "center",
       "imgFit": "contain"
