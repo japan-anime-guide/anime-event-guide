@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-31",
   "series": [
     {
       "ip": "Solo Leveling",
@@ -2144,6 +2144,85 @@
         "img/hqag-3.jpg",
         "img/hqag-4.jpg",
         "img/hqag-5.jpg"
+      ],
+      "imgPos": "center",
+      "imgFit": "contain"
+    },
+    {
+      "id": "jujutsu-kaisen-hare-collab-2026",
+      "cities": [],
+      "nat": true,
+      "tips": [
+        "Walk-in to buy",
+        "12 items",
+        "Also sold online"
+      ],
+      "map": "HARE",
+      "ip": "Jujutsu Kaisen",
+      "pal": "ev-solo",
+      "type": "Store · Apparel",
+      "title": "Jujutsu Kaisen × HARE",
+      "jp": "HARE × アニメ『呪術廻戦』コラボ「呪彩と静寂」",
+      "tagline": "Cursed energy, rendered in monochrome mode.",
+      "areas": [],
+      "city": "HARE stores across Japan",
+      "station": "All HARE stores in Japan (34 stores), plus the and ST online store and ZOZOTOWN",
+      "start": "2026-11-07",
+      "end": null,
+      "dateText": "From Nov 7, 2026",
+      "price": "¥5,500 – ¥22,000",
+      "free": false,
+      "overview": "Japanese mode-fashion brand HARE's first collaboration with the anime Jujutsu Kaisen: 12 unisex and women's items themed on \"cursed colors and silence\", with line-art of Yuji Itadori, Megumi Fushiguro, Yuta Okkotsu and Naoya Zen'in and abstract cursed-energy graphics. It goes on sale on November 7, 2026 at all HARE stores in Japan, three and ST stores, the official and ST web store and ZOZOTOWN.",
+      "details": [
+        [
+          "Release",
+          "Sat Nov 7, 2026"
+        ],
+        [
+          "Items",
+          "12 items (8 unisex, 4 women's): sweatshirts, zip hoodie, shirt, knitwear, reversible blouson, wide pants, tote bag, tulle skirt and more"
+        ],
+        [
+          "Prices",
+          "Sweatshirt ¥12,980; shirt ¥13,970; tote bag ¥5,500; skirt ¥18,920 (tax incl.). Full range ¥5,500–¥22,000"
+        ],
+        [
+          "Where to buy",
+          "All HARE stores in Japan (34 stores as of late Oct 2026); and ST stores at Emiterrace Tokorozawa, LaLaport Anjo and Namba CITY; and ST web store; ZOZOTOWN. Stock varies by store"
+        ],
+        [
+          "Bonus",
+          "A special collab shopper bag for early buyers at HARE stores and the and ST web store, while supplies last"
+        ]
+      ],
+      "nearby": "More Jujutsu Kaisen this season: the Culling Game event at Yomiuriland (from Nov 6) and the final exhibition in Shinjuku (from Dec 25) are also on this guide.",
+      "links": [
+        [
+          "Official collab page (HARE / and ST)",
+          "https://www.dot-st.com/hare/disp/itemlist/?dispNo=002002655"
+        ],
+        [
+          "Press release (PR TIMES)",
+          "https://prtimes.jp/main/html/rd/p/000003338.000001304.html"
+        ],
+        [
+          "Coverage (Anime! Anime!)",
+          "https://animeanime.jp/article/2026/10/29/104305.html"
+        ]
+      ],
+      "verified": "Oct 31, 2026",
+      "keywords": "jujutsu kaisen jjk hare adastria and st collab apparel itadori yuji megumi fushiguro yuta okkotsu naoya zenin sweatshirt hoodie shirt tote skirt fashion",
+      "rank": {
+        "ipTier": "S",
+        "buzz": 1,
+        "buzzNote": "and ST HD press release (PR TIMES); Anime! Anime!, Nijimen",
+        "access": "chain",
+        "pinned": false
+      },
+      "hero": "img/hero-jjkhare.jpg",
+      "heroPos": "center",
+      "imgs": [
+        "img/jjkhare-1.jpg"
       ],
       "imgPos": "center",
       "imgFit": "contain"
