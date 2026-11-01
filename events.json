@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "series": [
     {
       "ip": "Solo Leveling",
@@ -2223,6 +2223,105 @@
       "heroPos": "center",
       "imgs": [
         "img/jjkhare-1.jpg"
+      ],
+      "imgPos": "center",
+      "imgFit": "contain"
+    },
+    {
+      "id": "haikyu-challengers-exhibition-roppongi-2026",
+      "cities": [
+        "Tokyo"
+      ],
+      "nat": false,
+      "tips": [
+        "Timed tickets, online only",
+        "No ticket sales at venue",
+        "Dec–Jan tickets from Nov 14"
+      ],
+      "map": "Mori Arts Center Gallery, Roppongi Hills Mori Tower 52F",
+      "ip": "Haikyu!!",
+      "pal": "ev-haikyu",
+      "type": "Exhibition",
+      "title": "Haikyu!! Exhibition: Challengers (Roppongi)",
+      "jp": "古舘春一 ハイキュー!!展 挑戦者たち",
+      "tagline": "Original manga art, 52 floors up.",
+      "areas": [
+        "Roppongi"
+      ],
+      "city": "Tokyo (Roppongi)",
+      "station": "Roppongi Sta. · 3 min walk",
+      "start": "2026-10-30",
+      "end": "2027-01-11",
+      "dateText": "Oct 30, 2026 – Jan 11, 2027",
+      "price": "¥2,200 (high school ¥1,400, ages 6–15 ¥900)",
+      "free": false,
+      "overview": "The third large Haikyu!! original-art exhibition by creator Haruichi Furudate, held at Mori Arts Center Gallery on the 52nd floor of Roppongi Hills Mori Tower. It traces the players as challengers through manuscript pages and new key visuals drawn for the show, including Hinata and Kageyama. Entry is by timed ticket bought in advance.",
+      "details": [
+        [
+          "Venue",
+          "Mori Arts Center Gallery, Roppongi Hills Mori Tower 52F"
+        ],
+        [
+          "Address (JP)",
+          "東京都港区六本木6-10-1 六本木ヒルズ森タワー52階"
+        ],
+        [
+          "Hours",
+          "10:00–20:00 (last entry 19:30). Open every day during the run"
+        ],
+        [
+          "Tickets",
+          "Adults ¥2,200; high school students ¥1,400; elementary & junior high ¥900; ticket with goods (limited) ¥4,400. Timed entry; sold only via e+ (eplus.jp, website/app, FamilyMart Multi-copy machines), not at the venue. Tickets for Dec 1 – Jan 11 go on sale Nov 14, 10:00"
+        ],
+        [
+          "Free entry",
+          "One child aged 6 and under per adult (18+); one carer accompanying a disability-certificate holder"
+        ],
+        [
+          "Ticket with goods",
+          "Includes a signed player card set with a special binder"
+        ],
+        [
+          "Goods",
+          "Exhibition goods include a key-visual postcard set ¥990, B3 & B4 poster set ¥2,530, mini-character blanket ¥4,400 and acrylic boards ¥8,800"
+        ],
+        [
+          "Tour",
+          "Planned to travel to Osaka (Grand Front Osaka, Apr 24 – Jun 20, 2027) and Sendai (summer 2027)"
+        ]
+      ],
+      "nearby": "Roppongi Hills also houses the Mori Art Museum and the Tokyo City View observation deck in the same tower. Roppongi Station on the Hibiya and Oedo lines is a few minutes' walk away.",
+      "links": [
+        [
+          "Official exhibition page",
+          "https://macg.roppongihills.com/jp/exhibitions/haikyu-challengers/"
+        ],
+        [
+          "Tickets (e+)",
+          "https://eplus.jp/haikyu-challengers-ex/"
+        ],
+        [
+          "Coverage",
+          "https://news.mynavi.jp/article/20261030-5221789/"
+        ]
+      ],
+      "verified": "Nov 1, 2026",
+      "keywords": "haikyu haikyuu exhibition challengers original art furudate haruichi hinata shoyo kageyama tobio karasuno roppongi hills mori arts center gallery tokyo",
+      "rank": {
+        "ipTier": "A",
+        "buzz": 3,
+        "buzzNote": "Mori Arts Center Gallery official; Mynavi News, Collabo-Cafe, Anime! Anime!, Comic Natalie, Famitsu, WWDJAPAN, Nijimen",
+        "access": "reserve",
+        "pinned": false
+      },
+      "hero": "img/hero-hqchal.jpg",
+      "heroPos": "center",
+      "imgs": [
+        "img/hqchal-1.jpg",
+        "img/hqchal-2.jpg",
+        "img/hqchal-3.jpg",
+        "img/hqchal-4.jpg",
+        "img/hqchal-5.jpg"
       ],
       "imgPos": "center",
       "imgFit": "contain"
