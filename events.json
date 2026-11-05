@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-05",
   "series": [
     {
       "ip": "Solo Leveling",
@@ -58,7 +58,8 @@
     },
     {
       "ip": "Demon Slayer",
-      "tier": "S"
+      "tier": "S",
+      "logo": "img/logo-demonslayer.png"
     },
     {
       "ip": "Evangelion",
@@ -92,92 +93,6 @@
     }
   ],
   "events": [
-    {
-      "id": "solo-leveling-exhibition",
-      "cities": [
-        "Tokyo"
-      ],
-      "nat": false,
-      "tips": [
-        "Book online (cheaper)",
-        "Timed entry"
-      ],
-      "map": "Tokyu Plaza Shibuya",
-      "ip": "Solo Leveling",
-      "pal": "ev-solo",
-      "type": "Exhibition",
-      "title": "Solo Leveling: The Exhibition",
-      "jp": "「俺だけレベルアップな件」展",
-      "tagline": "Level up.",
-      "areas": [
-        "Shibuya"
-      ],
-      "city": "Tokyo",
-      "station": "Shibuya Sta. · 3 min walk",
-      "start": "2026-07-17",
-      "end": "2026-11-01",
-      "dateText": "Jul 17 – Nov 1, 2026",
-      "price": "Adults from ¥2,800 (online, weekday)",
-      "free": false,
-      "overview": "Japan's first immersive exhibition for Solo Leveling, built around the series' biggest arcs: walk-through sets, large-format art and photo spots themed to Sung Jin-Woo's rise. Entry is by date-and-time ticket, so book before you go.",
-      "details": [
-        [
-          "Venue",
-          "Tokyu Plaza Shibuya, 4F"
-        ],
-        [
-          "Address (JP)",
-          "〒150-0043 東京都渋谷区道玄坂1-2-3 渋谷フクラス 東急プラザ渋谷 4階"
-        ],
-        [
-          "Hours",
-          "Weekdays 11:00–20:00 (last entry 19:30), weekends & holidays 11:00–21:00 (last entry 20:30)"
-        ],
-        [
-          "Adult tickets",
-          "Online ¥2,800 weekday / ¥3,100 weekend; same-day ¥500 more; Super Pass ¥3,800 online"
-        ],
-        [
-          "Student / child",
-          "Online from ¥1,500 / ¥600"
-        ],
-        [
-          "Tickets for visitors",
-          "KKday, Trip.com, Cool Japan Travel (English sites)"
-        ],
-        [
-          "Tickets in Japan",
-          "Pia / Rakuten Ticket / Lawson / asoview"
-        ]
-      ],
-      "nearby": "Shibuya Scramble Crossing is right outside. Shibuya Sky's observation deck and the Hachiko statue are both under 10 minutes on foot.",
-      "links": [
-        [
-          "Official exhibition site",
-          "https://sololeveling-exhibition.com/"
-        ],
-        [
-          "Venue page (Tokyu Plaza Shibuya)",
-          "https://tokyu-plaza.com/shibuya/event/detail/62"
-        ]
-      ],
-      "verified": "Sep 29, 2026",
-      "keywords": "ore dake level up na ken sung jinwoo manhwa",
-      "rank": {
-        "ipTier": "A",
-        "buzz": 3,
-        "access": "venue",
-        "buzzNote": "Covered by Animate Times, WOWOW Plus, Tokyo Shimbun x PR TIMES and others; run extended to Nov 1",
-        "pinned": false
-      },
-      "hero": "img/solo-1.jpg",
-      "heroPos": "65% center",
-      "imgs": [
-        "img/solo-1.jpg",
-        "img/solo-2.jpg"
-      ],
-      "imgPos": "70% center"
-    },
     {
       "id": "dragon-ball-kuji-saiyan",
       "imgs": [
@@ -360,75 +275,6 @@
       "heroPos": "center"
     },
     {
-      "id": "dr-stone-pizza-la",
-      "imgs": [
-        "img/stone-1.jpg",
-        "img/stone-2.jpg",
-        "img/stone-3.jpg",
-        "img/stone-4.jpg"
-      ],
-      "imgPos": "center 30%",
-      "cities": [],
-      "nat": true,
-      "tips": [
-        "Ordering in Japanese",
-        "Random bonus",
-        "Limited quantity"
-      ],
-      "map": "Pizza-La",
-      "ip": "Dr. STONE",
-      "pal": "ev-stone",
-      "type": "Food collab",
-      "title": "Dr. STONE × Pizza-La",
-      "jp": "TVアニメ『Dr.STONE』×ピザーラ",
-      "tagline": "Science, delivered hot.",
-      "areas": [],
-      "city": "Any Pizza-La in Japan",
-      "station": "Delivery or takeout at any Pizza-La",
-      "start": "2026-10-01",
-      "end": "2026-11-01",
-      "dateText": "Oct 1 – Nov 1, 2026",
-      "price": "From ¥3,490",
-      "free": false,
-      "overview": "Two collaboration pizzas themed to Dr. STONE's Kingdom of Science, each set with one random character item (wire keychain or acrylic coaster, six designs). Sets are limited and may sell out.",
-      "details": [
-        [
-          "Where",
-          "Any Pizza-La location, nationwide"
-        ],
-        [
-          "How to order",
-          "Pizza-La's Japanese website or by phone to a store; delivery or takeout"
-        ],
-        [
-          "Notes",
-          "Takeout discount doesn't apply. Bonus design is random and can't be chosen or exchanged."
-        ]
-      ],
-      "nearby": "Pizza-La delivers to most hotels in big cities. Ask your front desk to help with a phone order if needed.",
-      "links": [
-        [
-          "Coverage & menu",
-          "https://animeanime.jp/article/2026/09/25/103230.html"
-        ],
-        [
-          "Original press release",
-          "https://prtimes.jp/main/html/rd/p/000000568.000037526.html"
-        ]
-      ],
-      "verified": "Sep 29, 2026",
-      "keywords": "senku pizza la delivery food",
-      "rank": {
-        "ipTier": "B",
-        "buzz": 3,
-        "access": "chain",
-        "buzzNote": "Anime! Anime!, Cho! Animedia, D-Times, Infoseek, collabo-cafe",
-        "pinned": false
-      },
-      "hero": "img/hero-stone.jpg",
-      "heroPos": "center 30%"
-    },
-    {
       "id": "haikyu-ootoya",
       "imgs": [
         "img/haikyu-1.jpg",
@@ -492,102 +338,6 @@
       },
       "hero": "img/hero-haikyu.jpg",
       "heroPos": "center"
-    },
-    {
-      "id": "attack-on-titan-earth-music-ecology",
-      "cities": [
-        "Tokyo",
-        "Osaka"
-      ],
-      "nat": false,
-      "tips": [
-        "Walk-in OK",
-        "Limited stock",
-        "Store dates differ"
-      ],
-      "map": "earth music&ecology Tokyo Solamachi",
-      "map2": [
-        "Osaka store",
-        "LINKS UMEDA"
-      ],
-      "ip": "Attack on Titan",
-      "pal": "ev-stone",
-      "type": "Store · Apparel",
-      "title": "Attack on Titan × earth music&ecology",
-      "jp": "『進撃の巨人』× earth music&ecology Japan Label",
-      "tagline": "Wear the Wings of Freedom.",
-      "areas": [
-        "Oshiage",
-        "Umeda"
-      ],
-      "city": "Tokyo + Osaka",
-      "station": "Tokyo Skytree Sta. · 4 min walk / Osaka Sta. · 5 min walk",
-      "start": "2026-10-02",
-      "end": "2026-11-01",
-      "dateText": "Oct 2 – Nov 1, 2026 (Tokyo Solamachi & LINKS UMEDA)",
-      "price": "Goods from ¥1,200",
-      "free": false,
-      "overview": "Attack on Titan apparel and goods from earth music&ecology Japan Label, themed to the Survey Corps: a hoodie and dress inspired by the cloak and uniform, tote bags, pouches, a bracelet, acrylic stands and badges. Items sell in selected stores in limited quantities, with later runs in Ikebukuro and Kyoto.",
-      "details": [
-        [
-          "Tokyo store",
-          "earth music&ecology, Tokyo Solamachi 3F (Oct 2 – Nov 1)"
-        ],
-        [
-          "Address (JP)",
-          "東京都墨田区押上1-1-2 東京ソラマチ 3F"
-        ],
-        [
-          "Osaka store",
-          "earth music&ecology, LINKS UMEDA 3F (Oct 2 – Nov 1)"
-        ],
-        [
-          "Address (JP)",
-          "大阪府大阪市北区大深町1-1 リンクス梅田 3F"
-        ],
-        [
-          "Later runs",
-          "Ikebukuro Sunshine City Nov 6 – 15; Kyoto Porta Nov 20 – Dec 6"
-        ],
-        [
-          "Prices",
-          "Hoodie ¥7,900, dress ¥12,900, tote ¥3,500, pouch ¥3,300, acrylic stand ¥2,200, badge set ¥1,200"
-        ],
-        [
-          "Also online",
-          "STRIPE CLUB (official web store, limited quantity)"
-        ]
-      ],
-      "nearby": "Tokyo Solamachi is the shopping complex at the foot of Tokyo Skytree, with the observation decks and Sumida Aquarium in the same building. In Osaka, LINKS UMEDA is in the Umeda/Osaka Station area within walking distance of the Umeda Sky Building.",
-      "links": [
-        [
-          "Collaboration page (STRIPE CLUB)",
-          "https://stripe-club.com/assets/JapanLabel/cts1/2606/shingeki/"
-        ],
-        [
-          "Store dates coverage",
-          "https://animeanime.jp/article/2026/09/28/103307.html"
-        ]
-      ],
-      "verified": "Oct 3, 2026",
-      "keywords": "aot shingeki no kyojin survey corps levi eren erwin earth music ecology japan label skytree solamachi links umeda hoodie",
-      "rank": {
-        "ipTier": "A",
-        "buzz": 2,
-        "access": "venue",
-        "buzzNote": "Anime! Anime!, Kyara Hobi, Koubo and other outlets",
-        "pinned": false
-      },
-      "hero": "img/hero-aot.jpg",
-      "heroPos": "center",
-      "imgs": [
-        "img/aot-1.jpg",
-        "img/aot-2.jpg",
-        "img/aot-3.jpg",
-        "img/aot-4.jpg",
-        "img/aot-5.jpg"
-      ],
-      "imgPos": "center 20%"
     },
     {
       "id": "detective-conan-q-pot",
@@ -893,92 +643,6 @@
         "img/hq2-4.jpg"
       ],
       "imgPos": "center"
-    },
-    {
-      "id": "chiikawa-popup-store-fukuoka-mitsukoshi",
-      "cities": [
-        "Fukuoka"
-      ],
-      "nat": false,
-      "tips": [
-        "LINE entry ticket Oct 16–18",
-        "Photo ID needed Oct 16–18",
-        "Novelty while supplies last"
-      ],
-      "map": "Fukuoka Mitsukoshi",
-      "ip": "Chiikawa",
-      "pal": "ev-madoka",
-      "type": "Pop-up shop",
-      "title": "Chiikawa Pop-Up Store Fukuoka",
-      "jp": "ちいかわ POP UP STORE 福岡三越",
-      "tagline": "Chiikawa lands in Tenjin.",
-      "areas": [
-        "Tenjin"
-      ],
-      "city": "Fukuoka",
-      "station": "Nishitetsu Fukuoka (Tenjin) Sta. · directly connected",
-      "start": "2026-10-16",
-      "end": "2026-11-03",
-      "dateText": "Oct 16 – Nov 3, 2026",
-      "price": "Free entry; prices not announced",
-      "free": true,
-      "overview": "A Chiikawa pop-up store at Fukuoka Mitsukoshi with event-limited goods, new items and capsule toys. Chiikawa purchases come with a novelty and a venue-only shopper bag while supplies last. For the first three days (Oct 16–18) entry needs a free LINE ticket and photo ID.",
-      "details": [
-        [
-          "Venue",
-          "Fukuoka Mitsukoshi, 9F Mitsukoshi Gallery"
-        ],
-        [
-          "Address (JP)",
-          "福岡県福岡市中央区天神2-1-1 福岡三越 9階 三越ギャラリー"
-        ],
-        [
-          "Hours",
-          "10:00–19:00 (Nov 3 until 17:00); open every day"
-        ],
-        [
-          "Entry",
-          "Oct 16–18: free LINE entry ticket (one entry per person, 30-minute slots, name must match photo ID). Tickets for entry up to 12:30 open at 19:00 the day before; later slots open 1 hour before. From Oct 19 the store may switch to free entry"
-        ],
-        [
-          "Bonuses",
-          "One novelty and one venue-only shopper bag per Chiikawa purchase, while supplies last (capsule toys excluded)"
-        ],
-        [
-          "Also here",
-          "Nagano Market pop-up shop and a Koupen-chan shop run at the same time"
-        ]
-      ],
-      "nearby": "Fukuoka Mitsukoshi sits on top of Nishitetsu Fukuoka (Tenjin) Station and links to the Tenjin underground mall.",
-      "links": [
-        [
-          "Original press release",
-          "https://prtimes.jp/main/html/rd/p/000000483.000027592.html"
-        ],
-        [
-          "Entry info (official)",
-          "https://chiikawa-info.jp/pus.html"
-        ],
-        [
-          "Coverage",
-          "https://premium.gamepedia.jp/hobby/?p=260418"
-        ]
-      ],
-      "verified": "Oct 11, 2026",
-      "keywords": "chiikawa hachiware usagi momonga kurimanju rakko nagano fukuoka mitsukoshi tenjin popup store kyushu",
-      "rank": {
-        "ipTier": "B",
-        "buzz": 1,
-        "access": "venue",
-        "buzzNote": "Nishinippon Shimbun press release; Inside Games, Gamepedia, Best Calendar",
-        "pinned": false
-      },
-      "hero": "img/hero-chiikawa-fk.jpg",
-      "heroPos": "center",
-      "imgs": [
-        "img/chiikawa-fk-1.jpg"
-      ],
-      "imgPos": "center 35%"
     },
     {
       "id": "evangelion-30th-exhibition-hirakata-park",
@@ -2325,6 +1989,175 @@
       ],
       "imgPos": "center",
       "imgFit": "contain"
+    },
+    {
+      "id": "chainsaw-man-reze-graniph-2026",
+      "cities": [],
+      "nat": true,
+      "tips": [
+        "Walk-in to buy",
+        "19 items",
+        "Collab latte in Tokyo & Fukuoka"
+      ],
+      "map": "graniph Tokyo",
+      "ip": "Chainsaw Man",
+      "pal": "ev-lupin",
+      "type": "Store · Apparel",
+      "title": "Chainsaw Man – The Movie: Reze Arc × graniph",
+      "jp": "劇場版『チェンソーマン レゼ篇』× グラニフ コラボレーション第2弾",
+      "tagline": "Let me teach you everything.",
+      "areas": [],
+      "city": "graniph stores across Japan",
+      "station": "graniph stores in Japan and the graniph online store",
+      "start": "2026-11-03",
+      "end": null,
+      "dateText": "From Nov 3, 2026",
+      "price": "¥1,900 – ¥16,000",
+      "free": false,
+      "overview": "Graphic-apparel brand graniph's second Chainsaw Man collaboration, based on the movie Chainsaw Man – The Movie: Reze Arc: 19 items featuring Denji, Reze, Makima, Aki, the Angel Devil and Pochita, including a hoodie with art drawn by MAPPA. It went on sale on November 3, 2026 at graniph stores in Japan and online. The graniph cafés in Tokyo and Fukuoka Tenjin also sell three collab lattes until November 30.",
+      "details": [
+        [
+          "Release",
+          "Tue Nov 3, 2026 at graniph stores in Japan and online (online pre-orders ran Oct 28 – Nov 2)"
+        ],
+        [
+          "Items",
+          "19 items: long-sleeve tee, sweatshirts, hoodie, knit, cardigans, shirt, pants, mountain parka, T-shirts, boxer shorts, bag, apron, mug, throw blanket and charms"
+        ],
+        [
+          "Prices",
+          "T-shirts ¥3,900; Reze long-sleeve tee ¥5,900; Pochita zip cardigan ¥7,900; MAPPA hoodie ¥8,900; mountain parka ¥16,000; boxer shorts ¥1,900 (tax incl.)"
+        ],
+        [
+          "Collab lattes",
+          "Nov 3 – Nov 30, 3 kinds, ¥600 each, at graniph café in graniph Tokyo (2F) and graniph Fukuoka Tenjin"
+        ],
+        [
+          "graniph Tokyo",
+          "MICO Jingumae 1-a, 4-25-13 Jingumae, Shibuya-ku; café 11:00–20:00 (last order 19:30)"
+        ],
+        [
+          "Address (JP)",
+          "東京都渋谷区神宮前4-25-13 MICO神宮前 1-a棟（グラニフ東京）"
+        ],
+        [
+          "Note",
+          "Stock varies by store"
+        ]
+      ],
+      "nearby": "The Chainsaw Man × Crocs collection (from Oct 27) is also on this guide.",
+      "links": [
+        [
+          "Official collection page (graniph)",
+          "https://www.graniph.com/collection/collection_00515"
+        ],
+        [
+          "Press release (graniph)",
+          "https://digitalpr.jp/r/146968"
+        ],
+        [
+          "Coverage (Anime! Anime!)",
+          "https://animeanime.jp/article/2026/10/31/104369.html"
+        ]
+      ],
+      "verified": "Nov 5, 2026",
+      "keywords": "chainsaw man reze arc movie denji reze makima aki pochita angel devil graniph apparel t-shirt hoodie cardigan latte cafe harajuku",
+      "rank": {
+        "ipTier": "A",
+        "buzz": 2,
+        "buzzNote": "graniph press release; Anime! Anime!, Inside Games, Eiga Natalie, Niigata Nippo",
+        "access": "chain",
+        "pinned": false
+      },
+      "hero": "img/hero-csmgraniph.jpg",
+      "heroPos": "center",
+      "imgs": [
+        "img/csmgraniph-1.jpg",
+        "img/csmgraniph-2.jpg",
+        "img/csmgraniph-3.jpg",
+        "img/csmgraniph-4.jpg",
+        "img/csmgraniph-5.jpg"
+      ],
+      "imgPos": "center",
+      "imgFit": "contain"
+    },
+    {
+      "id": "demon-slayer-kakiyasu-gyunabe-bento-2026",
+      "imgs": [
+        "img/kimetsukakiyasu-1.jpg",
+        "img/kimetsukakiyasu-2.jpg",
+        "img/kimetsukakiyasu-3.jpg",
+        "img/kimetsukakiyasu-4.jpg"
+      ],
+      "imgPos": "center",
+      "imgFit": "contain",
+      "cities": [],
+      "nat": true,
+      "tips": [
+        "Walk-in purchase from Nov 29",
+        "Random mini pouch",
+        "Limited quantity"
+      ],
+      "map": "Kakiyasu Dining",
+      "ip": "Demon Slayer",
+      "pal": "ev-solo",
+      "type": "Food collab",
+      "title": "Demon Slayer × Kakiyasu Dining Beef Sukiyaki Bento",
+      "jp": "柿安ダイニング『黒毛和牛 無限 牛鍋弁当』（アニメ「鬼滅の刃」デザインのオリジナルミニ巾着付き）",
+      "tagline": "Umai! Umai!",
+      "areas": [],
+      "city": "Kakiyasu Dining delis across Japan",
+      "station": "Kakiyasu Dining delis (mostly in department-store food halls)",
+      "start": "2026-11-29",
+      "end": "2026-12-18",
+      "dateText": "Nov 29 – Dec 18, 2026 (in-store sales)",
+      "price": "¥2,681 per bento",
+      "free": false,
+      "overview": "Kakiyasu Dining, the deli brand of the 150-year-old beef specialist Kakiyasu, sells its Kuroge Wagyu \"Mugen\" beef sukiyaki bento with Demon Slayer packaging. Each bento comes with one random mini drawstring pouch (Tanjiro, Rengoku or Akaza), and there are two new wrapper designs based on the Mugen Train movie. Walk-in sales run Nov 29 – Dec 18, 2026 at Kakiyasu Dining shops, which are mostly in department-store food halls.",
+      "details": [
+        [
+          "In-store sales (no booking)",
+          "Sun Nov 29 – Fri Dec 18, 2026"
+        ],
+        [
+          "Pre-orders",
+          "Nov 2 – Nov 23, 2026 online (Kakiyoyaku, needs a Kakiyasu membership and LINE) or at the shop; online pre-orders can be picked up early on Nov 27–28"
+        ],
+        [
+          "Price",
+          "¥2,681 per bento (tax incl.)"
+        ],
+        [
+          "Bonus",
+          "1 random mini pouch per bento (3 designs, 11 × 15 cm). Online pre-orders also get a random acrylic coaster (limited)"
+        ],
+        [
+          "Note",
+          "Sales end when the pouches run out. Some shops do not carry it"
+        ]
+      ],
+      "nearby": "Kakiyasu Dining shops are mostly in department-store food halls (depachika), which are good places to browse other Japanese food too.",
+      "links": [
+        [
+          "Press release (Kakiyasu, PR TIMES)",
+          "https://prtimes.jp/main/html/rd/p/000000057.000118723.html"
+        ],
+        [
+          "Coverage (Anime! Anime!)",
+          "https://animeanime.jp/article/2026/11/02/104422.html"
+        ]
+      ],
+      "verified": "Nov 5, 2026",
+      "keywords": "demon slayer kimetsu no yaiba tanjiro rengoku akaza mugen train kakiyasu bento sukiyaki gyunabe wagyu depachika food",
+      "rank": {
+        "ipTier": "S",
+        "buzz": 1,
+        "buzzNote": "Kakiyasu press release (PR TIMES); Anime! Anime!, Nijimen",
+        "access": "chain",
+        "pinned": false
+      },
+      "hero": "img/hero-kimetsukakiyasu.jpg",
+      "heroPos": "center"
     }
   ],
   "essentials": [
