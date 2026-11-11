@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-11",
   "series": [
     {
       "ip": "Solo Leveling",
@@ -90,6 +90,11 @@
       "ip": "JoJo's Bizarre Adventure",
       "logo": "img/logo-jojo.png",
       "tier": "A"
+    },
+    {
+      "ip": "Pokémon",
+      "logo": "img/logo-pokemon.png",
+      "tier": "S"
     }
   ],
   "events": [
@@ -172,106 +177,6 @@
         "pinned": false
       },
       "hero": "img/hero-db.jpg",
-      "heroPos": "center"
-    },
-    {
-      "id": "madoka-soul-gem-jewelry",
-      "imgs": [
-        "img/madoka-1.jpg",
-        "img/madoka-2.jpg",
-        "img/madoka-3.jpg",
-        "img/madoka-4.jpg",
-        "img/madoka-5.jpg"
-      ],
-      "imgPos": "center 20%",
-      "cities": [
-        "Tokyo",
-        "Osaka"
-      ],
-      "nat": false,
-      "tips": [
-        "Closed Wed & Thu",
-        "Walk-in to view",
-        "Made to order"
-      ],
-      "map": "U-TREASURE Ikebukuro",
-      "map2": [
-        "Osaka store",
-        "U-TREASURE Shinsaibashi"
-      ],
-      "ip": "Madoka Magica",
-      "pal": "ev-madoka",
-      "type": "Store · Jewelry",
-      "title": "Madoka Magica Soul Gem Jewelry",
-      "jp": "劇場版『魔法少女まどか☆マギカ〈ワルプルギスの廻天〉』ソウルジェム・ジュエリー",
-      "tagline": "Make a wish.",
-      "areas": [
-        "Ikebukuro",
-        "Shinsaibashi"
-      ],
-      "city": "Tokyo + Osaka",
-      "station": "Ikebukuro Sta. (E exit) · 8 min / Shinsaibashi Sta. · 3 min",
-      "start": "2026-09-24",
-      "end": "2026-11-06",
-      "dateText": "Reservations Sep 24 – Nov 6, 2026",
-      "price": "From ¥25,300",
-      "free": false,
-      "overview": "A fine-jewelry line based on the Soul Gems and Dark Orbs from Madoka Magica: sterling silver necklaces, plus a limited run of 18K gold and platinum miniature figures. Sold by reservation and shipped with a wooden keepsake case. Many pieces are made to order. You can see them in person, without a booking, at two U-TREASURE stores.",
-      "details": [
-        [
-          "Tokyo store",
-          "U-TREASURE Concept Store Ikebukuro, 4F Otomate Bldg"
-        ],
-        [
-          "Address (JP)",
-          "〒170-0013 東京都豊島区東池袋1-23-5 オトメイトビル4F"
-        ],
-        [
-          "Osaka store",
-          "U-TREASURE Concept Store Shinsaibashi, 1F ANGLE ONE Bldg"
-        ],
-        [
-          "Address (JP)",
-          "〒542-0083 大阪府大阪市中央区東心斎橋1-19-21 ANGLEONEビル 1F"
-        ],
-        [
-          "Hours",
-          "11:00–19:00 (both stores)"
-        ],
-        [
-          "Closed",
-          "Wednesdays and Thursdays (open on public holidays)"
-        ],
-        [
-          "From overseas",
-          "Proxy purchase via WorldShopping in English or Chinese; no delivery to the EU, UK, Iceland, Liechtenstein or Norway"
-        ],
-        [
-          "Tax-free",
-          "May be available in store under certain conditions; ask staff"
-        ]
-      ],
-      "nearby": "Ikebukuro: Sunshine City and Otome Road are within 10 minutes of the east exit. Osaka: Dotonbori and the Shinsaibashi-suji arcade are a few minutes away, and Amerikamura is about 5 minutes further.",
-      "links": [
-        [
-          "U-TREASURE official site",
-          "https://u-treasure.jp/"
-        ],
-        [
-          "Collection coverage",
-          "https://animeanime.jp/article/2026/09/26/103256.html"
-        ]
-      ],
-      "verified": "Sep 29, 2026",
-      "keywords": "puella magi madoka walpurgis soul gem u-treasure shinsaibashi dotonbori jewellery necklace",
-      "rank": {
-        "ipTier": "B",
-        "buzz": 2,
-        "access": "reserve",
-        "buzzNote": "Anime! Anime! coverage; reservations closing soon on U-TREASURE",
-        "pinned": false
-      },
-      "hero": "img/hero-madoka.jpg",
       "heroPos": "center"
     },
     {
@@ -1228,111 +1133,6 @@
       "imgFit": "contain"
     },
     {
-      "id": "tokyo-revengers-cafe-e-diner-bar-bonten",
-      "imgs": [
-        "img/tokyorev-1.jpg",
-        "img/tokyorev-2.jpg",
-        "img/tokyorev-3.jpg",
-        "img/tokyorev-4.jpg",
-        "img/tokyorev-5.jpg"
-      ],
-      "imgFit": "contain",
-      "cities": [
-        "Tokyo",
-        "Osaka"
-      ],
-      "nat": false,
-      "tips": [
-        "Eat-in tickets needed some days",
-        "Goods: walk-in",
-        "Random coaster"
-      ],
-      "map": "E-DINER Ikebukuro, 1-23-1 Higashi-Ikebukuro",
-      "map2": [
-        "Osaka goods shop",
-        "EDITH ANIME SHOP HEP FIVE"
-      ],
-      "ip": "Tokyo Revengers",
-      "pal": "ev-lupin",
-      "type": "Collab café",
-      "title": "Tokyo Revengers Café: Bar Bonten",
-      "jp": "東京リベンジャーズ カフェ in E-DINER -Bar 梵天-",
-      "tagline": "Last orders at Bonten.",
-      "areas": [
-        "Ikebukuro",
-        "Umeda"
-      ],
-      "city": "Tokyo (café) + Osaka (goods only)",
-      "station": "Ikebukuro Sta. · 4 min walk / Osaka-umeda Sta. (Hankyu) · 1 min",
-      "start": "2026-10-20",
-      "end": "2026-11-08",
-      "dateText": "Oct 20 – Nov 8, 2026",
-      "price": "Free entry for goods; dishes ¥1,210–¥1,540, drinks ¥990",
-      "free": false,
-      "overview": "A Tokyo Revengers collaboration café themed on the bar of the Bonten gang, with a dish or drink for each of eight members including Mikey, Sanzu, Koko, Ran and Rindo. Each themed item comes with a random coaster (8 designs). E-DINER in Ikebukuro serves the food and sells goods; EDITH ANIME SHOP in HEP FIVE, Osaka sells the goods only.",
-      "details": [
-        [
-          "Tokyo café",
-          "E-DINER Ikebukuro, Social Bldg 1F, 11:00–20:00"
-        ],
-        [
-          "Address (JP)",
-          "東京都豊島区東池袋1-23-1 ソシアルビル1F"
-        ],
-        [
-          "Osaka (goods only)",
-          "EDITH ANIME SHOP, HEP FIVE 6F, 11:00–21:00"
-        ],
-        [
-          "Address (JP)",
-          "大阪府大阪市北区角田町5-15 HEP FIVE 6階"
-        ],
-        [
-          "Eat-in tickets",
-          "Required Oct 20–25, Oct 31, Nov 1, Nov 3, Nov 7 and Nov 8 (booked online, first come first served; no changes or cancellations). Other days free seating"
-        ],
-        [
-          "Menu",
-          "Dishes ¥1,210–¥1,540; drinks ¥990; takeout available"
-        ],
-        [
-          "Goods",
-          "Acrylic stands ¥1,430; blind can badges ¥550; big acrylic stands ¥3,960; mug ¥1,650"
-        ],
-        [
-          "In-store lottery",
-          "¥770 per draw, eat-in customers only, credit card only"
-        ],
-        [
-          "Payment",
-          "Cash, credit cards, iD, QUICPay, QR codes, transit IC cards"
-        ]
-      ],
-      "nearby": "E-DINER is on the east side of Ikebukuro, a short walk from Sunshine City and the anime shops of Otome Road. In Osaka, HEP FIVE is the Umeda mall with the red Ferris wheel on its roof.",
-      "links": [
-        [
-          "Official café page",
-          "https://www.edith.co.jp/lp/tokyo-revengers-cafe/"
-        ],
-        [
-          "Press release",
-          "https://prtimes.jp/main/html/rd/p/000000360.000066407.html"
-        ]
-      ],
-      "verified": "Oct 21, 2026",
-      "keywords": "tokyo revengers toman bonten mikey manjiro sano sanzu haruchiyo koko kokonoi ran rindo haitani kakucho mochizuki takeomi collab cafe ikebukuro e-diner hep five umeda",
-      "rank": {
-        "ipTier": "B",
-        "buzz": 2,
-        "buzzNote": "E-DINER (EDITH) press release; Nijimen, Kyara Hobi (Gamepedia), Sokumaga",
-        "access": "venue",
-        "pinned": false
-      },
-      "hero": "img/tokyorev-1.jpg",
-      "heroPos": "center",
-      "imgPos": "center"
-    },
-    {
       "id": "one-piece-ichiban-kuji-animal-gathering",
       "imgs": [
         "img/opkuji-1.jpg",
@@ -2158,6 +1958,279 @@
       },
       "hero": "img/hero-kimetsukakiyasu.jpg",
       "heroPos": "center"
+    },
+    {
+      "id": "attack-on-titan-botejyu-2026",
+      "cities": [],
+      "nat": true,
+      "tips": [
+        "Walk-in OK (bookings accepted)",
+        "Goods: diners only",
+        "Character panels at 10 shops"
+      ],
+      "map": "Botejyu Honten Dotonbori",
+      "ip": "Attack on Titan",
+      "pal": "ev-stone",
+      "type": "Collab restaurant · Okonomiyaki",
+      "title": "Attack on Titan × Botejyu Okonomiyaki: Teppan Road II",
+      "jp": "進撃の巨人 × ぼてぢゅう コラボキャンペーン第2弾「鉄板の道II」",
+      "tagline": "Beyond the griddle lies a world of flavor.",
+      "areas": [],
+      "city": "35 Botejyu Group shops in Japan (Tokyo, Osaka, airports and more)",
+      "station": "Botejyu Group shops across Japan, incl. Shibuya, Ikebukuro, Dotonbori, Kansai Airport",
+      "start": "2026-11-19",
+      "end": "2026-12-27",
+      "dateText": "Nov 19 – Dec 27, 2026",
+      "price": "Menu ¥858 – ¥2,398 (varies by shop)",
+      "free": false,
+      "overview": "Okonomiyaki chain Botejyu's second Attack on Titan collaboration runs at 35 Botejyu Group shops from November 19 to December 27, 2026. New art shows Eren, Levi and Erwin as Botejyu staff, with character-themed okonomiyaki, takoyaki and yakisoba, themed drinks, and collab goods sold at the restaurant shops.",
+      "details": [
+        [
+          "Period",
+          "Thu Nov 19 – Sun Dec 27, 2026 (end may differ by shop; limited quantities)"
+        ],
+        [
+          "Restaurant menu",
+          "8 dishes ¥1,408–¥2,178 (e.g. Eren's tomato-cream okonomiyaki, Levi's sukiyaki negiyaki, Erwin's gold beef modan-yaki); higher prices at Dotonbori, Shibuya and the Kansai / Chubu airport shops (up to ¥2,398)"
+        ],
+        [
+          "Drinks",
+          "6 character drinks ¥1,078 at restaurants; 3 drinks ¥858 at food-court shops"
+        ],
+        [
+          "Food courts",
+          "4 dishes ¥968–¥1,738 at food-court shops (DiverCity Tokyo Plaza, Aqua City, Narita Airport, outlets and malls)"
+        ],
+        [
+          "Goods",
+          "Acrylic stands ¥1,870; hologram badge ¥660; blind mini-character badges ¥605; Levi birthday die-cut panel ¥2,970. Restaurant shops only, for diners only; limit per person Nov 19–23"
+        ],
+        [
+          "Photo panels",
+          "Character panels at Shibuya, Ikebukuro Tobu, Okachimachi, Chofu PARCO, Yokohama Landmark, Honten Dotonbori, HEP NAVIO, Tennoji MIO, Kansai Airport and Chubu Airport shops"
+        ],
+        [
+          "Booking",
+          "Walk-ins welcome at all shops; online booking available at most restaurant shops (not at food courts or the airport JTR shops). Kansai Airport shops are airside (boarding pass needed)"
+        ]
+      ],
+      "nearby": "Botejyu Honten is on Dotonbori in Namba, Osaka; the Shibuya shop is a handy stop on a Tokyo anime-shopping day.",
+      "links": [
+        [
+          "Official campaign page (Botejyu)",
+          "https://botejyu.co.jp/shingeki/2026/"
+        ],
+        [
+          "Coverage (Dengeki Online)",
+          "https://dengekionline.com/article/202611/93357"
+        ],
+        [
+          "Coverage (Anime! Anime!)",
+          "https://animeanime.jp/article/2026/11/05/104506.html"
+        ]
+      ],
+      "verified": "Nov 11, 2026",
+      "keywords": "attack on titan shingeki no kyojin eren levi erwin mikasa armin hange botejyu okonomiyaki takoyaki yakisoba collab restaurant dotonbori shibuya osaka tokyo airport",
+      "rank": {
+        "ipTier": "A",
+        "buzz": 2,
+        "buzzNote": "Botejyu official page; Anime! Anime!, Dengeki Online, Nijimen, Kyara Hobi (Gamepedia)",
+        "access": "chain",
+        "pinned": false
+      },
+      "hero": "img/hero-aotbotejyu.jpg",
+      "heroPos": "center",
+      "imgs": [
+        "img/aotbotejyu-1.jpg",
+        "img/aotbotejyu-2.jpg",
+        "img/aotbotejyu-3.jpg",
+        "img/aotbotejyu-4.jpg",
+        "img/aotbotejyu-5.jpg"
+      ],
+      "imgPos": "center",
+      "imgFit": "contain"
+    },
+    {
+      "id": "pokemon-30th-new-era-2026",
+      "cities": [],
+      "nat": true,
+      "tips": [
+        "Walk-in to buy",
+        "25 items",
+        "Stock varies by store"
+      ],
+      "map": "New Era Store Harajuku",
+      "ip": "Pokémon",
+      "pal": "ev-db",
+      "type": "Store · Caps & apparel",
+      "title": "Pokémon 30th Anniversary × New Era",
+      "jp": "ニューエラ「ポケモン」30周年記念スペシャルアイテム",
+      "tagline": "Pokémon: Since 1996.",
+      "areas": [],
+      "city": "New Era stores and stockists across Japan",
+      "station": "New Era stores, New Era stockists in Japan and the New Era online store",
+      "start": "2026-11-20",
+      "end": null,
+      "dateText": "From Nov 20, 2026",
+      "price": "¥4,400 – ¥11,000",
+      "free": false,
+      "overview": "New Era Japan's Pokémon 30th-anniversary collection goes on sale on November 20, 2026 at New Era stores, New Era stockists and the official online store in Japan. It has 25 items, including caps with embroidered Pikachu, Mew, Mewtwo, the Kanto starters and Ditto, plus 30th-logo T-shirts, a tote bag, a neck pouch and kids' sizes.",
+      "details": [
+        [
+          "Release",
+          "Fri Nov 20, 2026 at New Era stores, New Era stockists and the New Era online store (Japan)"
+        ],
+        [
+          "Pokémon",
+          "Bulbasaur, Venusaur, Charmander, Charizard, Squirtle, Blastoise, Pikachu, Ditto, Eevee, Mewtwo, Mew, Pichu"
+        ],
+        [
+          "Prices",
+          "59FIFTY ¥7,700; 9FORTY A-frame ¥5,500; 9TWENTY ¥4,950; T-shirt ¥6,050; 3-pack T-shirts ¥11,000; tote bag ¥4,620; neck pouch ¥4,400 (tax incl.)"
+        ],
+        [
+          "Kids",
+          "Youth 9FIFTY ¥4,950; Youth 9TWENTY ¥4,400; Youth T-shirt ¥5,280"
+        ],
+        [
+          "Note",
+          "Not every item is sold at every store; New Era lists store stock online"
+        ]
+      ],
+      "nearby": "Pair it with a visit to a Pokémon Center; the Dragon Ball and One Piece items on this guide are also sold in shops across Japan.",
+      "links": [
+        [
+          "Official collection page (New Era)",
+          "https://www.neweracap.jp/collections/pokemon-30th"
+        ],
+        [
+          "Press release (New Era Japan)",
+          "https://prtimes.jp/main/html/rd/p/000000565.000015945.html"
+        ],
+        [
+          "Coverage (FASHIONSNAP)",
+          "https://www.fashionsnap.com/article/2026-11-06/pokemon-new-era-30-years-memorial/"
+        ]
+      ],
+      "verified": "Nov 11, 2026",
+      "keywords": "pokemon 30th anniversary new era cap 59fifty 9forty 9twenty pikachu mew mewtwo charizard bulbasaur squirtle ditto eevee t-shirt tote apparel",
+      "rank": {
+        "ipTier": "S",
+        "buzz": 2,
+        "buzzNote": "New Era Japan press release; FASHIONSNAP, Anime! Anime!, Nijimen",
+        "access": "chain",
+        "pinned": false
+      },
+      "hero": "img/hero-pokeneweracap.jpg",
+      "heroPos": "center",
+      "imgs": [
+        "img/pokeneweracap-1.jpg",
+        "img/pokeneweracap-2.jpg",
+        "img/pokeneweracap-3.jpg",
+        "img/pokeneweracap-4.jpg",
+        "img/pokeneweracap-5.jpg"
+      ],
+      "imgPos": "center",
+      "imgFit": "contain"
+    },
+    {
+      "id": "tokyo-revengers-gigo-popup-2026",
+      "cities": [
+        "Tokyo",
+        "Osaka",
+        "Fukuoka"
+      ],
+      "nat": false,
+      "tips": [
+        "Walk-in, free entry",
+        "Postcard per ¥3,000",
+        "Ends Nov 24"
+      ],
+      "map": "GiGO Sohonten, Rokumaru Gate Ikebukuro",
+      "ip": "Tokyo Revengers",
+      "pal": "ev-lupin",
+      "type": "POP UP shop · Arcade",
+      "title": "Tokyo Revengers × GiGO POP UP SHOP (Check ver.)",
+      "jp": "東京リベンジャーズ GiGOコラボキャンペーン（チェックver.）",
+      "tagline": "Toman in check suits.",
+      "areas": [
+        "Ikebukuro",
+        "Namba",
+        "Tenjin"
+      ],
+      "city": "Tokyo (Ikebukuro) · Osaka (Namba) · Fukuoka (Tenjin)",
+      "station": "Ikebukuro Sta. · 3 min walk (GiGO Sohonten)",
+      "start": "2026-11-07",
+      "end": "2026-11-24",
+      "dateText": "Nov 7 – Nov 24, 2026",
+      "price": "Free entry; goods ¥550 – ¥4,070",
+      "free": true,
+      "overview": "A Tokyo Revengers pop-up shop at three GiGO arcades - GiGO Sohonten (Ikebukuro), GiGO Namba Abion and GiGO Fukuoka Tenjin - from November 7 to 24, 2026. It sells new goods with art of six members in check-pattern suits. GiGO arcades across Japan also have exclusive crane-game prizes, and 21 GiGO shops sell a drink with a random coaster until December 6.",
+      "details": [
+        [
+          "POP UP SHOP",
+          "Nov 7 – Nov 24, 2026 at GiGO Sohonten (10:00–21:00), GiGO Namba Abion (9:00–21:00) and GiGO Fukuoka Tenjin (10:00–22:00)"
+        ],
+        [
+          "GiGO Sohonten",
+          "Rokumaru Gate Ikebukuro B1–3F, 1-13-6 Higashi-Ikebukuro, Toshima-ku"
+        ],
+        [
+          "Address (JP)",
+          "東京都豊島区東池袋1-13-6 ロクマルゲート池袋（GiGO総本店）"
+        ],
+        [
+          "Goods",
+          "Acrylic stands ¥2,200 (6 kinds: Takemichi, Mikey, Chifuyu, Sanzu, Senju, Wakasa); blind can badges ¥660; Polashot cards ¥550; mini acrylic stands ¥880; card case ¥3,300; hologram art panel ¥4,070; ribbon scrunchies ¥2,310"
+        ],
+        [
+          "Bonus",
+          "A random glitter postcard (6 kinds) for every ¥3,000 spent, while stocks last"
+        ],
+        [
+          "Crane-game prizes",
+          "From Nov 7 at GiGO arcades across Japan (big acrylic stands, badges, hair clips); stock varies by arcade"
+        ],
+        [
+          "Novelty drink",
+          "¥500 with a random coaster (12 kinds), Nov 7 – Dec 6 at 21 GiGO shops incl. Ikebukuro 3, Shibuya, Akihabara 2 and Roppongi Imoaraizaka"
+        ]
+      ],
+      "nearby": "GiGO Sohonten is on the Sunshine 60-dori side of east Ikebukuro, near Sunshine City and the anime shops of Otome Road.",
+      "links": [
+        [
+          "Official event page (Chugai Contents)",
+          "https://www.chugai-contents.jp/blog/event/tokyorevengers_gigo/"
+        ],
+        [
+          "Press release (Chugai Mining)",
+          "https://prtimes.jp/main/html/rd/p/000000905.000059072.html"
+        ],
+        [
+          "Coverage (Nijimen)",
+          "https://nijimen.kusuguru.co.jp/topics/650880"
+        ]
+      ],
+      "verified": "Nov 11, 2026",
+      "keywords": "tokyo revengers toman takemichi mikey chifuyu sanzu senju wakasa gigo arcade pop up shop crane game ikebukuro namba fukuoka tenjin goods",
+      "rank": {
+        "ipTier": "B",
+        "buzz": 1,
+        "buzzNote": "Chugai press release; Nijimen, Zaikei Shimbun",
+        "access": "venue",
+        "pinned": false
+      },
+      "hero": "img/hero-trgigo.jpg",
+      "heroPos": "center",
+      "imgs": [
+        "img/trgigo-1.jpg",
+        "img/trgigo-2.jpg",
+        "img/trgigo-3.jpg",
+        "img/trgigo-4.jpg",
+        "img/trgigo-5.jpg"
+      ],
+      "imgPos": "center",
+      "imgFit": "contain"
     }
   ],
   "essentials": [
