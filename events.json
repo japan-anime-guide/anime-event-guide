@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-13",
   "series": [
     {
       "ip": "Solo Leveling",
@@ -2228,6 +2228,198 @@
         "img/trgigo-3.jpg",
         "img/trgigo-4.jpg",
         "img/trgigo-5.jpg"
+      ],
+      "imgPos": "center",
+      "imgFit": "contain"
+    },
+    {
+      "id": "jojo-ichiban-kuji-gathering-of-rivals-2026",
+      "cities": [],
+      "nat": true,
+      "tips": [
+        "No blanks",
+        "Lawson & hobby shops",
+        "¥850 per draw"
+      ],
+      "map": "Lawson",
+      "ip": "JoJo's Bizarre Adventure",
+      "pal": "ev-stone",
+      "type": "Store · Lottery",
+      "title": "Ichiban Kuji JoJo's Bizarre Adventure: The Gathering of RIVALS",
+      "jp": "一番くじ ジョジョの奇妙な冒険 The Gathering of RIVALS",
+      "tagline": "Seven villains, one draw.",
+      "areas": [],
+      "city": "Nationwide (Lawson, bookstores, hobby shops and more)",
+      "station": "Any Lawson, bookstore or hobby shop that carries it",
+      "start": "2026-11-21",
+      "end": null,
+      "dateText": "From Nov 21, 2026 (rolling release, while stocks last); online from Nov 25, 17:00",
+      "price": "¥850 per draw",
+      "free": false,
+      "overview": "A new Ichiban Kuji prize lottery built around the rivals of JoJo's Bizarre Adventure. Prizes A to G are large figures of Dio Brando on his throne, Kars, DIO, Kosaku Kawajiri, Diavolo, Enrico Pucci and the Stand Arrow, and the Last One Prize is a Diego Brando figure. Every draw wins something.",
+      "details": [
+        [
+          "Sold at",
+          "Lawson, bookstores, hobby shops, THE★JOJO WORLD, Ichiban Kuji official shops, Ichiban Kuji ONLINE and others"
+        ],
+        [
+          "Release",
+          "From Sat Nov 21, 2026 in stores (rolling release, dates may differ by store); Ichiban Kuji ONLINE from Wed Nov 25, 17:00"
+        ],
+        [
+          "Price",
+          "¥850 per draw (tax incl.)"
+        ],
+        [
+          "Prizes",
+          "A: Dio Brando MASTERLISE PLUS (~18 cm); B: Kars (~25 cm); C: DIO (~26 cm); D: Kosaku Kawajiri (~24 cm); E: Diavolo (~25 cm); F: Enrico Pucci (~22 cm); G: Stand Arrow (~21 cm); H: logo collection; I: miniature charms; J: rubber goods; K: A3 clear posters; L: stickers"
+        ],
+        [
+          "Last One",
+          "Diego Brando MASTERLISE figure, for whoever draws the last ticket at a store"
+        ],
+        [
+          "Double Chance",
+          "Release day to end of Feb 2027: 50 more A Prize figures by lottery"
+        ],
+        [
+          "Note",
+          "Stores may not stock it, and it ends when sold out"
+        ]
+      ],
+      "nearby": "The JoJo × JINS eyewear collection is also on this guide.",
+      "links": [
+        [
+          "Official lineup (Ichiban Kuji)",
+          "https://1kuji.com/products/jojo_26"
+        ],
+        [
+          "Coverage (Anime! Anime!)",
+          "https://animeanime.jp/article/2026/11/01/104385.html"
+        ],
+        [
+          "Coverage (Inside Games)",
+          "https://www.inside-games.jp/article/2026/10/30/190078.html"
+        ]
+      ],
+      "verified": "Nov 13, 2026",
+      "keywords": "jojo jojos bizarre adventure ichiban kuji dio brando kars kosaku kawajiri kira diavolo enrico pucci diego brando stand arrow figure lawson lottery villains rivals",
+      "rank": {
+        "ipTier": "A",
+        "buzz": 2,
+        "buzzNote": "Ichiban Kuji official; Anime! Anime!, Inside Games, Dengeki Hobby, HOBBY Watch",
+        "access": "chain",
+        "pinned": false
+      },
+      "hero": "img/hero-jojokuji.jpg",
+      "heroPos": "center",
+      "imgs": [
+        "img/jojokuji-1.jpg",
+        "img/jojokuji-2.jpg",
+        "img/jojokuji-3.jpg",
+        "img/jojokuji-4.jpg",
+        "img/jojokuji-5.jpg"
+      ],
+      "imgPos": "center",
+      "imgFit": "contain"
+    },
+    {
+      "id": "chiikawa-clinic-goods-2026",
+      "cities": [
+        "Tokyo",
+        "Osaka",
+        "Nagoya",
+        "Sapporo",
+        "Sendai",
+        "Fukuoka"
+      ],
+      "nat": false,
+      "tips": [
+        "Phase 2 from Dec 11",
+        "Pop-ups: LINE booking",
+        "Bonuses from ¥3,300"
+      ],
+      "map": "Tokyo Character Street",
+      "ip": "Chiikawa",
+      "pal": "ev-madoka",
+      "type": "Pop-up shop",
+      "title": "Chiikawa Clinic (Nurse & Doctor Goods)",
+      "jp": "ちいかわクリニック（第1弾）",
+      "tagline": "Chiikawa and friends in nurse uniforms.",
+      "areas": [
+        "Tokyo Station",
+        "Ginza"
+      ],
+      "city": "Tokyo + Osaka, Nagoya and more (11 Chiikawa Land stores, 8 pop-ups)",
+      "station": "Tokyo Sta. (Tokyo Station First Avenue) / Chiikawa Land stores",
+      "start": "2026-11-27",
+      "end": "2027-01-11",
+      "dateText": "From Nov 27, 2026 (pop-ups until Dec 9 – Jan 11 by venue); phase 2 from Dec 11",
+      "price": "Goods ¥330–¥7,480",
+      "free": false,
+      "overview": "Chiikawa's 2026 goods series puts Chiikawa, Hachiware, Usagi and friends in nurse uniforms and doctor coats, with some items drawn as organ motifs. The first wave goes on sale on November 27, 2026 at the 11 Chiikawa Land shops, eight pop-up venues in Japan and the online Chiikawa Market. A second wave follows on December 11.",
+      "details": [
+        [
+          "Tokyo pop-ups",
+          "Tokyo Character Street (Ichiban Plaza), Tokyo Station First Avenue · Nov 27 – Dec 24 · 10:00–20:30; Ginza Mirai Museum · Nov 27 – Dec 27"
+        ],
+        [
+          "Other pop-ups",
+          "Nagoya PARCO East B1F (Nov 27 – Dec 20); Kiddy Land Osaka Umeda (Nov 27 – Dec 9); Kiddy Land Hiroshima PARCO (to Jan 6); Sapporo Apia (to Jan 5); Sendai PARCO (to Dec 20); Amu Plaza Kumamoto (to Jan 11)"
+        ],
+        [
+          "Chiikawa Land",
+          "Harajuku, Shinjuku, Ikebukuro PARCO, Tokyo Skytree Town Solamachi, Yokohama, Koshigaya Laketown, Shinsaibashi PARCO, Kyoto Shijo-Kawaramachi, Kanazawa Forus, Fukuoka PARCO, Sapporo PARCO"
+        ],
+        [
+          "Entry",
+          "Pop-up venues use LINE advance entry booking (lottery for Nov 27–30, first come from Dec 1); photo ID required. Chiikawa Land entry rules to be announced"
+        ],
+        [
+          "Goods",
+          "Nurse mascots ¥1,650–¥1,980; X-ray clear pouch ¥1,430; organ porcelain plates ¥2,200 each; eye-chart tote ¥3,850; random mini cases and cards ¥330"
+        ],
+        [
+          "Bonuses",
+          "In stores: plastic card at ¥3,300+, ballpoint pen at ¥5,500+, plush face badge at ¥8,800+ (while supplies last)"
+        ]
+      ],
+      "nearby": "Tokyo Character Street is in the basement of Tokyo Station First Avenue, next to many other anime character shops. The Chiikawa Pocket pop-up is also on this guide until Nov 29.",
+      "links": [
+        [
+          "Original press release",
+          "https://prtimes.jp/main/html/rd/p/000000083.000168561.html"
+        ],
+        [
+          "Chiikawa Land store list",
+          "https://chiikawa-info.jp/ck_land.html"
+        ],
+        [
+          "Coverage (Nijimen)",
+          "https://nijimen.kusuguru.co.jp/topics/655039"
+        ],
+        [
+          "Coverage (Denfaminicogamer)",
+          "https://news.denfaminicogamer.jp/news/2611122v"
+        ]
+      ],
+      "verified": "Nov 13, 2026",
+      "keywords": "chiikawa clinic nurse doctor hachiware usagi momonga kurimanju rakko chiikawa land tokyo character street ginza mirai museum popup mascot organ",
+      "rank": {
+        "ipTier": "B",
+        "buzz": 2,
+        "buzzNote": "Gray Parker Service press release; Denfaminicogamer, Nijimen, Comic Natalie, ABEMA TIMES",
+        "access": "reserve",
+        "pinned": false
+      },
+      "hero": "img/hero-chiikawaclinic.jpg",
+      "heroPos": "center",
+      "imgs": [
+        "img/chiikawaclinic-1.jpg",
+        "img/chiikawaclinic-2.jpg",
+        "img/chiikawaclinic-3.jpg",
+        "img/chiikawaclinic-4.jpg",
+        "img/chiikawaclinic-5.jpg"
       ],
       "imgPos": "center",
       "imgFit": "contain"
