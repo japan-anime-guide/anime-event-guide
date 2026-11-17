@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13",
+  "updated": "2026-11-17",
   "series": [
     {
       "ip": "Solo Leveling",
@@ -95,6 +95,11 @@
       "ip": "Pokémon",
       "logo": "img/logo-pokemon.png",
       "tier": "S"
+    },
+    {
+      "ip": "SPY×FAMILY",
+      "logo": "img/logo-spyfamily.png",
+      "tier": "A"
     }
   ],
   "events": [
@@ -2420,6 +2425,287 @@
         "img/chiikawaclinic-3.jpg",
         "img/chiikawaclinic-4.jpg",
         "img/chiikawaclinic-5.jpg"
+      ],
+      "imgPos": "center",
+      "imgFit": "contain"
+    },
+    {
+      "id": "demon-slayer-jr-central-tokaido-2026",
+      "cities": [
+        "Tokyo",
+        "Nagoya",
+        "Osaka"
+      ],
+      "nat": false,
+      "tips": [
+        "Station shops on the Tokaido Shinkansen",
+        "Bento with random bonus card",
+        "No reservations"
+      ],
+      "map": "Tokyo Station",
+      "ip": "Demon Slayer",
+      "pal": "ev-solo",
+      "type": "Food collab · Station shops",
+      "title": "Demon Slayer × JR Central Retailing Plus \"Tokaido Journey\"",
+      "jp": "アニメ「鬼滅の刃」× JR東海リテイリング・プラス「東海道、無限のときめき旅」",
+      "tagline": "Set your heart ablaze for the Shinkansen ride.",
+      "areas": [
+        "Tokyo Station",
+        "Shinagawa",
+        "Shin-Yokohama",
+        "Nagoya",
+        "Kyoto",
+        "Shin-Osaka"
+      ],
+      "city": "Tokaido Shinkansen stations (Tokyo – Shin-Osaka)",
+      "station": "Shops at Tokyo, Shinagawa, Shin-Yokohama, Nagoya, Kyoto, Shin-Osaka and other stations",
+      "start": "2026-12-01",
+      "end": "2027-01-11",
+      "dateText": "Dec 1, 2026 – Jan 11, 2027",
+      "price": "¥198 – ¥1,980",
+      "free": false,
+      "overview": "JR Central Retailing Plus, which runs the PLUSTA, Bellmart, PRECIOUS DELI and Kiosk shops between Tokyo and Shin-Osaka, holds its first Demon Slayer collaboration with new ufotable art of Tanjiro, Giyu, Shinobu, Mitsuri and Muichiro in travel outfits. There are two character bento boxes (¥1,780 each, with a random bonus card), rice balls, sandwiches and sweets, plus 6 kinds of goods. It runs from December 1, 2026 to January 11, 2027.",
+      "details": [
+        [
+          "Bento 1",
+          "\"Iza, Tokaido! Demon Slayer Corps Journey Bento\" from Dec 1, ¥1,780, with 1 random clear card (5 designs). Max 3 per purchase"
+        ],
+        [
+          "Bento 2",
+          "\"Irodori Bento\" from Dec 22, ¥1,780, with 1 random metallic postcard (5 designs). Max 3 per purchase"
+        ],
+        [
+          "Food & sweets",
+          "Rice balls, sandwiches and sweets for each character, ¥198 – ¥1,580 (e.g. Tanjiro beef rice ball ¥250, Giyu butter financier ¥210, Mitsuri sakura-matcha baumkuchen ¥235)"
+        ],
+        [
+          "Goods",
+          "Acrylic stands ¥1,430; trading badges ¥440; trading acrylic keychains ¥770; clear file ¥660; sticker set ¥880; face towel ¥1,980 (tax incl.)"
+        ],
+        [
+          "Where",
+          "Bento: selected shops at Tokyo, Shinagawa, Shin-Yokohama, Odawara, Shizuoka, Nagoya, Kyoto and Shin-Osaka stations. Goods: selected shops at stations from Tokyo to Shin-Osaka, including Tokyo, Shinagawa, Shin-Yokohama, Shizuoka, Hamamatsu, Nagoya, Gifu and Kyoto"
+        ],
+        [
+          "Note",
+          "Shops inside the Tokaido Shinkansen ticket gates need a train ticket or platform ticket. No reservations or holds; limited stock. Not every item is sold at every shop"
+        ],
+        [
+          "Online",
+          "Goods only, from Dec 8, 2026 10:00 at PLUSTA ONLINE STORE"
+        ]
+      ],
+      "nearby": "Tokyo Station has many character shops in Tokyo Character Street (First Avenue Tokyo Station, B1).",
+      "links": [
+        [
+          "Official campaign page (JR Central Retailing Plus)",
+          "https://www.jr-plus.co.jp/kimetsu_jrp2026/"
+        ],
+        [
+          "Coverage (Anime! Anime!)",
+          "https://animeanime.jp/article/2026/11/15/104782.html"
+        ]
+      ],
+      "verified": "Nov 17, 2026",
+      "keywords": "demon slayer kimetsu no yaiba tanjiro giyu tomioka shinobu kocho mitsuri kanroji muichiro tokito ekiben bento shinkansen tokaido jr central tokyo station nagoya kyoto shin-osaka",
+      "rank": {
+        "ipTier": "S",
+        "buzz": 1,
+        "buzzNote": "JR Central Retailing Plus official page; Anime! Anime!, Game Watch",
+        "access": "chain",
+        "pinned": false
+      },
+      "hero": "img/hero-kimetsujrc.jpg",
+      "heroPos": "center",
+      "imgs": [
+        "img/kimetsujrc-1.jpg",
+        "img/kimetsujrc-2.jpg",
+        "img/kimetsujrc-3.jpg",
+        "img/kimetsujrc-4.jpg",
+        "img/kimetsujrc-5.jpg"
+      ],
+      "imgPos": "center",
+      "imgFit": "contain"
+    },
+    {
+      "id": "spy-family-masquerade-popup-wit-2026",
+      "cities": [
+        "Tokyo",
+        "Kyoto",
+        "Fukuoka",
+        "Nagoya",
+        "Osaka"
+      ],
+      "nat": false,
+      "tips": [
+        "Tours 5 cities",
+        "Bonus card per ¥3,300",
+        "Photo spot"
+      ],
+      "map": "SHIBUYA TSUTAYA",
+      "ip": "SPY×FAMILY",
+      "pal": "ev-db",
+      "type": "Pop-up shop",
+      "title": "SPY×FAMILY Pop-Up Shop -MASQUERADE- by WIT STUDIO",
+      "jp": "TVアニメ『SPY×FAMILY』POP UP SHOP -MASQUERADE- by WIT STUDIO",
+      "tagline": "The Forgers go to a masked ball.",
+      "areas": [
+        "Shibuya"
+      ],
+      "city": "Tokyo → Kyoto → Fukuoka → Aichi → Osaka",
+      "station": "Tokyo: Shibuya Sta. · 1 min walk (SHIBUYA TSUTAYA)",
+      "start": "2026-12-10",
+      "end": "2027-05-19",
+      "dateText": "Tokyo Dec 10 – 28, 2026; then Kyoto, Fukuoka, Aichi and Osaka until May 19, 2027",
+      "price": "¥460 – ¥1,980",
+      "free": false,
+      "overview": "A pop-up shop by WIT STUDIO, one of the studios behind the SPY×FAMILY anime, with new art of Loid, Anya, Yor and Bond in masquerade-ball outfits. Goods include acrylic stands, foil badges, a mug and cheki-style stickers. It opens at SHIBUYA TSUTAYA on December 10, 2026 and then tours four more TSUTAYA stores.",
+      "details": [
+        [
+          "Tokyo",
+          "SHIBUYA TSUTAYA 6F IP Shoten, Dec 10 – 28, 2026"
+        ],
+        [
+          "Kyoto",
+          "Kyoto IP Shoten (TSUTAYA), Jan 7 – 21, 2027"
+        ],
+        [
+          "Fukuoka",
+          "Fukuoka Tenjin Tsutaya Books IP Shoten Satellite Store, Feb 10 – 28, 2027"
+        ],
+        [
+          "Aichi",
+          "TSUTAYA BOOKSTORE Noritake Shinmachi (Nagoya), Mar 12 – 31, 2027"
+        ],
+        [
+          "Osaka",
+          "Osaka IP Shoten (TSUTAYA), Apr 27 – May 19, 2027"
+        ],
+        [
+          "Prices",
+          "Masquerade acrylic stands ¥1,900 each; foil random badges ¥600; clear file ¥600; cheki-style stickers ¥460; mug ¥1,980; umbrella markers ¥550; hair ties ¥800; Anya phone grip ¥1,650; OP random badges ¥550 (tax incl.)"
+        ],
+        [
+          "Bonus",
+          "1 random illustration card (4 designs) for every ¥3,300 spent; while stocks last"
+        ],
+        [
+          "Note",
+          "Items and bonuses may differ by store"
+        ]
+      ],
+      "nearby": "SHIBUYA TSUTAYA faces the Shibuya Scramble Crossing.",
+      "links": [
+        [
+          "Official announcement (WIT STUDIO)",
+          "https://www.witstudio.co.jp/news/post-50"
+        ],
+        [
+          "Coverage (Anime! Anime!)",
+          "https://animeanime.jp/article/2026/11/15/104792.html"
+        ]
+      ],
+      "verified": "Nov 17, 2026",
+      "keywords": "spy x family spyxfamily anya loid yor forger bond masquerade wit studio tsutaya ip shoten shibuya kyoto fukuoka nagoya osaka popup",
+      "rank": {
+        "ipTier": "A",
+        "buzz": 2,
+        "buzzNote": "WIT STUDIO official; Anime! Anime!, Comic Natalie, Cho! Animedia, Collabo-Cafe",
+        "access": "venue",
+        "pinned": false
+      },
+      "hero": "img/hero-spymasq.jpg",
+      "heroPos": "center",
+      "imgs": [
+        "img/spymasq-1.jpg",
+        "img/spymasq-2.jpg",
+        "img/spymasq-3.jpg",
+        "img/spymasq-4.jpg",
+        "img/spymasq-5.jpg"
+      ],
+      "imgPos": "center",
+      "imgFit": "contain"
+    },
+    {
+      "id": "chainsaw-man-plaza-reze-shibuya-loft-2026",
+      "cities": [
+        "Tokyo"
+      ],
+      "nat": false,
+      "tips": [
+        "Free entry from Nov 16",
+        "Clear card per ¥2,200",
+        "Kei Mochizuki collab goods"
+      ],
+      "map": "Shibuya Loft",
+      "ip": "Chainsaw Man",
+      "pal": "ev-lupin",
+      "type": "Pop-up shop",
+      "title": "CHAINSAW MAN PLAZA The Movie: Reze Arc in Shibuya Loft",
+      "jp": "CHAINSAW MAN PLAZA TheMovie:RezeArc in 渋谷ロフト",
+      "tagline": "Off-shot Reze Arc goods in Shibuya.",
+      "areas": [
+        "Shibuya"
+      ],
+      "city": "Tokyo",
+      "station": "Shibuya Sta. · 2 min walk",
+      "start": "2026-11-13",
+      "end": "2026-11-29",
+      "dateText": "Nov 13 – 29, 2026 (closes 18:00 on the last day)",
+      "price": "Free entry",
+      "free": true,
+      "overview": "A merchandise event for Chainsaw Man – The Movie: Reze Arc at Shibuya Loft, with goods using new \"-Abandoned:Chair- off shot\" art and collaboration goods designed by illustrator Kei Mochizuki. Large character panels and scene stills are on display. It runs until November 29, 2026.",
+      "details": [
+        [
+          "Venue",
+          "Shibuya Loft 6F, Art & Culture Floor, Forum A"
+        ],
+        [
+          "Address (JP)",
+          "東京都渋谷区宇田川町18-2 渋谷ロフト"
+        ],
+        [
+          "Hours",
+          "11:00–21:00 (18:00 on Nov 29), per Collabo-Cafe"
+        ],
+        [
+          "Entry",
+          "Nov 13–15 was lottery winners only. From Nov 16 free entry is planned, but entry may be limited or numbered tickets handed out when crowded (announced on Shibuya Loft's X)"
+        ],
+        [
+          "Bonus",
+          "1 random clear card (6 designs) per ¥2,200 spent; a shopping bag for ¥4,400+ in one purchase; while stocks last"
+        ],
+        [
+          "Note",
+          "One checkout per entry, no re-entry, some items have purchase limits. Goods prices were not listed on the official page"
+        ]
+      ],
+      "nearby": "The Chainsaw Man × graniph and × Crocs collections are also on this guide.",
+      "links": [
+        [
+          "Official event page (Shibuya Loft)",
+          "https://www.loft.co.jp/shop_list/info.php?shop_id=189&info_id=718439"
+        ],
+        [
+          "Coverage (Collabo-Cafe)",
+          "https://collabo-cafe.com/events/collabo/chainsawman-plaza-reze-offshot-shibuya-loft-2026/"
+        ]
+      ],
+      "verified": "Nov 17, 2026",
+      "keywords": "chainsaw man reze arc movie denji reze makima power aki kei mochizuki plaza shibuya loft popup goods",
+      "rank": {
+        "ipTier": "A",
+        "buzz": 1,
+        "buzzNote": "Shibuya Loft official; Collabo-Cafe, HASHOUT",
+        "access": "venue",
+        "pinned": false
+      },
+      "hero": "img/hero-csmplaza.jpg",
+      "heroPos": "center",
+      "imgs": [
+        "img/csmplaza-1.jpg",
+        "img/csmplaza-2.jpg"
       ],
       "imgPos": "center",
       "imgFit": "contain"
