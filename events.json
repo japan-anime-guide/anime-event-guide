@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-23",
   "series": [
     {
       "ip": "Solo Leveling",
@@ -2709,6 +2709,191 @@
       ],
       "imgPos": "center",
       "imgFit": "contain"
+    },
+    {
+      "id": "dragon-ball-ichiban-kuji-fantastic-adventure-3",
+      "cities": [],
+      "nat": true,
+      "tips": [
+        "Walk-in to buy",
+        "¥800 per draw",
+        "While stocks last"
+      ],
+      "map": "FamilyMart",
+      "ip": "Dragon Ball",
+      "pal": "ev-db",
+      "type": "Store · Lottery",
+      "title": "Ichiban Kuji Dragon Ball: Fantastic Adventure 3",
+      "jp": "一番くじ ドラゴンボール Fantastic Adventure 3",
+      "tagline": "Where Goku and Bulma first met.",
+      "areas": [],
+      "city": "Convenience stores & hobby shops across Japan",
+      "station": "FamilyMart, Ministop, Daily Yamazaki and other stores nationwide",
+      "start": "2026-11-28",
+      "end": null,
+      "dateText": "From Nov 28, 2026 (rolling release, while stocks last)",
+      "price": "¥800 per draw",
+      "free": false,
+      "overview": "A new Ichiban Kuji prize lottery based on the original Dragon Ball adventure era. Prizes include a figure of Goku, Bulma and Oolong riding the Ox-King's car, a Launch tissue case, and a Last One prize that recreates the scene where Goku and Bulma first meet. It goes on sale from November 28, 2026 at FamilyMart, Ministop, Daily Yamazaki, hobby shops and official Ichiban Kuji shops.",
+      "details": [
+        [
+          "Release",
+          "In stores from Sat Nov 28, 2026 (rolling release; dates can differ by store). Ichiban Kuji ONLINE from Tue Dec 1, 17:00"
+        ],
+        [
+          "Price",
+          "¥800 per draw (tax incl.)"
+        ],
+        [
+          "Where to buy",
+          "FamilyMart, Ministop, Daily Yamazaki, other convenience stores, hobby shops, official Ichiban Kuji shops. Not every store carries it"
+        ],
+        [
+          "Prizes",
+          "A: Goku, Bulma & Oolong Ox-King's car figure (approx. 20 cm); B: Launch tissue case (approx. 23 cm); C: title-page blanket (approx. 100 cm); D: rice bowls; E: mini figures; F: acrylic magnets; G: pouches & towels; H: rubber goods; I: zipper bag & sticker sets"
+        ],
+        [
+          "Last One prize",
+          "Goku & Bulma figure with diorama base (also the Double Chance prize)"
+        ],
+        [
+          "Double Chance",
+          "Campaign runs from release until the end of February 2027"
+        ]
+      ],
+      "nearby": "For more Dragon Ball, the Spirit of the Saiyan kuji at Dragon Ball Store Tokyo (Tokyo Station) and the LEGO Shenron & Goku set are also on this guide.",
+      "links": [
+        [
+          "Official lottery page (Ichiban Kuji Club)",
+          "https://1kuji.com/products/db_fa3"
+        ]
+      ],
+      "verified": "Nov 23, 2026",
+      "keywords": "dragon ball ichiban kuji fantastic adventure goku bulma oolong launch ox-king car figure lottery familymart ministop daily yamazaki convenience store",
+      "rank": {
+        "ipTier": "S",
+        "buzz": 2,
+        "buzzNote": "Ichiban Kuji official; Anime! Anime!, Inside Games, Kyara Hobi (Gamepedia), Toy People",
+        "access": "chain",
+        "pinned": false
+      },
+      "hero": "img/hero-dbfa3.jpg",
+      "heroPos": "center",
+      "imgs": [
+        "img/dbfa3-1.jpg",
+        "img/dbfa3-2.jpg",
+        "img/dbfa3-3.jpg",
+        "img/dbfa3-4.jpg",
+        "img/dbfa3-5.jpg"
+      ],
+      "imgFit": "contain",
+      "imgPos": "center"
+    },
+    {
+      "id": "tokyo-revengers-round1-2026",
+      "cities": [
+        "Tokyo",
+        "Osaka",
+        "Nagoya",
+        "Sendai",
+        "Fukuoka"
+      ],
+      "nat": true,
+      "tips": [
+        "Goods at 5 Round1 stores",
+        "Postcard per ¥2,500",
+        "Collab rooms: book ahead"
+      ],
+      "map": "Round1 Ikebukuro, Ikebukuro Square",
+      "ip": "Tokyo Revengers",
+      "pal": "ev-lupin",
+      "type": "Campaign · Amusement",
+      "title": "Tokyo Revengers × ROUND1",
+      "jp": "TVアニメ『東京リベンジャーズ』×ROUND1 コラボキャンペーン",
+      "tagline": "Toman goes cyberpunk.",
+      "areas": [
+        "Ikebukuro",
+        "Umeda"
+      ],
+      "city": "Round1 stores across Japan (goods: Ikebukuro, Umeda, Chikusa, Sendai Izumi, Fukuoka Tenjin)",
+      "station": "Ikebukuro Sta. · 4 min walk (Round1 Ikebukuro)",
+      "start": "2026-12-01",
+      "end": "2027-01-31",
+      "dateText": "Dec 1, 2026 – Jan 31, 2027",
+      "price": "Goods ¥500 – ¥5,500",
+      "free": false,
+      "overview": "A nationwide Tokyo Revengers campaign at Round1 amusement centers from December 1, 2026 to January 31, 2027, with new art of seven Toman members in cyberpunk outfits. It includes collab packs for bowling, karaoke, darts and Spo-Cha, collab food and drinks, and crane-game prizes. Original goods and capsule toys are sold at five stores: Ikebukuro, Umeda, Chikusa (Aichi), Sendai Izumi and Fukuoka Tenjin.",
+      "details": [
+        [
+          "Dates",
+          "Dec 1, 2026 (10:00) – Jan 31, 2027. Part 1 Dec 1 – Jan 4, Part 2 Jan 5 – Jan 31 (some novelties and designs change)"
+        ],
+        [
+          "Goods stores",
+          "Round1 Ikebukuro (Tokyo), Umeda (Osaka), Chikusa (Aichi), Sendai Izumi (Miyagi), Fukuoka Tenjin (Fukuoka). Queues or numbered tickets may be used when crowded; no in-store reservations"
+        ],
+        [
+          "Round1 Ikebukuro",
+          "Ikebukuro Square, 1-14-1 Higashi-Ikebukuro, Toshima-ku · Ikebukuro Sta. 4 min walk"
+        ],
+        [
+          "Address (JP)",
+          "東京都豊島区東池袋一丁目14番1号 池袋スクエア（ラウンドワン池袋店）"
+        ],
+        [
+          "Round1 Umeda",
+          "4-16 Komatsubara-cho, Kita-ku, Osaka · Umeda Sta. 3 min walk, JR Osaka Sta. 7 min walk"
+        ],
+        [
+          "Goods",
+          "Metal art board ¥5,500; acrylic stands ¥1,980 (7 kinds); mini acrylic stands ¥1,320; clear files ¥550; blind hologram badges and cards ¥550 each; sticker sets ¥1,320; acrylic keychains ¥990; muffler towel ¥2,200; capsule toy ¥500 per play (in store only)"
+        ],
+        [
+          "Bonus",
+          "A random postcard (14 kinds) for every ¥2,500 spent in one purchase, while stocks last"
+        ],
+        [
+          "Collab rooms",
+          "Karaoke collab rooms at Ikebukuro and Umeda only; booking basically required (web or app)"
+        ],
+        [
+          "Note",
+          "Activities and participating stores vary by campaign item; check the official page"
+        ]
+      ],
+      "nearby": "Round1 Ikebukuro is on the east side of Ikebukuro, a short walk from Sunshine City and the anime shops of Otome Road.",
+      "links": [
+        [
+          "Official campaign page (ROUND1)",
+          "https://www.round1.co.jp/collaboration/tokyo-revengers/index.html"
+        ],
+        [
+          "Goods page (Creative Plus)",
+          "https://creativeplus.co.jp/special/tokyo-revengers-round1/"
+        ],
+        [
+          "Press release (Creative Plus)",
+          "https://prtimes.jp/main/html/rd/p/000000314.000074967.html"
+        ]
+      ],
+      "verified": "Nov 23, 2026",
+      "keywords": "tokyo revengers toman takemichi mikey draken chifuyu mitsuya sanzu senju round1 bowling karaoke spocha cyberpunk ikebukuro umeda nagoya sendai fukuoka goods",
+      "rank": {
+        "ipTier": "B",
+        "buzz": 1,
+        "buzzNote": "Creative Plus press release; Nijimen, Kyara Hobi (Gamepedia), Zaikei Shimbun",
+        "access": "venue",
+        "pinned": false
+      },
+      "hero": "img/hero-trround1.jpg",
+      "heroPos": "center",
+      "imgs": [
+        "img/trround1-1.jpg",
+        "img/trround1-2.jpg",
+        "img/trround1-3.jpg"
+      ],
+      "imgFit": "contain",
+      "imgPos": "center"
     }
   ],
   "essentials": [
