@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-25",
   "series": [
     {
       "ip": "Solo Leveling",
@@ -100,6 +100,11 @@
       "ip": "SPY×FAMILY",
       "logo": "img/logo-spyfamily.png",
       "tier": "A"
+    },
+    {
+      "ip": "Sailor Moon",
+      "logo": "img/logo-sailormoon.png",
+      "tier": "A"
     }
   ],
   "events": [
@@ -182,71 +187,6 @@
         "pinned": false
       },
       "hero": "img/hero-db.jpg",
-      "heroPos": "center"
-    },
-    {
-      "id": "haikyu-ootoya",
-      "imgs": [
-        "img/haikyu-1.jpg",
-        "img/haikyu-2.jpg",
-        "img/haikyu-3.jpg",
-        "img/haikyu-4.jpg"
-      ],
-      "imgPos": "center 40%",
-      "cities": [],
-      "nat": true,
-      "tips": [
-        "Walk-in dine-in",
-        "Random bonus",
-        "Limited quantity"
-      ],
-      "map": "Ootoya",
-      "ip": "Haikyu!!",
-      "pal": "ev-haikyu",
-      "type": "Food collab",
-      "title": "Haikyu!! × Ootoya",
-      "jp": "大戸屋×ハイキュー!! コラボキャンペーン",
-      "tagline": "Fuel up like a champion.",
-      "areas": [],
-      "city": "Any Ootoya in Japan",
-      "station": "Any Ootoya restaurant",
-      "start": "2026-10-08",
-      "end": "2026-11-23",
-      "dateText": "Oct 8 – Nov 23, 2026",
-      "price": "¥1,880 per set",
-      "free": false,
-      "overview": "Ootoya's second Haikyu!! collaboration: set meals designed after rival schools from the series (Date Tech, Fukurodani, Inarizaki and more), Each set meal comes with one random hologram postcard (first half) or sticker (second half). There is also a dessert plate for ¥680. About 24,000 sets are planned, and the menu ends when they sell out.",
-      "details": [
-        [
-          "Where",
-          "All Ootoya restaurants in Japan (food-court branches may have a different menu)"
-        ],
-        [
-          "Dessert plate",
-          "¥680, with a random sticker"
-        ],
-        [
-          "Themed stores",
-          "Extra decorations at Ikebukuro, Namba, Sendai, Sapporo, Omiya and other branches"
-        ]
-      ],
-      "nearby": "Ootoya has branches near most major stations in Tokyo, including Shibuya, Shinjuku and Ikebukuro.",
-      "links": [
-        [
-          "Original press release",
-          "https://prtimes.jp/main/html/rd/p/000000401.000017712.html"
-        ]
-      ],
-      "verified": "Sep 29, 2026",
-      "keywords": "haikyuu karasuno hinata kageyama volleyball ootoya teishoku set meal restaurant",
-      "rank": {
-        "ipTier": "A",
-        "buzz": 2,
-        "access": "chain",
-        "buzzNote": "Ootoya press release; collab-news coverage",
-        "pinned": false
-      },
-      "hero": "img/hero-haikyu.jpg",
       "heroPos": "center"
     },
     {
@@ -2139,105 +2079,6 @@
       "imgFit": "contain"
     },
     {
-      "id": "tokyo-revengers-gigo-popup-2026",
-      "cities": [
-        "Tokyo",
-        "Osaka",
-        "Fukuoka"
-      ],
-      "nat": false,
-      "tips": [
-        "Walk-in, free entry",
-        "Postcard per ¥3,000",
-        "Ends Nov 24"
-      ],
-      "map": "GiGO Sohonten, Rokumaru Gate Ikebukuro",
-      "ip": "Tokyo Revengers",
-      "pal": "ev-lupin",
-      "type": "POP UP shop · Arcade",
-      "title": "Tokyo Revengers × GiGO POP UP SHOP (Check ver.)",
-      "jp": "東京リベンジャーズ GiGOコラボキャンペーン（チェックver.）",
-      "tagline": "Toman in check suits.",
-      "areas": [
-        "Ikebukuro",
-        "Namba",
-        "Tenjin"
-      ],
-      "city": "Tokyo (Ikebukuro) · Osaka (Namba) · Fukuoka (Tenjin)",
-      "station": "Ikebukuro Sta. · 3 min walk (GiGO Sohonten)",
-      "start": "2026-11-07",
-      "end": "2026-11-24",
-      "dateText": "Nov 7 – Nov 24, 2026",
-      "price": "Free entry; goods ¥550 – ¥4,070",
-      "free": true,
-      "overview": "A Tokyo Revengers pop-up shop at three GiGO arcades - GiGO Sohonten (Ikebukuro), GiGO Namba Abion and GiGO Fukuoka Tenjin - from November 7 to 24, 2026. It sells new goods with art of six members in check-pattern suits. GiGO arcades across Japan also have exclusive crane-game prizes, and 21 GiGO shops sell a drink with a random coaster until December 6.",
-      "details": [
-        [
-          "POP UP SHOP",
-          "Nov 7 – Nov 24, 2026 at GiGO Sohonten (10:00–21:00), GiGO Namba Abion (9:00–21:00) and GiGO Fukuoka Tenjin (10:00–22:00)"
-        ],
-        [
-          "GiGO Sohonten",
-          "Rokumaru Gate Ikebukuro B1–3F, 1-13-6 Higashi-Ikebukuro, Toshima-ku"
-        ],
-        [
-          "Address (JP)",
-          "東京都豊島区東池袋1-13-6 ロクマルゲート池袋（GiGO総本店）"
-        ],
-        [
-          "Goods",
-          "Acrylic stands ¥2,200 (6 kinds: Takemichi, Mikey, Chifuyu, Sanzu, Senju, Wakasa); blind can badges ¥660; Polashot cards ¥550; mini acrylic stands ¥880; card case ¥3,300; hologram art panel ¥4,070; ribbon scrunchies ¥2,310"
-        ],
-        [
-          "Bonus",
-          "A random glitter postcard (6 kinds) for every ¥3,000 spent, while stocks last"
-        ],
-        [
-          "Crane-game prizes",
-          "From Nov 7 at GiGO arcades across Japan (big acrylic stands, badges, hair clips); stock varies by arcade"
-        ],
-        [
-          "Novelty drink",
-          "¥500 with a random coaster (12 kinds), Nov 7 – Dec 6 at 21 GiGO shops incl. Ikebukuro 3, Shibuya, Akihabara 2 and Roppongi Imoaraizaka"
-        ]
-      ],
-      "nearby": "GiGO Sohonten is on the Sunshine 60-dori side of east Ikebukuro, near Sunshine City and the anime shops of Otome Road.",
-      "links": [
-        [
-          "Official event page (Chugai Contents)",
-          "https://www.chugai-contents.jp/blog/event/tokyorevengers_gigo/"
-        ],
-        [
-          "Press release (Chugai Mining)",
-          "https://prtimes.jp/main/html/rd/p/000000905.000059072.html"
-        ],
-        [
-          "Coverage (Nijimen)",
-          "https://nijimen.kusuguru.co.jp/topics/650880"
-        ]
-      ],
-      "verified": "Nov 11, 2026",
-      "keywords": "tokyo revengers toman takemichi mikey chifuyu sanzu senju wakasa gigo arcade pop up shop crane game ikebukuro namba fukuoka tenjin goods",
-      "rank": {
-        "ipTier": "B",
-        "buzz": 1,
-        "buzzNote": "Chugai press release; Nijimen, Zaikei Shimbun",
-        "access": "venue",
-        "pinned": false
-      },
-      "hero": "img/hero-trgigo.jpg",
-      "heroPos": "center",
-      "imgs": [
-        "img/trgigo-1.jpg",
-        "img/trgigo-2.jpg",
-        "img/trgigo-3.jpg",
-        "img/trgigo-4.jpg",
-        "img/trgigo-5.jpg"
-      ],
-      "imgPos": "center",
-      "imgFit": "contain"
-    },
-    {
       "id": "jojo-ichiban-kuji-gathering-of-rivals-2026",
       "cities": [],
       "nat": true,
@@ -2891,6 +2732,93 @@
         "img/trround1-1.jpg",
         "img/trround1-2.jpg",
         "img/trround1-3.jpg"
+      ],
+      "imgFit": "contain",
+      "imgPos": "center"
+    },
+    {
+      "id": "sailor-moon-usj-cool-japan-2027",
+      "cities": [
+        "Osaka"
+      ],
+      "nat": false,
+      "tips": [
+        "Studio Pass (park ticket) needed",
+        "Express Pass sold separately",
+        "Goods at Cinema 4-D Store"
+      ],
+      "map": "Universal Studios Japan, Osaka",
+      "ip": "Sailor Moon",
+      "pal": "ev-madoka",
+      "type": "Theme Park · Attraction",
+      "title": "Pretty Guardian Sailor Moon × Universal Cool Japan 2027",
+      "jp": "ユニバーサル・クールジャパン 2027『美少女戦士セーラームーン・ザ・ミラクル 4-D ～ムーン・パレス編 デラックス～』",
+      "tagline": "The 4-D Moon Palace returns to USJ.",
+      "areas": [
+        "Universal City"
+      ],
+      "city": "Universal Studios Japan (Osaka)",
+      "station": "Universal City Sta. (JR Yumesaki Line) · 6 min walk",
+      "start": "2026-12-02",
+      "end": "2027-04-05",
+      "dateText": "Dec 2, 2026 – Apr 5, 2027",
+      "price": "Park admission required (price varies by date)",
+      "free": false,
+      "overview": "Universal Studios Japan brings back the 3D attraction \"Pretty Guardian Sailor Moon The Miracle 4-D: Moon Palace Arc Deluxe\" for Universal Cool Japan 2027, from December 2, 2026 to April 5, 2027. Limited-time Sailor Moon food is served at Beverly Hills Boulangerie and a food cart in front of Cinema 4-D, and original goods are sold at the Cinema 4-D Store.",
+      "details": [
+        [
+          "Dates",
+          "Dec 2, 2026 – Apr 5, 2027 (dates may change)"
+        ],
+        [
+          "Attraction",
+          "Pretty Guardian Sailor Moon The Miracle 4-D: Moon Palace Arc Deluxe, at Cinema 4-D Theater (show schedule on the official site). A Sailor Moon × Story Ride is also listed in the lineup"
+        ],
+        [
+          "Tickets",
+          "A Studio Pass (park admission) is required; prices vary by date. Universal Express Pass 4 including the 4-D show from ¥11,800"
+        ],
+        [
+          "Food",
+          "Sailor Guardians Café Plate, desserts and drinks, and Heart Financiers at Beverly Hills Boulangerie; Super Sailor Moon (strawberry) and Luna (blueberry yogurt) churros at the Cinema 4-D food cart. Price TBA"
+        ],
+        [
+          "Goods",
+          "Universal Heart Compact, Sailor 10 Guardians T-shirt, silhouette T-shirts, drawstring shoulder bag, pouch set, keychain set and more at Cinema 4-D Store. Price TBA. A same-day park ticket may need to be shown when buying"
+        ],
+        [
+          "Note",
+          "Part of Universal Cool Japan 2027, which also features Detective Conan, The Apothecary Diaries, Fullmetal Alchemist and Daemons of the Shadow Realm on different dates"
+        ]
+      ],
+      "nearby": "Universal City Station sits right by the park entrance, next to the Universal CityWalk shops and restaurants.",
+      "links": [
+        [
+          "Official event page (USJ)",
+          "https://www.usj.co.jp/web/ja/jp/events/universal-cool-japan-2027/prettyguardiansailormoon"
+        ],
+        [
+          "Anime! Anime! (food & goods)",
+          "https://animeanime.jp/article/2026/11/19/104918.html"
+        ]
+      ],
+      "verified": "Nov 25, 2026",
+      "keywords": "sailor moon usagi chibiusa luna usj universal studios japan universal cool japan 4-d moon palace osaka theme park churros food goods",
+      "rank": {
+        "ipTier": "A",
+        "buzz": 3,
+        "buzzNote": "USJ official; Anime! Anime!, Mynavi News, ORICON NEWS, Comic Natalie, Fashion Press, Toy People, Gamepedia Premium",
+        "access": "venue",
+        "pinned": false
+      },
+      "hero": "img/hero-sailormoon-usj.jpg",
+      "heroPos": "center",
+      "imgs": [
+        "img/sailormoon-usj-1.jpg",
+        "img/sailormoon-usj-2.jpg",
+        "img/sailormoon-usj-3.jpg",
+        "img/sailormoon-usj-4.jpg",
+        "img/sailormoon-usj-5.jpg"
       ],
       "imgFit": "contain",
       "imgPos": "center"
