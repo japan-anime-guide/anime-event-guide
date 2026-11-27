@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-27",
   "series": [
     {
       "ip": "Solo Leveling",
@@ -104,6 +104,10 @@
     {
       "ip": "Sailor Moon",
       "logo": "img/logo-sailormoon.png",
+      "tier": "A"
+    },
+    {
+      "ip": "The Apothecary Diaries",
       "tier": "A"
     }
   ],
@@ -2819,6 +2823,101 @@
         "img/sailormoon-usj-3.jpg",
         "img/sailormoon-usj-4.jpg",
         "img/sailormoon-usj-5.jpg"
+      ],
+      "imgFit": "contain",
+      "imgPos": "center"
+    },
+    {
+      "id": "apothecary-diaries-movie-yokohama-chinatown-2026",
+      "cities": [
+        "Yokohama"
+      ],
+      "nat": false,
+      "tips": [
+        "Pop-up shop in Chinatown",
+        "12 stamp spots with life-size standees",
+        "Maomao fireworks Dec 12"
+      ],
+      "map": "ChinaTown80 Hall Yokohama",
+      "ip": "The Apothecary Diaries",
+      "pal": "ev-madoka",
+      "type": "Pop-up shop",
+      "title": "The Apothecary Diaries Movie × Yokohama: Chinatown Pop-Up & City Campaign",
+      "jp": "『劇場版 薬屋のひとりごと 亡妃の秘宝』×横浜市 / POP UP SHOP in 横浜中華街",
+      "tagline": "Walk Yokohama with Maomao and Jinshi.",
+      "areas": [
+        "Yokohama"
+      ],
+      "city": "Yokohama (Kanagawa, ~30 min from Tokyo)",
+      "station": "Motomachi-Chukagai Sta. · 1 min walk",
+      "start": "2026-12-04",
+      "end": "2026-12-20",
+      "dateText": "Dec 4 – 20, 2026",
+      "price": "Price TBA",
+      "free": false,
+      "overview": "To mark the release of The Apothecary Diaries the movie (Dec 11, 2026 in Japan), the City of Yokohama is running a collaboration campaign from December 4 to 20. A pop-up shop with newly drawn Yokohama artwork opens at ChinaTown80 Hall in Yokohama Chinatown, and a digital stamp rally with life-size character standees covers 12 spots around the bay area.",
+      "details": [
+        [
+          "Pop-up shop",
+          "ChinaTown80 Hall, Yokohama Chinatown, Dec 4–20, 11:00–18:00. Goods use the campaign's new artwork; a random illustration card (8 designs) comes with qualifying purchases"
+        ],
+        [
+          "Address (JP)",
+          "神奈川県横浜市中区山下町80 横濱ディアタワー1階（ChinaTown80 Hall）"
+        ],
+        [
+          "Stamp rally",
+          "Dec 4–20. Free digital stamp rally (sign up on the official Platinumaps page) with 12 spots incl. Chinatown, Motomachi, Red Brick Warehouse, Yokohama World Porters and Queen's Square; novelties for points while stocks last"
+        ],
+        [
+          "Stickers",
+          "Limited neon-design stickers (7 designs) at 350+ participating shops when you order a designated menu item or use a service; while stocks last"
+        ],
+        [
+          "Fireworks",
+          "Maomao-green fireworks at Shinko Pier, Dec 12, 19:00–19:05 (Yokohama Night Flowers)"
+        ],
+        [
+          "Also",
+          "Special-design Minato Burari Ticket Wide day pass (adult ¥750) from Dec 4; Yokohama Marine Tower collab Dec 4–30 (closed Dec 7); wrapped Minatomirai Line train from Nov 29 (planned)"
+        ],
+        [
+          "Note",
+          "Goods prices and the purchase amount for the bonus card were not confirmed in official text. Participating shops and menus are listed on the Yokohama tourism site"
+        ]
+      ],
+      "nearby": "Yokohama Chinatown is a 1 min walk from Motomachi-Chukagai Station; Yamashita Park and Yokohama Marine Tower are close by.",
+      "links": [
+        [
+          "Official press release (City of Yokohama)",
+          "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/bunka/2026/1120kusuriya.html"
+        ],
+        [
+          "Official campaign page (Yokohama tourism)",
+          "https://www.welcome.city.yokohama.jp/hottopics/kusuriyanohitorigoto/movie/"
+        ],
+        [
+          "Coverage (Anime! Anime!)",
+          "https://animeanime.jp/article/2026/10/30/104352.html"
+        ]
+      ],
+      "verified": "Nov 27, 2026",
+      "keywords": "apothecary diaries kusuriya no hitorigoto maomao jinshi movie yokohama chinatown popup stamp rally fireworks marine tower",
+      "rank": {
+        "ipTier": "A",
+        "buzz": 2,
+        "buzzNote": "City of Yokohama official; Anime! Anime!, Dengeki Online, Koubo, Chinpan Blog",
+        "access": "venue",
+        "pinned": false
+      },
+      "hero": "img/hero-kusuriyayk.jpg",
+      "heroPos": "center",
+      "imgs": [
+        "img/kusuriyayk-1.jpg",
+        "img/kusuriyayk-2.jpg",
+        "img/kusuriyayk-3.jpg",
+        "img/kusuriyayk-4.jpg",
+        "img/kusuriyayk-5.jpg"
       ],
       "imgFit": "contain",
       "imgPos": "center"
